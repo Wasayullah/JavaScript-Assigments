@@ -1279,11 +1279,8 @@ document.getElementById("ch-21_question_13").innerHTML = output;
 }
 
 */
-//14. You have an array 
-A = [cake”, “apple pie”, “cookie”, “chips”, “patties”] 
-Write a program to enable “search by user input” in an 
-array. After searching, prompt the user whether the given 
-item is found in the list or not. 
-Note: Perform case insensitive search. Whether the user 
-enters cookie, Cookie, COOKIE or coOkIE, program 
-should inform about its availability. Example:  
+// 14. You have an array 
+// A = [cake”, “apple pie”, “cookie”, “chips”, “patties”] 
+// Write a program to enable “search by user input” in an array. After searching, prompt the user whether the given item is found in the list or not. 
+// Note: Perform case insensitive search. Whether the user enters cookie, Cookie, COOKIE or coOkIE, program should inform about its availability.
+
