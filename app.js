@@ -1193,4 +1193,6 @@ let requiredIndex = str.indexOf("n")
 let output = `<p class = "fs-4 "> string: ${str}<br>Index of 'n': ${requiredIndex}</p>`;
 document.getElementById("ch-21_question_3").innerHTML = output;
 */
-4. Write a program to find the last index of letter “l” in the  word “Hello World” and display the result in your browser.  
+// 4. Write a program to find the last index of letter “l” in the  word “Hello World” and display the result in your browser.  
+ let str ="Hello World"
+ str.slice(0,1)
