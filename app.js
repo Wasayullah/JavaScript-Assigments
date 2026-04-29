@@ -1303,4 +1303,5 @@ var output = `<p class = "fs-4 text-success">${UserInput} is available at index 
     output = `<p class = "fs-4 text-danger">Sorry ${UserInput} is not available at our backery</p>`;
 }
 document.getElementById("ch-21_question_14").innerHTML = output;
+
 */
