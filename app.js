@@ -1129,13 +1129,14 @@ document.getElementById("ch-17_question_7").innerHTML = output;
 // A = [24, 53, 78, 91, 12].
 
 var A = [24, 53, 78, 91, 12];
+var output = `<p class = "fs-4 ">Array items: ${A.join(" ")}</p>`;
 var largest = A[0]; 
 for(var i=1; i<A.length; i++){
     if(A[i] > largest){
         largest = A[i];
     }
 }
-var output = `<p class = "fs-4 ">The largest number in the array is ${largest}</p>`;
+output += `<p class = "fs-4 ">The largest number in the array is ${largest}</p>`;
 document.getElementById("ch-17_question_8").innerHTML = output;
 
 */
