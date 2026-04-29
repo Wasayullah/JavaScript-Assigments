@@ -1163,4 +1163,10 @@ for (i = 1; i <= 100; i++) {
     let output = `<p class = "fs-4 ">${multiples.join(", ")}</p>`;
     document.getElementById("ch-17_question_10").innerHTML = output;
 }
+
 */
+
+//----------------------------------------------------------------------------------------------------------------
+
+/*
+Chapters - 21 to 25 : STRING METHODS*/
