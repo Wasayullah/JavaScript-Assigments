@@ -1139,14 +1139,13 @@ for(var i=1; i<A.length; i++){
 output += `<p class = "fs-4 ">The largest number in the array is ${largest}</p>`;
 document.getElementById("ch-17_question_8").innerHTML = output;
 
-*/
 // 9. Write a program to identify the smallest number in the given array. 
 // A = [24, 53, 78, 91, 12]
 
 
 var A = [24, 53, 78, 91, 12];
 var output = `<p class="fs-4">Array items: ${A.join(" ")}`
-var smallest =[0]
+var smallest =A[0]
 for(i=1;i<A.length;i++){
     if(A[i]<smallest){
         smallest = A[i];
@@ -1154,3 +1153,6 @@ for(i=1;i<A.length;i++){
 }
 output += `<p class = "fs-4 ">The smallest number in the array is ${smallest}</p>`;
 document.getElementById("ch-17_question_9").innerHTML = output;
+*/
+// 10. Write a program to print multiples of 5 ranging 1 to  100.   
+ 
