@@ -1102,12 +1102,12 @@ var output = `
 `
 document.getElementById("ch-17_question_6").innerHTML = output;
 
-7. You have an array 
-A = [“cake”, “apple pie”, “cookie”, “chips”, “patties”] 
-Write a program to enable “search by user input” in an 
-array. 
-After searching, prompt the user whether the given item is 
-found in the list or not. Example:   
+// 7. You have an array 
+// A = [“cake”, “apple pie”, “cookie”, “chips”, “patties”] 
+// Write a program to enable “search by user input” in an 
+// array. 
+// After searching, prompt the user whether the given item is 
+// found in the list or not. Example:   
 var A = ["cake", "apple pie", "cookie", "chips", "patties"];
 var userInput = prompt("Welcome to ABC Bakery. What do you want to order?").toLowerCase();
 var found = false;      
