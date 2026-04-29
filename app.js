@@ -1223,12 +1223,13 @@ let output = `<p class = "fs-4 ">City: ${city}</p>`;
 output += `<p class = "fs-4 ">After replacement: ${replaced}</p>`;
 document.getElementById("ch-21_question_7").innerHTML = output;
 
-*/
 // 8. Write a program to replace all occurrences of “and” in the  string with “&” and display the result in your browser.
 //var message = “Ali and Sami are best friends. They play cricket and  football together.”
 
 var message = "Ali and Sami are best friends. They play cricket and  football together."
 let replaced = message.replace("and","&");
-let output = `<p class = "fs-4 ">Message: ${messa}</p>`;
+let output = `<p class = "fs-4 ">Message: ${message}</p>`;
 output += `<p class = "fs-4 ">After replacement: ${replaced}</p>`;
-document.getElementById("ch-21_question_7").innerHTML = output;
+document.getElementById("ch-21_question_8").innerHTML = output;
+
+*/
