@@ -1125,3 +1125,4 @@ else{
     output = `<p class = "fs-4 text-danger">We are sorry. ${userInput} is not available in our bakery.</p>`;
 }
 document.getElementById("ch-17_question_7").innerHTML = output;
+
