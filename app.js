@@ -1181,3 +1181,5 @@ document.getElementById("ch-21_question_1").innerHTML = output;
 
 */
 // 2. Write a program to take a user input about his favorite mobile phone model. Find and display the length of user input in your browser
+
+var phone = prompt()
