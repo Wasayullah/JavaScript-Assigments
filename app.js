@@ -1251,7 +1251,8 @@ document.getElementById("ch-21_question_10").innerHTML = output;
 */
 // 11. Write a program that takes user input. Convert and show the input in title case.
 var userInput = prompt("Write any thing");
-var TitleCase = userInput.slice(0,1);
+var extract = userInput.slice(0,1).toUpperCase();
+var TitleCase = 
 var output = `<p class = "fs-4 ">User input: ${userInput} </p>`;
 output += `<p class = "fs-4 ">Title case: ${TitleCase} </p>`;
 document.getElementById("ch-21_question_11").innerHTML = output;
