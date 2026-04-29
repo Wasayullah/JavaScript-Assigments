@@ -1265,6 +1265,5 @@ document.getElementById("ch-21_question_11").innerHTML = output;
 
 var num = 35.36 ; 
 var str = num.toString();
-var removePoint = str.remove(".")
-document.writeln(str)
-// document.writeln(removePoint)
+var result = str.replace(".","")
+var output = `<p class = "fs-4 ">User input: ${userInput} </p>`;
