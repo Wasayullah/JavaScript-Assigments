@@ -1219,3 +1219,6 @@ document.getElementById("ch-21_question_6").innerHTML = output;
 // 7. Write a program to replace the “Hyder” to “Islam” in the word “Hyderabad” and display the result in your browser
 
 let city = "Hyderabad";
+let replaced = city.replace("Hyder,Islam");
+let output = `<p class = "fs-4 ">Welcome ${fullName} 🫡</p>`;
+document.getElementById("ch-21_question_6").innerHTML = output;
