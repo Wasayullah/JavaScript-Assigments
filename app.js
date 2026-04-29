@@ -1278,7 +1278,6 @@ if(userName.includes("@") || userName.includes("!") || userName.includes(".") ||
 document.getElementById("ch-21_question_13").innerHTML = output;
 }
 
-*/
 // 14. You have an array 
 // A = [cake”, “apple pie”, “cookie”, “chips”, “patties”] 
 // Write a program to enable “search by user input” in an array. After searching, prompt the user whether the given item is found in the list or not. 
@@ -1289,21 +1288,19 @@ var  A = ["cake", "apple pie", "cookie", "chips", "patties"] ;
 var found = false;
 for(i=0;i<A.length;i++){
     if(UserInput == A[i]){
-       found = true
-       break
+        found = true
+        break
     }
 }
-
+var first = UserInput.slice(0,1).toUpperCase();
+var remain = UserInput.slice(1).toLowerCase();
+UserInput = first+remain;
 if(found){
-    var first = UserInput.slice(0,1).toUpperCase();
-    var remain = UserInput.slice(1).toLowerCase();
-    UserInput = first+remain;
-    var output = `<p class = "fs-4 text-success">${UserInput} is available at index ${i} </p>`;
     
+var output = `<p class = "fs-4 text-success">${UserInput} is available at index ${i} </p>`;
+
 }else{
-    var first = UserInput.slice(0,1).toUpperCase();
-    var remain = UserInput.slice(1).toLowerCase();
-    UserInput = first+remain;
     output = `<p class = "fs-4 text-danger">Sorry ${UserInput} is not available at our backery</p>`;
 }
 document.getElementById("ch-21_question_14").innerHTML = output;
+*/
