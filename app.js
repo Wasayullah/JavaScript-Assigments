@@ -1188,14 +1188,21 @@ output += `<p class = "fs-4 ">Length of string: ${len}</p>`;
 document.getElementById("ch-21_question_2").innerHTML = output;
 
 //3. Write a program to find the index of letter “n” in the word  “Pakistani” and display the result in your browser .
+
 let str = "Pakistan"
 let requiredIndex = str.indexOf("n")
 let output = `<p class = "fs-4 "> string: ${str}<br>Index of 'n': ${requiredIndex}</p>`;
 document.getElementById("ch-21_question_3").innerHTML = output;
 
 // 4. Write a program to find the last index of letter “l” in the  word “Hello World” and display the result in your browser.  
+
 let str ="Hello World";
 let requiredIndex = str.lastIndexOf("l")
 let output = `<p class = "fs-4 "> string: ${str}<br>Index of 'l': ${requiredIndex}</p>`;
 document.getElementById("ch-21_question_4").innerHTML = output;
 */
+// 5. Write a program to find the character at 3rd index in the word “Pakistani” and display the result in your browser.
+let str ="Pakistani";
+let requiredIndex = str.charAt(3)
+let output = `<p class = "fs-4 "> string: ${str}<br>Index of 'l': ${requiredIndex}</p>`;
+document.getElementById("ch-21_question_4").innerHTML = output;
