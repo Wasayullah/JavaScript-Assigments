@@ -1184,5 +1184,6 @@ document.getElementById("ch-21_question_1").innerHTML = output;
 
 var phone = prompt("Enter the name of your favourite phone")
 let length = len(phone)
-
+let output = `<p class = "fs-4 ">Length of string: ${length}</p>`;
+document.getElementById("ch-21_question_2").innerHTML = output;
 
