@@ -1209,3 +1209,9 @@ document.getElementById("ch-21_question_5").innerHTML = output;
 
 */
 // 6. Repeat Q1 using string concat() method.
+
+var firstName = prompt("Enter your first name")
+var lastName = prompt("Enter your last name")
+var fullName = contact(firstName,lastName);
+let output = `<p class = "fs-4 ">Welcome ${fullName} 🫡</p>`;
+document.getElementById("ch-21_question_6").innerHTML = output;
