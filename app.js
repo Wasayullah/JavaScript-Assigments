@@ -1243,7 +1243,7 @@ document.getElementById("ch-21_question_8").innerHTML = output;
 */
 //10. Write a program that takes user input. Convert and show the input in capital letters.
 var userInput = prompt("Write any thing");
-if(userInput == isd){
+if(typeof userInput!=="string"){
     return
 }
 var UpperCase = userInput.toUpperCase();
