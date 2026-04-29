@@ -1170,7 +1170,7 @@ for (i = 1; i <= 100; i++) {
 
 /*
 Chapters - 21 to 25 : STRING METHODS
-*/
+
 // 1.  Write a program that takes two user inputs for first and  last name using prompt and merge them in a new variable  titled fullName. Greet the user using his full name.
 
 var firstName = prompt("Enter your first name")
@@ -1178,3 +1178,6 @@ var lastName = prompt("Enter your last name")
 var fullName = firstName+" "+lastName;
 let output = `<p class = "fs-4 ">Welcome ${fullName} 🫡</p>`;
 document.getElementById("ch-21_question_1").innerHTML = output;
+
+*/
+// 2. Write a program to take a user input about his favorite mobile phone model. Find and display the length of user input in your browser
