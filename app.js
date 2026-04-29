@@ -1212,6 +1212,6 @@ document.getElementById("ch-21_question_5").innerHTML = output;
 
 var firstName = prompt("Enter your first name")
 var lastName = prompt("Enter your last name")
-var fullName = contact(firstName,lastName);
+var fullName = firstName.concat(firstName,lastName);
 let output = `<p class = "fs-4 ">Welcome ${fullName} 🫡</p>`;
 document.getElementById("ch-21_question_6").innerHTML = output;
