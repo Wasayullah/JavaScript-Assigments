@@ -1232,13 +1232,13 @@ let output = `<p class = "fs-4 ">Message: ${message}</p>`;
 output += `<p class = "fs-4 ">After replacement: ${replaced}</p>`;
 document.getElementById("ch-21_question_8").innerHTML = output;
 
-//Write a program that converts a string “472” to a number 472. Display the values & types in your browser.
+//9. Write a program that converts a string “472” to a number 472. Display the values & types in your browser.
 
 var str = "472";
 let output = `<p class = "fs-4 ">Value:${str}<br>Type: ${typeof(str)}</p>`;
 var num = 472;
 output += `<p class = "fs-4 ">Value:${num}<br>Type: ${typeof(num)}</p>`;
-document.getElementById("ch-21_question_8").innerHTML = output;
+document.getElementById("ch-21_question_9").innerHTML = output;
 
 */
 //10. Write a program that takes user input. Convert and show the input in capital letters.
@@ -1249,4 +1249,4 @@ if(typeof userInput!=="string"){
 var UpperCase = userInput.toUpperCase();
 var output = `<p class = "fs-4 ">User input: ${userInput} </p>`;
 output += `<p class = "fs-4 ">Upper case: ${UpperCase} </p>`;
-document.getElementById("ch-21_question_8").innerHTML = output;
+document.getElementById("ch-21_question_10").innerHTML = output;
