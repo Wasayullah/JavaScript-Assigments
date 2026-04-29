@@ -1265,6 +1265,6 @@ document.getElementById("ch-21_question_11").innerHTML = output;
 
 var num = 35.36 ; 
 var str = num.toString();
-var removePoint = str.slice(2)
+var removePoint = str.remove(".")
 document.writeln(str)
 document.writeln(removePoint)
