@@ -1207,11 +1207,12 @@ let requiredChar = str.charAt(3)
 let output = `<p class = "fs-4 "> string: ${str}<br>Character at index 3:  ${requiredChar}</p>`;
 document.getElementById("ch-21_question_5").innerHTML = output;
 
-*/
 // 6. Repeat Q1 using string concat() method.
 
 var firstName = prompt("Enter your first name")
 var lastName = prompt("Enter your last name")
-var fullName = firstName.concat(firstName,lastName);
+var fullName = firstName.concat(" ",lastName);
 let output = `<p class = "fs-4 ">Welcome ${fullName} 🫡</p>`;
 document.getElementById("ch-21_question_6").innerHTML = output;
+
+*/
