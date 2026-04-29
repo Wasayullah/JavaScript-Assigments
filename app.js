@@ -1188,3 +1188,6 @@ output += `<p class = "fs-4 ">Length of string: ${len}</p>`;
 document.getElementById("ch-21_question_2").innerHTML = output;
 */
 
+//3. Write a program to find the index of letter “n” in the word  “Pakistani” and display the result in your browser .
+ let str = "Pakistan"
+ let required
