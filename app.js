@@ -1190,4 +1190,6 @@ document.getElementById("ch-21_question_2").innerHTML = output;
 
 //3. Write a program to find the index of letter “n” in the word  “Pakistani” and display the result in your browser .
  let str = "Pakistan"
- let required
+ let requiredIndex = str.indexOf(n)
+ let output = `<p class = "fs-4 ">My favourite phone is: ${requiredIndex}</p>`;
+ document.getElementById("ch-21_question_3").innerHTML = output;
