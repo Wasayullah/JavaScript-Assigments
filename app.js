@@ -1145,4 +1145,6 @@ document.getElementById("ch-17_question_8").innerHTML = output;
 
 
 var A = [24, 53, 78, 91, 12];
-var output = `<p class="fs-4">Array items: ${}`
+var output = `<p class="fs-4">Array items: ${A.join(" ")}`
+var largest =[0]
+for(i=A)
