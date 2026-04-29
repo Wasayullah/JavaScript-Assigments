@@ -1274,4 +1274,7 @@ document.getElementById("ch-21_question_12").innerHTML = output;
 var userName = prompt("Enter a valid username");
 if(userName == 33 || userName == 44 || userName == 46 || userName == 64){
     alert("Please enter a valid Username");
+}else{
+    var output = `<p class = "fs-4 ">Your username is: ${userName}</p>`;
+    document.getElementById("ch-21_question_13").innerHTML = output;
 }
