@@ -1220,5 +1220,6 @@ document.getElementById("ch-21_question_6").innerHTML = output;
 
 let city = "Hyderabad";
 let replaced = city.replace("Hyder,Islam");
-let output = `<p class = "fs-4 ">Welcome ${fullName} 🫡</p>`;
-document.getElementById("ch-21_question_6").innerHTML = output;
+let output = `<p class = "fs-4 ">City: ${city} 🫡</p>`;
+let output = `<p class = "fs-4 ">After replacement: ${replaced} 🫡</p>`;
+document.getElementById("ch-21_question_7").innerHTML = output;
