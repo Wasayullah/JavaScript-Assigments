@@ -1266,4 +1266,5 @@ document.getElementById("ch-21_question_11").innerHTML = output;
 var num = 35.36 ; 
 var str = num.toString();
 var result = str.replace(".","")
-var output = `<p class = "fs-4 ">User input: ${userInput} </p>`;
+var output = `<p class = "fs-4 ">Number: ${num}<br>Rresult: ${result}</p>`;
+document.getElementById("ch-21_question_12").innerHTML = output;
