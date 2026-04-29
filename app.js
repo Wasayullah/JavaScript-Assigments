@@ -1268,7 +1268,6 @@ var result = str.replace(".","")
 var output = `<p class = "fs-4 ">Number: ${num}<br>Rresult: ${result}</p>`;
 document.getElementById("ch-21_question_12").innerHTML = output;
 
-*/
 // 13. Write a program to take user input and store username  in a variable. If the username contains any special symbol  among [@ . , !], prompt the user to enter a valid username. For character codes of [@
 
 var userName = prompt("Enter a valid username");
@@ -1276,5 +1275,15 @@ if(userName.includes("@") || userName.includes("!") || userName.includes(".") ||
     alert("Please enter a valid Username");
 }else{
     var output = `<p class = "fs-4 ">Your username is: ${userName}</p>`;
-    document.getElementById("ch-21_question_13").innerHTML = output;
+document.getElementById("ch-21_question_13").innerHTML = output;
 }
+
+*/
+//14. You have an array 
+A = [cake”, “apple pie”, “cookie”, “chips”, “patties”] 
+Write a program to enable “search by user input” in an 
+array. After searching, prompt the user whether the given 
+item is found in the list or not. 
+Note: Perform case insensitive search. Whether the user 
+enters cookie, Cookie, COOKIE or coOkIE, program 
+should inform about its availability. Example:  
