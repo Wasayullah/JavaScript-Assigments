@@ -1022,7 +1022,7 @@ document.getElementById("ch-17_question_2").innerHTML= output;
 // 3. Write a program to print numeric counting from 1 to 10.
 
 for(var i=1 ; i<=10 ; i++){
-    
+
     document.getElementById("ch-17_question_3").innerHTML+= `<p class = "fs-4 ">${i}</p>` ;
 }
 
@@ -1030,16 +1030,16 @@ for(var i=1 ; i<=10 ; i++){
 
 //⚠️ To view this question in browser, uncomment its entire structure from HTML file as well as this script file.
 function table() {
-    
+
     let num = document.getElementById("number").value;
     if (num === "") return;
     let heading = `Multiplication table of ${num}: `;
     document.getElementById("heading").innerHTML = heading;
     document.getElementById("table").innerHTML = "";
-    
+
     for (let a = 1; a <= 10; a++) {
         let output = `<br> <p class = "fs-4 ">${num} x ${a} = ${a * num}</p>`;
-        
+
         document.getElementById("table").innerHTML += output;
     }
 }
@@ -1047,11 +1047,11 @@ function table() {
 function cancel() {
     document.getElementById("number").value = "";
     document.getElementById("heading").innerHTML = " ";
-    document.getElementById("table").innerHTML = ""; 
+    document.getElementById("table").innerHTML = "";
 }
 
-// 5. Write a program to print items of the following array  using for loop: 
-//  fruits = [“apple”, “banana”, “mango”, “orange”, “strawberry”] 
+// 5. Write a program to print items of the following array  using for loop:
+//  fruits = [“apple”, “banana”, “mango”, “orange”, “strawberry”]
 
 var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
 var output = `<p class = "fs-4 ">Fruits List:</p>`;
@@ -1063,29 +1063,29 @@ output+= `<p class = "fs-4 ">Element at index 1 is ${fruits[1]}</p>`;
 output+= `<p class = "fs-4 ">Element at index 2 is ${fruits[2]}</p>`;
 output+= `<p class = "fs-4 ">Element at index 3 is ${fruits[3]}</p>`;
 output+= `<p class = "fs-4 ">Element at index 4 is ${fruits[4]}</p>`;
-document.getElementById("ch-17_question_5").innerHTML = output; 
+document.getElementById("ch-17_question_5").innerHTML = output;
 
-// 6. Generate the following series in your browser. See example output. 
-// a. Counting: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 
-// b. Reverse counting: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 
-// c. Even: 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 
-// d. Odd: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19 
+// 6. Generate the following series in your browser. See example output.
+// a. Counting: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+// b. Reverse counting: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+// c. Even: 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20
+// d. Odd: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19
 // e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k
 
 var counting = "";
 var reverseCounting = "";
 var even = "";
 var odd = "";
-var series = "";   
+var series = "";
 for(var i=1; i<=15; i++){
     counting+= `${i}, `
-} 
+}
 for(var i=10; i>=1; i--){
     reverseCounting+= `${i}, `
-} 
+}
 for(var i=0; i<=20; i+=2){
     even+= `${i}, `
-}  
+}
 for(var i=1; i<=20; i+=2){
     odd+= `${i}, `
 }
@@ -1094,22 +1094,22 @@ for(var i=2; i<=20; i+=2){
 }
 var output = `
 <p class = "fs-4 ">Counting: ${counting}</p>
-<p class = "fs-4 ">Reverse counting: ${reverseCounting}</p> 
+<p class = "fs-4 ">Reverse counting: ${reverseCounting}</p>
 <p class = "fs-4 ">Even: ${even}</p>
 <p class = "fs-4 ">Odd: ${odd}</p>
 <p class = "fs-4 ">Series: ${series}</p>
 `
 document.getElementById("ch-17_question_6").innerHTML = output;
 
-// 7. You have an array 
-// A = [“cake”, “apple pie”, “cookie”, “chips”, “patties”] 
-// Write a program to enable “search by user input” in an 
-// array. 
-// After searching, prompt the user whether the given item is 
-// found in the list or not. Example:   
+// 7. You have an array
+// A = [“cake”, “apple pie”, “cookie”, “chips”, “patties”]
+// Write a program to enable “search by user input” in an
+// array.
+// After searching, prompt the user whether the given item is
+// found in the list or not. Example:
 var A = ["cake", "apple pie", "cookie", "chips", "patties"];
 var userInput = prompt("Welcome to ABC Bakery. What do you want to order?").toLowerCase();
-var found = false;      
+var found = false;
 for(var i=0; i<A.length; i++){
     if(A[i] === userInput){
         found = true;
@@ -1119,18 +1119,18 @@ for(var i=0; i<A.length; i++){
 var output;
 if(found){
     output = `<p class = "fs-4 text-success">Yes! ${userInput} is available at index ${i} in our bakery.</p>`;
-}   
+}
 else{
     output = `<p class = "fs-4 text-danger">We are sorry. ${userInput} is not available in our bakery.</p>`;
 }
 document.getElementById("ch-17_question_7").innerHTML = output;
 
-// 8. Write a program to identify the largest number in the given array. 
+// 8. Write a program to identify the largest number in the given array.
 // A = [24, 53, 78, 91, 12].
 
 var A = [24, 53, 78, 91, 12];
 var output = `<p class = "fs-4 ">Array items: ${A.join(" ")}</p>`;
-var largest = A[0]; 
+var largest = A[0];
 for(var i=1; i<A.length; i++){
     if(A[i] > largest){
         largest = A[i];
@@ -1139,7 +1139,7 @@ for(var i=1; i<A.length; i++){
 output += `<p class = "fs-4 ">The largest number in the array is ${largest}</p>`;
 document.getElementById("ch-17_question_8").innerHTML = output;
 
-// 9. Write a program to identify the smallest number in the given array. 
+// 9. Write a program to identify the smallest number in the given array.
 // A = [24, 53, 78, 91, 12]
 
 
@@ -1154,7 +1154,7 @@ for(i=1;i<A.length;i++){
 output += `<p class = "fs-4 ">The smallest number in the array is ${smallest}</p>`;
 document.getElementById("ch-17_question_9").innerHTML = output;
 
-// 10. Write a program to print multiples of 5 ranging 1 to  100.   
+// 10. Write a program to print multiples of 5 ranging 1 to  100.
 let multiples = []
 for (i = 1; i <= 100; i++) {
     if (i % 5 == 0) {
@@ -1194,7 +1194,7 @@ let requiredIndex = str.indexOf("n")
 let output = `<p class = "fs-4 "> string: ${str}<br>Index of 'n': ${requiredIndex}</p>`;
 document.getElementById("ch-21_question_3").innerHTML = output;
 
-// 4. Write a program to find the last index of letter “l” in the  word “Hello World” and display the result in your browser.  
+// 4. Write a program to find the last index of letter “l” in the  word “Hello World” and display the result in your browser.
 
 let str ="Hello World";
 let requiredIndex = str.lastIndexOf("l")
@@ -1258,13 +1258,15 @@ var output = `<p class = "fs-4 ">User input: ${userInput} </p>`;
 output += `<p class = "fs-4 ">Title case: ${TitleCase} </p>`;
 document.getElementById("ch-21_question_11").innerHTML = output;
 
-*/
-//12. Write a program that converts the variable num to  string. 
-//var num = 35.36 ; 
+//12. Write a program that converts the variable num to  string.
+//var num = 35.36 ;
 //Remove the dot to display “3536” display in your browser.
 
-var num = 35.36 ; 
+var num = 35.36 ;
 var str = num.toString();
 var result = str.replace(".","")
 var output = `<p class = "fs-4 ">Number: ${num}<br>Rresult: ${result}</p>`;
 document.getElementById("ch-21_question_12").innerHTML = output;
+
+*/
+// 13. Write a program to take user input and store username  in a variable. If the username contains any special symbol  among [@ . , !], prompt the user to enter a valid username. For character codes of [@
