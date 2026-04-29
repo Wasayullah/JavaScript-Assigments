@@ -1259,3 +1259,8 @@ output += `<p class = "fs-4 ">Title case: ${TitleCase} </p>`;
 document.getElementById("ch-21_question_11").innerHTML = output;
 
 */
+//12. Write a program that converts the variable num to  string. 
+//var num = 35.36 ; 
+//Remove the dot to display “3536” display in your browser.
+
+var num = 35.36 ; 
