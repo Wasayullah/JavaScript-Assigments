@@ -1147,7 +1147,7 @@ document.getElementById("ch-17_question_8").innerHTML = output;
 var A = [24, 53, 78, 91, 12];
 var output = `<p class="fs-4">Array items: ${A.join(" ")}`
 var smallest =[0]
-for(i=1;i>A.length;i++){
+for(i=1;i<A.length;i++){
     if(A[i]<smallest){
         smallest = A[i];
     }
