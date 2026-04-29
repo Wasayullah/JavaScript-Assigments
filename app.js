@@ -1142,3 +1142,7 @@ document.getElementById("ch-17_question_8").innerHTML = output;
 */
 // 9. Write a program to identify the smallest number in the given array. 
 // A = [24, 53, 78, 91, 12]
+
+var A = [24, 53, 78, 91, 12];
+var output = `<p class = "fs-4 ">Array items: ${A.join(" ")}</p>`;
+var smallest = A[0];   
