@@ -1243,9 +1243,9 @@ document.getElementById("ch-21_question_9").innerHTML = output;
 */
 //10. Write a program that takes user input. Convert and show the input in capital letters.
 var userInput = prompt("Write any thing");
-if(typeof userInput!=="string"){
-    return
-}
+// if (userInput === null) {
+//     return;
+// }
 var UpperCase = userInput.toUpperCase();
 var output = `<p class = "fs-4 ">User input: ${userInput} </p>`;
 output += `<p class = "fs-4 ">Upper case: ${UpperCase} </p>`;
