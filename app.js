@@ -1176,5 +1176,5 @@ Chapters - 21 to 25 : STRING METHODS
 var firstName = prompt("Enter your first name")
 var lastName = prompt("Enter your last name")
 var fullName = firstName+lastName;
-let output = `<p class = "fs-4 ">${multiples.join(", ")}</p>`;
-document.getElementById("ch-21_question_10").innerHTML = output;
+let output = `<p class = "fs-4 ">Welcome ${firstName} 🫡</p>`;
+document.getElementById("ch-21_question_1").innerHTML = output;
