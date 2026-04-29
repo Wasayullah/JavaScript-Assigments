@@ -1295,7 +1295,8 @@ for(i=0;i<A.length;i++){
 }
 if(found){
     var output = `<p class = "fs-4 text-success">${UserInput} is available at index ${i} </p>`;
+    document.getElementById("ch-21_question_14").innerHTML = output;
 }else{
     output = `<p class = "fs-4 text-danger">Sorry ${UserInput} is not available at our backery</p>`;
+    document.getElementById("ch-21_question_14").innerHTML = output;
 }
-document.getElementById("ch-21_question_14").innerHTML = output;
