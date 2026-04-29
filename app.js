@@ -1182,7 +1182,8 @@ document.getElementById("ch-21_question_1").innerHTML = output;
 */
 // 2. Write a program to take a user input about his favorite mobile phone model. Find and display the length of user input in your browser
 
-var phone = prompt("Enter the name of your favourite phone")
-let len = length(phone).length;
-
+var phone = prompt("Enter the name of your favourite phone").toLowerCase();
+let len = phone.length;
+let output = `<p class = "fs-4 ">Length of string: ${len}</p>`;
+document.getElementById("ch-21_question_2").innerHTML = output;
 
