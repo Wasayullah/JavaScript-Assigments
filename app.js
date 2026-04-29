@@ -1293,7 +1293,9 @@ for(i=0;i<A.length;i++){
        break
     }
 }
-if()
-var output = `<p class = "fs-4 ">${UserInput} is available at index ${i} </p>`;
+if(found){
+    var output = `<p class = "fs-4 text-success">${UserInput} is available at index ${i} </p>`;
+}else{
+    var output = `<p class = "fs-4 text-danger">${UserInput} is available at index ${i} </p>`;
+}
 document.getElementById("ch-21_question_14").innerHTML = output;
-
