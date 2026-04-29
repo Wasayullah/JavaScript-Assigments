@@ -1073,3 +1073,11 @@ document.getElementById("ch-17_question_5").innerHTML = output;
 // d. Odd: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19 
 // e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k
 
+var counting = "";
+var reverseCounting = "";
+var even = "";
+var odd = "";
+var series = "";   
+for(var i=1; i<=15; i++){
+    counting+= `${i}, `
+} 
