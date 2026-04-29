@@ -1152,3 +1152,5 @@ for(i=1;i<A.length;i++){
         smallest = A[i];
     }
 }
+output += `<p class = "fs-4 ">The smallest number in the array is ${smallest}</p>`;
+document.getElementById("ch-17_question_9").innerHTML = output;
