@@ -1284,5 +1284,7 @@ document.getElementById("ch-21_question_13").innerHTML = output;
 // Write a program to enable “search by user input” in an array. After searching, prompt the user whether the given item is found in the list or not. 
 // Note: Perform case insensitive search. Whether the user enters cookie, Cookie, COOKIE or coOkIE, program should inform about its availability.
 
-var  A = ["cake", "apple pie", "cookie", "chips", "patties"] 
+var  A = ["cake", "apple pie", "cookie", "chips", "patties"] ;
+let UserInput = prompt("Enter the name of a backery");
+
 
