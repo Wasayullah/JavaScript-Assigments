@@ -1239,4 +1239,7 @@ let output = `<p class = "fs-4 ">Value:${str}<br>Type: ${typeof(str)}</p>`;
 var num = 472;
 output += `<p class = "fs-4 ">Value:${num}<br>Type: ${typeof(num)}</p>`;
 document.getElementById("ch-21_question_8").innerHTML = output;
+
 */
+//10. Write a program that takes user input. Convert and show the input in capital letters.
+var userInput = prompt("")
