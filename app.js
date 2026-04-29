@@ -1290,9 +1290,10 @@ var found = false;
 for(i=0;i<A.length;i++){
     if(UserInput == A[i]){
        found = true
+       break
     }
-    break
 }
+if()
 var output = `<p class = "fs-4 ">${UserInput} is available at index ${i} </p>`;
 document.getElementById("ch-21_question_14").innerHTML = output;
 
