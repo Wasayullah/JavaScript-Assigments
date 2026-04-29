@@ -1100,7 +1100,6 @@ var output = `
 <p class = "fs-4 ">Series: ${series}</p>
 `
 document.getElementById("ch-17_question_6").innerHTML = output;
-*/
 
 // 7. You have an array 
 // A = [“cake”, “apple pie”, “cookie”, “chips”, “patties”] 
@@ -1126,3 +1125,15 @@ else{
 }
 document.getElementById("ch-17_question_7").innerHTML = output;
 
+*/
+// 8. Write a program to identify the largest number in the given array. A = [24, 53, 78, 91, 12].
+
+var A = [24, 53, 78, 91, 12];
+var largest = A[0]; 
+for(var i=1; i<A.length; i++){
+    if(A[i] > largest){
+        largest = A[i];
+    }
+}
+var output = `<p class = "fs-4 ">The largest number in the array is ${largest}</p>`;
+document.getElementById("ch-17_question_8").innerHTML = output;
