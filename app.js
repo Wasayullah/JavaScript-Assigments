@@ -1293,5 +1293,5 @@ for(i=0;i>A.length;i++){
     }
     break
 }
-       
-var output = `<p class = "fs-4 ">Your username is: ${userName}</p>`;
+var output = `<p class = "fs-4 ">${UserInput} is available at </p>`;
+
