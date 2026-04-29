@@ -1065,7 +1065,6 @@ output+= `<p class = "fs-4 ">Element at index 3 is ${fruits[3]}</p>`;
 output+= `<p class = "fs-4 ">Element at index 4 is ${fruits[4]}</p>`;
 document.getElementById("ch-17_question_5").innerHTML = output; 
 
-*/
 // 6. Generate the following series in your browser. See example output. 
 // a. Counting: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 
 // b. Reverse counting: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 
@@ -1101,6 +1100,7 @@ var output = `
 <p class = "fs-4 ">Series: ${series}</p>
 `
 document.getElementById("ch-17_question_6").innerHTML = output;
+*/
 
 // 7. You have an array 
 // A = [“cake”, “apple pie”, “cookie”, “chips”, “patties”] 
