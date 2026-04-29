@@ -1233,3 +1233,8 @@ output += `<p class = "fs-4 ">After replacement: ${replaced}</p>`;
 document.getElementById("ch-21_question_8").innerHTML = output;
 
 */
+
+//Write a program that converts a string “472” to a number 472. Display the values & types in your browser.
+ 
+var str = "472";
+var num = 472;
