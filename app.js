@@ -1265,3 +1265,4 @@ document.getElementById("ch-21_question_11").innerHTML = output;
 
 var num = 35.36 ; 
 var str = num.toString();
+document.
