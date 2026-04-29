@@ -1264,3 +1264,4 @@ document.getElementById("ch-21_question_11").innerHTML = output;
 //Remove the dot to display “3536” display in your browser.
 
 var num = 35.36 ; 
+var str = num.toString();
