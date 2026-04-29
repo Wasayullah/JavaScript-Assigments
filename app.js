@@ -1215,7 +1215,6 @@ var fullName = firstName.concat(" ",lastName);
 let output = `<p class = "fs-4 ">Welcome ${fullName} 🫡</p>`;
 document.getElementById("ch-21_question_6").innerHTML = output;
 
-*/
 // 7. Write a program to replace the “Hyder” to “Islam” in the word “Hyderabad” and display the result in your browser
 
 let city = "Hyderabad";
@@ -1223,3 +1222,7 @@ let replaced = city.replace("Hyder","Islam");
 let output = `<p class = "fs-4 ">City: ${city}</p>`;
 output += `<p class = "fs-4 ">After replacement: ${replaced}</p>`;
 document.getElementById("ch-21_question_7").innerHTML = output;
+
+*/
+// 8. Write a program to replace all occurrences of “and” in the  string with “&” and display the result in your browser.
+//var message = “Ali and Sami are best friends. They play cricket and  football together.”
