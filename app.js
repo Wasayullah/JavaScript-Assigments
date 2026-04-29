@@ -1228,5 +1228,7 @@ document.getElementById("ch-21_question_7").innerHTML = output;
 //var message = “Ali and Sami are best friends. They play cricket and  football together.”
 
 var message = "Ali and Sami are best friends. They play cricket and  football together."
-let replaced = replace
-
+let replaced = message.replace("and","&");
+let output = `<p class = "fs-4 ">Message: ${messa}</p>`;
+output += `<p class = "fs-4 ">After replacement: ${replaced}</p>`;
+document.getElementById("ch-21_question_7").innerHTML = output;
