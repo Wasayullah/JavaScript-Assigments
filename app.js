@@ -1102,3 +1102,26 @@ var output = `
 `
 document.getElementById("ch-17_question_6").innerHTML = output;
 
+7. You have an array 
+A = [“cake”, “apple pie”, “cookie”, “chips”, “patties”] 
+Write a program to enable “search by user input” in an 
+array. 
+After searching, prompt the user whether the given item is 
+found in the list or not. Example:   
+var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+var userInput = prompt("Welcome to ABC Bakery. What do you want to order?").toLowerCase();
+var found = false;      
+for(var i=0; i<A.length; i++){
+    if(A[i].toLowerCase() === userInput){
+        found = true;
+        break;
+    }
+}
+var output;
+if(found){
+    output = `<p class = "fs-4 text-success">Yes! ${userInput} is available at index ${i} in our bakery.</p>`;
+}   
+else{
+    output = `<p class = "fs-4 text-danger">We are sorry. ${userInput} is not available in our bakery.</p>`;
+}
+document.getElementById("ch-17_question_7").innerHTML = output;
