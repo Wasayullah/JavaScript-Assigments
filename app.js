@@ -1294,6 +1294,9 @@ for(i=0;i<A.length;i++){
     }
 }
 if(found){
+    var first = UserInput.slice(0,1).toUpperCase();
+    var remain = UserInput.slice(1).toLowerCase();
+    UserInput = first+
     var output = `<p class = "fs-4 text-success">${UserInput} is available at index ${i} </p>`;
     
 }else{
