@@ -1158,8 +1158,8 @@ document.getElementById("ch-17_question_9").innerHTML = output;
 let multiples = []
 for (i = 1; i <= 100; i++) {
     if (i % 5 == 0) {
-        multiples.append(i);
+        multiples.push(i);
     }
-    output = `<p class = "fs-4 ">Multiples: ${multiples.join(",")}</p>`;
+    let output = `<p class = "fs-4 ">${multiples.join(", ")}</p>`;
     document.getElementById("ch-17_question_10").innerHTML = output;
 }
