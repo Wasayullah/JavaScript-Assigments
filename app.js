@@ -1267,4 +1267,4 @@ var num = 35.36 ;
 var str = num.toString();
 var removePoint = str.remove(".")
 document.writeln(str)
-document.writeln(removePoint)
+// document.writeln(removePoint)
