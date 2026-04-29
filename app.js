@@ -1293,13 +1293,17 @@ for(i=0;i<A.length;i++){
        break
     }
 }
+
 if(found){
     var first = UserInput.slice(0,1).toUpperCase();
     var remain = UserInput.slice(1).toLowerCase();
-    UserInput = first+
+    UserInput = first+remain;
     var output = `<p class = "fs-4 text-success">${UserInput} is available at index ${i} </p>`;
     
 }else{
+    var first = UserInput.slice(0,1).toUpperCase();
+    var remain = UserInput.slice(1).toLowerCase();
+    UserInput = first+remain;
     output = `<p class = "fs-4 text-danger">Sorry ${UserInput} is not available at our backery</p>`;
 }
 document.getElementById("ch-21_question_14").innerHTML = output;
