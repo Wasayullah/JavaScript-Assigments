@@ -1049,7 +1049,7 @@ function cancel() {
     document.getElementById("heading").innerHTML = " ";
     document.getElementById("table").innerHTML = ""; 
 }
-*/
+    
 // 5. Write a program to print items of the following array  using for loop: 
 //  fruits = [“apple”, “banana”, “mango”, “orange”, “strawberry”] 
 
@@ -1064,3 +1064,5 @@ output+= `<p class = "fs-4 ">Element at index 2 is ${fruits[2]}</p>`;
 output+= `<p class = "fs-4 ">Element at index 3 is ${fruits[3]}</p>`;
 output+= `<p class = "fs-4 ">Element at index 4 is ${fruits[4]}</p>`;
 document.getElementById("ch-17_question_5").innerHTML = output; 
+
+*/
