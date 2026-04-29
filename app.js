@@ -1155,6 +1155,9 @@ output += `<p class = "fs-4 ">The smallest number in the array is ${smallest}</p
 document.getElementById("ch-17_question_9").innerHTML = output;
 */
 // 10. Write a program to print multiples of 5 ranging 1 to  100.   
+let multiples
  for(i=1;i<=100;i++){
-    if(i%5==0)
+    if(i%5==0){
+        multiple +=i;
+    }
  }
