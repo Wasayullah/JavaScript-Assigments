@@ -1190,6 +1190,7 @@ document.getElementById("ch-21_question_2").innerHTML = output;
 //3. Write a program to find the index of letter “n” in the word  “Pakistani” and display the result in your browser .
 let str = "Pakistan"
 let requiredIndex = str.indexOf("n")
-let output = `<p class = "fs-4 ">Index of 'n': ${requiredIndex}</p>`;
+let output = `<p class = "fs-4 "> string: ${str}<br>Index of 'n': ${requiredIndex}</p>`;
 document.getElementById("ch-21_question_3").innerHTML = output;
 */
+4. Write a program to find the last index of letter “l” in the  word “Hello World” and display the result in your browser.  
