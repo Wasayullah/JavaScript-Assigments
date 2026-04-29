@@ -1286,5 +1286,7 @@ document.getElementById("ch-21_question_13").innerHTML = output;
 
 var  A = ["cake", "apple pie", "cookie", "chips", "patties"] ;
 let UserInput = prompt("Enter the name of a backery");
-
+for(i=0;i>A.length;i++){
+    if
+}
 
