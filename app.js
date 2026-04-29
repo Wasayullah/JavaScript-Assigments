@@ -1288,7 +1288,7 @@ var  A = ["cake", "apple pie", "cookie", "chips", "patties"] ;
 let UserInput = prompt("Enter the name of a backery");
 for(i=0;i>A.length;i++){
     if(UserInput == A[i]){
-        var output = `<p class = "fs-4 ">${UserInput} is available at index ${}</p>`;
+        var output = `<p class = "fs-4 ">${UserInput} is available at index ${indexOf()}</p>`;
     }
 }
 
