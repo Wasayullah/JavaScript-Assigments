@@ -1203,6 +1203,6 @@ document.getElementById("ch-21_question_4").innerHTML = output;
 */
 // 5. Write a program to find the character at 3rd index in the word “Pakistani” and display the result in your browser.
 let str ="Pakistani";
-let requiredIndex = str.charAt(3)
-let output = `<p class = "fs-4 "> string: ${str}<br>Index of 'l': ${requiredIndex}</p>`;
-document.getElementById("ch-21_question_4").innerHTML = output;
+let requiredChar = str.charAt(3)
+let output = `<p class = "fs-4 "> string: ${str}<br>Character at index 3:  ${ requiredChar}</p>`;
+document.getElementById("ch-21_question_5").innerHTML = output;
