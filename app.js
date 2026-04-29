@@ -1090,3 +1090,15 @@ for(var i=0; i<=20; i+=2){
 for(var i=1; i<=20; i+=2){
     odd+= `${i}, `
 }
+for(var i=2; i<=20; i+=2){
+    series+= `${i}k, `
+}
+var output = `
+<p class = "fs-4 ">Counting: ${counting}</p>
+<p class = "fs-4 ">Reverse counting: ${reverseCounting}</p> 
+<p class = "fs-4 ">Even: ${even}</p>
+<p class = "fs-4 ">Odd: ${odd}</p>
+<p class = "fs-4 ">Series: ${series}</p>
+`
+document.getElementById("ch-17_question_6").innerHTML = output;
+
