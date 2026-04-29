@@ -1286,9 +1286,12 @@ document.getElementById("ch-21_question_13").innerHTML = output;
 
 var  A = ["cake", "apple pie", "cookie", "chips", "patties"] ;
 let UserInput = prompt("Enter the name of a backery");
+var found = false;
 for(i=0;i>A.length;i++){
     if(UserInput == A[i]){
-        var output = `<p class = "fs-4 ">${UserInput} is available at index ${indexOf()}</p>`;
+       found = true
     }
+    break
 }
-
+       
+var output = `<p class = "fs-4 ">Your username is: ${userName}</p>`;
