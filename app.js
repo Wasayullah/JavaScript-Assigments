@@ -1272,4 +1272,6 @@ document.getElementById("ch-21_question_12").innerHTML = output;
 // 13. Write a program to take user input and store username  in a variable. If the username contains any special symbol  among [@ . , !], prompt the user to enter a valid username. For character codes of [@
 
 var userName = prompt("Enter a valid username");
-if(userName == 33 || )
+if(userName == 33 || userName == 44 || userName == 46 || userName == 64){
+    alert("Please enter a valid Username");
+}
