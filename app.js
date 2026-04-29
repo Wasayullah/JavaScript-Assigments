@@ -1246,4 +1246,6 @@ var userInput = prompt("Write any thing");
 if(typeof(userInput!="string")){
     return
 }
-var UpperCase = userInput.to
+var UpperCase = userInput.toUpperCase();
+var output = `<p class = "fs-4 ">Upper case: ${UpperCase} </p>`;
+document.getElementById("ch-21_question_8").innerHTML = output;
