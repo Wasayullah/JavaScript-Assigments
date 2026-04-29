@@ -1160,6 +1160,6 @@ for (i = 6; i <= 100; i++) {
     if (i % 5 == 0) {
         multiples += i;
     }
-    output += `<p class = "fs-4 ">The smallest number in the array is ${smallest}</p>`;
-    document.getElementById("ch-17_question_9").innerHTML = output;
+    output += `<p class = "fs-4 ">Multiples: ${i}</p>`;
+    document.getElementById("ch-17_question_10").innerHTML = output;
 }
