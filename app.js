@@ -1347,4 +1347,4 @@ function check() {
 
 var university = "University of Karachi";
 let array = university.split("  ")
-for(i=0;i<= len)
+for(i=0;i<= array.length( ))
