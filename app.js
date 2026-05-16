@@ -1339,8 +1339,6 @@ function check() {
     document.getElementById("msg").innerHTML = success
 }
 
-*/
-
 //16. Write a program to convert the following string to an array using string split method.
 //var university = “University of Karachi”;
 //Display the elements of array in your browser.
@@ -1350,3 +1348,8 @@ let array = university.split("")
 for(i=0;i < array.length;i++){
     document.write( `<p class='fs-4'>${i+1}). ${array[i]}</p> <br>`)
 }
+
+*/
+
+//17. Write a program to display the last character of a user input
+var UserInput = 
