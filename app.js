@@ -1346,10 +1346,10 @@ function check() {
 var university = "University of Karachi";
 let array = university.split("")
 for(i=0;i < array.length;i++){
-    document.write( `<p class='fs-4'>${i+1}). ${array[i]}</p> <br>`)
+    document.document.getElementById() `<p class='fs-4'>${i+1}). ${array[i]}</p> <br>`)
 }
 
 */
 
 //17. Write a program to display the last character of a user input
-var UserInput = 
+var UserInput = document.getElementById()
