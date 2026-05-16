@@ -1312,6 +1312,8 @@ document.getElementById("ch-21_question_14").innerHTML = output;
 //prompt the user to enter a valid password.
 //For character codes of a-z, A-Z & 0-9, refer to ASCII
 //table at the end of this document.
+
+//⚠️ To view this question in browser, uncomment its entire structure from HTML file as well as this script file.
 function check() {
     var getPass = document.getElementById("password").value;
     if (getPass.length < 6) {
