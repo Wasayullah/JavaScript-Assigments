@@ -1371,4 +1371,5 @@ while(i>Break.length){
         i++;
     }
 }
-document.getElementById("")
+var output = `<p class="fs-4">There are`
+document.getElementById("ch-21_question_18").innerHTML = output;
