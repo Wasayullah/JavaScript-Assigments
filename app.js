@@ -1344,4 +1344,5 @@ function check() {
 //Display the elements of array in your browser.
 
 var university = "University of Karachi";
-Array = 
+let array = university.slice(0,-1)
+console.log(array)
