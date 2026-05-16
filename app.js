@@ -1346,5 +1346,7 @@ function check() {
 //Display the elements of array in your browser.
 
 var university = "University of Karachi";
-let array = university.split("  ")
-for(i=0;i<= array.length( ))
+let array = university.split(" ")
+for(i=0;i<= array.length;i++){
+    document.write(array[i])
+}
