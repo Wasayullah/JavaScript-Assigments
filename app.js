@@ -1366,10 +1366,11 @@ function get(){
 let text = ("The quick brown fox jumps over the lazy dog").toLowerCase();
 let Break = text.split(" ")
 var i=0;
+var j=0;
 while(i>Break.length){
     if(Break[i] ==="the"){
-       var j=  i++;
     }
-    var output = `<p class="fs-4">There are ${j} occurrences of word the`
-    document.getElementById("ch-21_question_18").innerHTML = output;
+    j= i++;
 }
+var output = `<p class="fs-4">There are ${j} occurrences of word the`
+document.getElementById("ch-21_question_18").innerHTML = output;
