@@ -1346,9 +1346,9 @@ function check() {
 
 var university = "University of Karachi";
 let array = university.split("")
-  var output ="";
-for(i=0;i < array.length;i++){
-  output += `<p class='fs-4'>${i + 1}). ${array[i]}</p>`; 
+var output = "";
+for (i = 0; i < array.length; i++) {
+    output += `<p class='fs-4'>${i + 1}). ${array[i]}</p>`;
     document.getElementById("ch-21_question_16").innerHTML = output;
 }
 
