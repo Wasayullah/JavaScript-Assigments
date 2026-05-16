@@ -1363,11 +1363,12 @@ function get(){
 */
 
 //18. You have a string “The quick brown fox jumps over the lazy dog”. Write a program to count number of occurrences of word “the” in given string.
-let text = "The quick brown fox jumps over the lazy dog";
+let text = ("The quick brown fox jumps over the lazy dog").toLowerCase();
 let Break = text.split(" ")
 var i=0;
 while(i>Break.length){
-    if(Break[i]){
-        
+    if(Break[i] ==="the"){
+        i++;
     }
 }
+document.getElementById("")
