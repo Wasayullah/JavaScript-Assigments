@@ -1350,12 +1350,14 @@ for (i = 0; i < array.length; i++) {
     output += `<p class='fs-4'>${i + 1}). ${array[i]}</p>`;
     document.getElementById("ch-21_question_16").innerHTML = output;
 }
-*/
 
 // //17. Write a program to display the last character of a user input
 function get(){
-var UserInput = document.getElementById("inp").value;
-var LastWord = UserInput.slice(-1)
-var output = `<p class="fs-4">User-Input: ${UserInput}<br> Last character of input: ${LastWord}`
-document.getElementById("output").innerHTML = output;
+    var UserInput = document.getElementById("inp").value;
+    var LastWord = UserInput.slice(-1)
+    var output = `<p class="fs-4">User Input: ${UserInput}<br> Last character of input: ${LastWord}`
+    document.getElementById("output").innerHTML = output;
 }
+*/
+
+//18. You have a string “The quick brown fox jumps over the lazy dog”. Write a program to count number of occurrences of word “the” in given string.
