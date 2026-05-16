@@ -1348,5 +1348,5 @@ function check() {
 var university = "University of Karachi";
 let array = university.split("")
 for(i=0;i < array.length;i++){
-    document.write("< "+array[i]+"<br>")
+    document.write( `<p class='fs-4'> ${i}`+array[i]+"<br>")
 }
