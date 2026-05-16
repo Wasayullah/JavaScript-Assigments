@@ -1371,5 +1371,5 @@ while(i>Break.length){
         i++;
     }
 }
-var output = `<p class="fs-4">There are`
+var output = `<p class="fs-4">There are ${i} occurrences of word the`
 document.getElementById("ch-21_question_18").innerHTML = output;
