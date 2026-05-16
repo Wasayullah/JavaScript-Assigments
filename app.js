@@ -1356,5 +1356,5 @@ for (i = 0; i < array.length; i++) {
 function get(){
 var UserInput = document.getElementById("inp").value;
 var LastWord = UserInput.slice(-1)
-console.log(LastWord)
+var output = `<p class="fs-4">User-Input:`
 }
