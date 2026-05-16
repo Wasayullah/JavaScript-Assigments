@@ -1357,5 +1357,5 @@ function get(){
 var UserInput = document.getElementById("inp").value;
 var LastWord = UserInput.slice(-1)
 var output = `<p class="fs-4">User-Input: ${UserInput}<br> Last character of input: ${LastWord}`
-document.getElementById("output").innerHTML = output
+document.getElementById("output").innerHTML = output;
 }
