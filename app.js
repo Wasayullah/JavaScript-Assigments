@@ -1352,6 +1352,8 @@ for (i = 0; i < array.length; i++) {
 }
 
 // //17. Write a program to display the last character of a user input
+
+//⚠️ To view this question in browser, uncomment its entire structure from HTML file as well as this script file.
 function get(){
     var UserInput = document.getElementById("inp").value;
     var LastWord = UserInput.slice(-1)
@@ -1362,4 +1364,5 @@ function get(){
 
 //18. You have a string “The quick brown fox jumps over the lazy dog”. Write a program to count number of occurrences of word “the” in given string.
 let text = "The quick brown fox jumps over the lazy dog";
-let break = 
+let Break = text.split(",")
+console.log(Break)
