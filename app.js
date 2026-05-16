@@ -1366,4 +1366,8 @@ function get(){
 let text = "The quick brown fox jumps over the lazy dog";
 let Break = text.split(" ")
 var i=0;
-while(i>Break.length)
+while(i>Break.length){
+    if(Break[i]){
+        
+    }
+}
