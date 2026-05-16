@@ -1354,5 +1354,5 @@ for (i = 0; i < array.length; i++) {
 
 // //17. Write a program to display the last character of a user input
 var UserInput = document.getElementById("inp").value;
-var LastWord = UserInput.slice(0,3)
+var LastWord = UserInput.slice(-1)
 console.log(LastWord)
