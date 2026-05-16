@@ -1353,4 +1353,4 @@ for (i = 0; i < array.length; i++) {
 */
 
 // //17. Write a program to display the last character of a user input
-var UserInput = document.getElementById("ch-21_question_17")
+var UserInput = document.getElementById("ch-21_question_17").value;
