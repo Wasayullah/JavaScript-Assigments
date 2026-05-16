@@ -1343,4 +1343,5 @@ function check() {
 //var university = “University of Karachi”;
 //Display the elements of array in your browser.
 
-var university = “University of Karachi";
+var university = "University of Karachi";
+Array = 
