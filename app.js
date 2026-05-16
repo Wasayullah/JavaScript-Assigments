@@ -1346,9 +1346,10 @@ function check() {
 
 var university = "University of Karachi";
 let array = university.split("")
+  var output
 for(i=0;i < array.length;i++){
-    var =output
-    document.document.getElementById("ch-21_question_16").innerHtml += `<p class='fs-4'>${i+1}). ${array[i]}</p> <br>`)
+  output =`<p class='fs-4'>${i+1}). ${array[i]}</p> <br>`
+    document.document.getElementById("ch-21_question_16").innerHtml =output
 }
 
 
