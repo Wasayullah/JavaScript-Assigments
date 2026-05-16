@@ -1368,8 +1368,8 @@ let Break = text.split(" ")
 var i=0;
 while(i>Break.length){
     if(Break[i] ==="the"){
-        i++;
+       var j=  i++;
     }
+    var output = `<p class="fs-4">There are ${j} occurrences of word the`
+    document.getElementById("ch-21_question_18").innerHTML = output;
 }
-var output = `<p class="fs-4">There are ${i} occurrences of word the`
-document.getElementById("ch-21_question_18").innerHTML = output;
