@@ -1304,8 +1304,6 @@ var output = `<p class = "fs-4 text-success">${UserInput} is available at index 
 }
 document.getElementById("ch-21_question_14").innerHTML = output;
 
-*/
-
 //15. Write a program to take password as an input from user. The password must qualify these requirements:
 //a. It should contain alphabets and numbers
 //b. It should not start with a number
@@ -1322,10 +1320,10 @@ function check() {
         return;
     }
     var first = getPass.slice(0, 1);
-
+    
     if (first <= 48)
         error = "<p class = 'text-danger'>Password should not start with a number</p>";
-        document.getElementById("msg").innerHTML = error;
+    document.getElementById("msg").innerHTML = error;
     var hasLetter = /[a-zA-Z]/.test(getPass);
     var hasNumber = /[0-9]/.test(getPass);
     
@@ -1338,3 +1336,5 @@ function check() {
     var sucesss = `<p class = "text-success">Password saved successfully</p>`
     document.getElementById("msg").innerHTML = success
 }
+
+*/
