@@ -1338,7 +1338,6 @@ function check() {
     var sucesss = `<p class = "text-success">Password saved successfully</p>`
     document.getElementById("msg").innerHTML = success
 }
-*/
 
 //16. Write a program to convert the following string to an array using string split method.
 //var university = “University of Karachi”;
@@ -1351,7 +1350,7 @@ for (i = 0; i < array.length; i++) {
     output += `<p class='fs-4'>${i + 1}). ${array[i]}</p>`;
     document.getElementById("ch-21_question_16").innerHTML = output;
 }
-
+*/
 
 // //17. Write a program to display the last character of a user input
-// var UserInput = document.getElementById()
+var UserInput = document.getElementById("ch-21_question_17")
