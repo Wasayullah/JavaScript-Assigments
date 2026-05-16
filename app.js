@@ -1305,3 +1305,36 @@ var output = `<p class = "fs-4 text-success">${UserInput} is available at index 
 document.getElementById("ch-21_question_14").innerHTML = output;
 
 */
+
+//15. Write a program to take password as an input from user. The password must qualify these requirements:
+//a. It should contain alphabets and numbers
+//b. It should not start with a number
+//c. It must at least 6 characters long
+//If the password does not meet above requirements,
+//prompt the user to enter a valid password.
+//For character codes of a-z, A-Z & 0-9, refer to ASCII
+//table at the end of this document.
+function check() {
+    var getPass = document.getElementById("password").value;
+    if (getPass.length < 6) {
+        var error = "<p  class = 'text-danger'>Password must be at least 6 characters long</p>";
+        document.getElementById("msg").innerHTML = error;
+        return;
+    }
+    var first = getPass.slice(0, 1);
+
+    if (first <= 48)
+        error = "<p class = 'text-danger'>Password should not start with a number</p>";
+        document.getElementById("msg").innerHTML = error;
+    var hasLetter = /[a-zA-Z]/.test(getPass);
+    var hasNumber = /[0-9]/.test(getPass);
+    
+    if (!hasLetter || !hasNumber) {
+        error = "<p class = 'text-danger'>Password must contain both letters and numbers</p>";
+        document.getElementById("msg").innerHTML = error
+        return;
+    }
+    
+    var sucesss = `<p class = "text-success">Password saved successfully</p>`
+    document.getElementById("msg").innerHTML = success
+}
