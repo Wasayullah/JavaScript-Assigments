@@ -1361,3 +1361,4 @@ function get(){
 */
 
 //18. You have a string “The quick brown fox jumps over the lazy dog”. Write a program to count number of occurrences of word “the” in given string.
+let text = "The quick brown fox jumps over the lazy dog"
