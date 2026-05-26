@@ -1360,7 +1360,6 @@ function get(){
     var output = `<p class="fs-4">User Input: ${UserInput}<br> Last character of input: ${LastWord}`
     document.getElementById("output").innerHTML = output;
 }
-*/
 
 //18. You have a string “The quick brown fox jumps over the lazy dog”. Write a program to count number of occurrences of word “the” in given string.
 let text = ("The quick brown fox jumps over the lazy dog").toLowerCase();
@@ -1375,3 +1374,4 @@ while(i<Break.length){
 }
 var output = `<p class="fs-4">Text:The quick brown fox jumps over the lazy dog <br>There are ${j} occurrences of word the`
 document.getElementById("ch-21_question_18").innerHTML = output;
+*/
