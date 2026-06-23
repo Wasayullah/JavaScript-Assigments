@@ -1378,5 +1378,5 @@ document.getElementById("ch-21_question_18").innerHTML = output;
 //----------------------------------------------------------------------------------------------------------------
 
 /*
-Chapters - 21 to 25 : STRING METHODS
+Chapters - 26 to 2 : STRING METHODS
 */
