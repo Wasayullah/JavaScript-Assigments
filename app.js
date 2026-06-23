@@ -1374,4 +1374,9 @@ while(i<Break.length){
 }
 var output = `<p class="fs-4">Text:The quick brown fox jumps over the lazy dog <br>There are ${j} occurrences of word the`
 document.getElementById("ch-21_question_18").innerHTML = output;
+
+//----------------------------------------------------------------------------------------------------------------
+
+/*
+Chapters - 21 to 25 : STRING METHODS
 */
