@@ -1386,4 +1386,17 @@ b. round off value of the number
 c. floor value of the number 
 d. ceil value of the number 
 
+let num = +prompt("Enter a number");
+let  output = `<p class="fs-4">The number is : ${num}</p> .<br>`;
+document.getElementById("ch-26_question_1").innerHTML = output;
+let round = Math.round(num);
+output =`<p class="fs-4">The number when rounded-off:  ${round}</p> .<br>`;
+document.getElementById("ch-26_question_1").innerHTML += output;
+let floor = Math.floor(num);
+output =`<p class="fs-4">The floor value of number is:  ${floor}</p> .<br>`;
+document.getElementById("ch-26_question_1").innerHTML += output;
+let ciel = Math.ceil(num);
+output =`<p class="fs-4">The ciel value of number is:  ${ciel}</p> .<br>`;
+document.getElementById("ch-26_question_1").innerHTML += output;
 */
+
