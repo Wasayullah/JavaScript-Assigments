@@ -1351,7 +1351,7 @@ for (i = 0; i < array.length; i++) {
     document.getElementById("ch-21_question_16").innerHTML = output;
 }
 
-// //17. Write a program to display the last character of a user input
+//17. Write a program to display the last character of a user input
 
 //⚠️ To view this question in browser, uncomment its entire structure from HTML file as well as this script file.
 function get(){
@@ -1381,10 +1381,10 @@ document.getElementById("ch-21_question_18").innerHTML = output;
 Chapters - 26 to 30 : MATH METHODS 
 // 1.  Write a program that takes a positive integer from user & 
 display the following in your browser. 
-a. number 
-b. round off value of the number 
-c. floor value of the number 
-d. ceil value of the number 
+//a. number 
+//b. round off value of the number 
+//c. floor value of the number 
+//d. ceil value of the number 
 
 let num = +prompt("Enter a number");
 let  output = `<p class="fs-4">The number is : ${num}</p> .<br>`;
@@ -1398,5 +1398,23 @@ document.getElementById("ch-26_question_1").innerHTML += output;
 let ciel = Math.ceil(num);
 output =`<p class="fs-4">The ciel value of number is:  ${ciel}</p> .<br>`;
 document.getElementById("ch-26_question_1").innerHTML += output;
-*/
 
+// 2. Write a program that takes a negative floating point number from user & display the following in your browser.
+//a. number
+//b. round off value of the number
+//c. floor value of the number
+//d. ceil value of the number
+
+*/
+let num = +prompt("Enter a negative floating point number");
+let output = `<p class="fs-4">The number is : ${num}</p> .<br>`;
+document.getElementById("ch-26_question_2").innerHTML = output;
+let round = Math.round(num);
+output = `<p class="fs-4">The number when rounded-off:  ${round}</p> .<br>`;
+document.getElementById("ch-26_question_2").innerHTML += output;
+let floor = Math.floor(num);
+output = `<p class="fs-4">The floor value of number is:  ${floor}</p> .<br>`;
+document.getElementById("ch-26_question_2").innerHTML += output;
+let ceil = Math.ceil(num);
+output = `<p class="fs-4">The ceil value of number is:  ${ceil}</p> .<br>`;
+document.getElementById("ch-26_question_2").innerHTML += output;
