@@ -1405,7 +1405,6 @@ document.getElementById("ch-26_question_1").innerHTML += output;
 //c. floor value of the number
 //d. ceil value of the number
 
-*/
 let num = +prompt("Enter a negative floating point number");
 let output = `<p class="fs-4">The number is : ${num}</p> .<br>`;
 document.getElementById("ch-26_question_2").innerHTML = output;
@@ -1418,3 +1417,4 @@ document.getElementById("ch-26_question_2").innerHTML += output;
 let ceil = Math.ceil(num);
 output = `<p class="fs-4">The ceil value of number is:  ${ceil}</p> .<br>`;
 document.getElementById("ch-26_question_2").innerHTML += output;
+*/
