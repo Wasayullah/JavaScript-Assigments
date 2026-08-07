@@ -1433,3 +1433,10 @@ document.getElementById("ch-26_question_4").innerHTML += output;
 */
 // 5. Write a program that simulates a coin toss using random() 
 // method of JS Math class. Display the value of coin in your browser 
+
+let randomValue = parseInt(Math.random()*1)+1;
+if(randomValue==1){
+
+}else{
+
+}
