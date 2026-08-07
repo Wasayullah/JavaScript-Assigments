@@ -1424,10 +1424,11 @@ document.getElementById("ch-26_question_2").innerHTML += output;
 let num = +prompt("Enter a number");
 let output = `<p class="fs-4">The absolute value of ${num} is : ${Math.abs(num)}</p> .<br>`;
 document.getElementById("ch-26_question_3").innerHTML += output;
-*/
 // 4. Write a program that simulates a dice using random() 
 // method of JS Math class. Display the value of dice in your browser.:
+
 let diceValue = parseInt(Math.random()*5)
 let output = `<p class="fs-4">Random dice value: ${diceValue+1}</p> .<br>`;
 document.getElementById("ch-26_question_4").innerHTML += output;
+*/
 
