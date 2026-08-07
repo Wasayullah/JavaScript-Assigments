@@ -1424,22 +1424,41 @@ document.getElementById("ch-26_question_2").innerHTML += output;
 let num = +prompt("Enter a number");
 let output = `<p class="fs-4">The absolute value of ${num} is : ${Math.abs(num)}</p> .<br>`;
 document.getElementById("ch-26_question_3").innerHTML += output;
+
 // 4. Write a program that simulates a dice using random() 
 // method of JS Math class. Display the value of dice in your browser.:
 
-let diceValue = parseInt(Math.random()*5)
+let diceValue = Math.floor(Math.random() * 6) + 1;
 let output = `<p class="fs-4">Random dice value: ${diceValue+1}</p> .<br>`;
 document.getElementById("ch-26_question_4").innerHTML += output;
-*/
+
 // 5. Write a program that simulates a coin toss using random() 
 // method of JS Math class. Display the value of coin in your browser 
 
-let randomValue = parseInt(Math.random()*2)+1;
+let randomValue = Math.floor(Math.random() * 2) + 1;
 let output
 if(randomValue == 1){
     output = `<p class="fs-4">${randomValue}<br>Random coin value: Heads </p> .<br>`;
-    // document.getElementById("ch-26_question_5").innerHTML += output;
 }else{
     output = `<p class="fs-4">${randomValue}<br>Random coin value: Tails </p> .<br>`;
 }
 document.getElementById("ch-26_question_5").innerHTML += output;
+
+// 6. Write a program that shows a random number between 1 and 100 in your browser.
+
+let randomNum = Math.floor(Math.random() * 100) + 1;
+output = `<p class="fs-4">Random number between 1 and 100: ${randomNum}</p> .<br>`;
+document.getElementById("ch-26_question_6").innerHTML += output;
+
+*/
+// 7. Write a program that asks the user about his weight. Parse 
+// the user input and display his weight in your browser. 
+// Possible user inputs can be: 
+// a. 50 
+// b. 50kgs 
+// c. 50.2kgs 
+// d. 50.2kilograms
+var weight = parseFloat(prompt("Enter your weight in kilograms"))
+output = `<p class="fs-4">The weight of user is ${weight} kilograms</p> .<br>`;
+document.getElementById("ch-26_question_7").innerHTML += output;
+
