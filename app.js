@@ -1450,7 +1450,6 @@ let randomNum = Math.floor(Math.random() * 100) + 1;
 output = `<p class="fs-4">Random number between 1 and 100: ${randomNum}</p> .<br>`;
 document.getElementById("ch-26_question_6").innerHTML += output;
 
-*/
 // 7. Write a program that asks the user about his weight. Parse 
 // the user input and display his weight in your browser. 
 // Possible user inputs can be: 
@@ -1458,7 +1457,9 @@ document.getElementById("ch-26_question_6").innerHTML += output;
 // b. 50kgs 
 // c. 50.2kgs 
 // d. 50.2kilograms
+
 var weight = parseFloat(prompt("Enter your weight in kilograms"))
 output = `<p class="fs-4">The weight of user is ${weight} kilograms</p> .<br>`;
 document.getElementById("ch-26_question_7").innerHTML += output;
 
+*/
