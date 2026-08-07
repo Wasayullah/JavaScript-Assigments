@@ -1435,8 +1435,12 @@ document.getElementById("ch-26_question_4").innerHTML += output;
 // method of JS Math class. Display the value of coin in your browser 
 
 let randomValue = parseInt(Math.random()*1)+1;
+let output
 if(randomValue==1){
-
+    output = `<p class="fs-4">${randomValue}<br>Random coin value: Heads </p> .<br>`;
+    document.getElementById("ch-26_question_5").innerHTML += output;
 }else{
-
+    output = `<p class="fs-4">${randomValue}<br>Random coin value: Tails </p> .<br>`;
+    
+    document.getElementById("ch-26_question_5").innerHTML += output;
 }
