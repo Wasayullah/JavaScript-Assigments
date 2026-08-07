@@ -1420,3 +1420,7 @@ document.getElementById("ch-26_question_2").innerHTML += output;
 */
 // 3. Write a program that displays the absolute value of a number.
 //  E.g. absolute value of -4 is 4 & absolute value of 5 is 5
+
+let num = +prompt("Enter a number");
+let output = `<p class="fs-4">The absolute value of ${num} is : ${Math.abs(num)}</p> .<br>`;
+document.getElementById("ch-26_question_3").innerHTML += output;
