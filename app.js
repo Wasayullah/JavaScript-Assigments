@@ -1431,4 +1431,5 @@ let diceValue = parseInt(Math.random()*5)
 let output = `<p class="fs-4">Random dice value: ${diceValue+1}</p> .<br>`;
 document.getElementById("ch-26_question_4").innerHTML += output;
 */
-
+// 5. Write a program that simulates a coin toss using random() 
+// method of JS Math class. Display the value of coin in your browser 
