@@ -1418,3 +1418,5 @@ let ceil = Math.ceil(num);
 output = `<p class="fs-4">The ceil value of number is:  ${ceil}</p> .<br>`;
 document.getElementById("ch-26_question_2").innerHTML += output;
 */
+// 3. Write a program that displays the absolute value of a number.
+//  E.g. absolute value of -4 is 4 & absolute value of 5 is 5
