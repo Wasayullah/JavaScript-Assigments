@@ -1485,15 +1485,12 @@ let date = new Date()
 output = `<p class="fs-4">${date}</p>`;
 document.getElementById("ch-31_question_1").innerHTML += output;
 
-*/
 // 2. Write a program that alerts the current month in words.
 //  For example December
 
-
 const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-
 const d = new Date();
 let name = month[d.getMonth()];
-
 output = `<p class="fs-4">${name}</p>`;
 document.getElementById("ch-31_question_1").innerHTML += output;
+*/
