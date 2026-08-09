@@ -1462,4 +1462,16 @@ var weight = parseFloat(prompt("Enter your weight in kilograms"))
 output = `<p class="fs-4">The weight of user is ${weight} kilograms</p> .<br>`;
 document.getElementById("ch-26_question_7").innerHTML += output;
 
+// 8. Write a program that stores a random secret number from 
+// 1 to 10 in a variable. Ask the user to input a number between 1 and 10. If the user input equals the secret
+// number, congratulate the user. 
+let secretNum = Math.floor(Math.random()*10)+1;
+let userNum = Number(prompt("Guess a number between 1 and 10 !"))
+if(secretNum==userNum){
+    output = `<p class="fs-4">Congrats you Guessed the number ✨</p>`;
+}
+else{
+    output = `<p class="fs-4">Try again 🙃</p>`;
+}
+document.getElementById("ch-26_question_7").innerHTML += output;
 */
