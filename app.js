@@ -1479,8 +1479,15 @@ document.getElementById("ch-26_question_8").innerHTML += output;
 
 /*
 Chapters - 31 to 34 : DATE METHODS 
-*/
+
 // 1. Write a program that displays current date and time in  your browser. 
-let date = Date()
-  output = `<p class="fs-4">${date}</p>`;
-  document.getElementById("ch-31_question_1").innerHTML += output;
+let date = new Date()
+output = `<p class="fs-4">${date}</p>`;
+document.getElementById("ch-31_question_1").innerHTML += output;
+
+*/
+// 2. Write a program that alerts the current month in words.
+//  For example December
+let date = new Date()
+output = `<p class="fs-4">${date.toLocaleString('default', { month: 'long' })}</p>`;
+document.getElementById("ch-31_question_1").innerHTML += output;
