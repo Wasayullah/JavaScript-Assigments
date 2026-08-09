@@ -1473,5 +1473,14 @@ if(secretNum==userNum){
 else{
     output = `<p class="fs-4">Try again 🙃</p>`;
 }
-document.getElementById("ch-26_question_7").innerHTML += output;
+document.getElementById("ch-26_question_8").innerHTML += output;
 */
+//----------------------------------------------------------------------------------------------------------------
+
+/*
+Chapters - 31 to 34 : DATE METHODS 
+*/
+// 1. Write a program that displays current date and time in  your browser. 
+let date = Date()
+  output = `<p class="fs-4">Try again 🙃</p>`;
+  document.getElementById("ch-31_question_1").innerHTML += output;
