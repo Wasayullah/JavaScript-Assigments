@@ -1508,9 +1508,11 @@ document.getElementById("ch-31_question_3").innerHTML += output;
 */
 const day = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
 const d = new Date();
-let name = day[d.getDay()];
+// let name = day[d.getDay()];
+name ="Sun"
 if(name == "Sat" || name == "Sun"){
 output = `<p class="fs-4">It's Fun day</p>`;
-}
+}else{
 output = `<p class="fs-4">It's ${name}day</p>`;
+}
 document.getElementById("ch-31_question_4").innerHTML += output;
