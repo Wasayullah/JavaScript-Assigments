@@ -1498,7 +1498,7 @@ document.getElementById("ch-31_question_2").innerHTML += output;
 // 3. Write a program that alerts the first 3 letters of the current  
 // day, for example if today is Sunday then alert will show Sun. 
  
-const day = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"];
+const day = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
 const d = new Date();
 let name = day[d.getDay()];
 output = `<p class="fs-4">${name}</p>`;
