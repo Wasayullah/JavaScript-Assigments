@@ -1500,6 +1500,6 @@ document.getElementById("ch-31_question_2").innerHTML += output;
  
 const day = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"];
 const d = new Date();
-let name = day[d.getMonth()];
+let name = day[d.getDay()];
 output = `<p class="fs-4">${name}</p>`;
 document.getElementById("ch-31_question_3").innerHTML += output;
