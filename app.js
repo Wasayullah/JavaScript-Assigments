@@ -1503,3 +1503,11 @@ let name = day[d.getDay()];
 output = `<p class="fs-4">${name}</p>`;
 document.getElementById("ch-31_question_3").innerHTML += output;
 */
+// 4. Write a program that displays a message “It’s Fun day” if 
+// its Saturday or Sunday today
+
+const day = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+const d = new Date();
+let name = day[d.getDay()];
+output = `<p class="fs-4">It's ${name} day</p>`;
+document.getElementById("ch-31_question_4").innerHTML += output;
