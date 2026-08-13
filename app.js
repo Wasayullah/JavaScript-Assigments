@@ -1492,5 +1492,14 @@ const month = ["January","February","March","April","May","June","July","August"
 const d = new Date();
 let name = month[d.getMonth()];
 output = `<p class="fs-4">${name}</p>`;
-document.getElementById("ch-31_question_1").innerHTML += output;
+document.getElementById("ch-31_question_2").innerHTML += output;
 */
+
+// 3. Write a program that alerts the first 3 letters of the current  
+// day, for example if today is Sunday then alert will show Sun. 
+ 
+// const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+const d = new Date();
+let name = d.getMonth();
+output = `<p class="fs-4">${name}</p>`;
+document.getElementById("ch-31_question_3").innerHTML += output;
