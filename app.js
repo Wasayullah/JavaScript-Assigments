@@ -1502,6 +1502,7 @@ const d = new Date();
 let name = day[d.getDay()];
 output = `<p class="fs-4">${name}</p>`;
 document.getElementById("ch-31_question_3").innerHTML += output;
+
 // 4. Write a program that displays a message “It’s Fun day” if 
 // its Saturday or Sunday today
 
@@ -1515,7 +1516,6 @@ if(name == "Sat" || name == "Sun"){
     output = `<p class="fs-4">It's ${name}-day</p>`;
 }
 document.getElementById("ch-31_question_4").innerHTML += output;
-*/
 
 // 5. Write a program that shows the message “First fifteen 
 // days of the month” if the date is less than 16th of the month 
@@ -1530,3 +1530,16 @@ if(month <=15){
     output = `<p class="fs-4">Last days of the month</p>`;
 }
 document.getElementById("ch-31_question_5").innerHTML += output;
+// 6. Write a program that determines the minutes since
+//  midnight, Jan. 1, 1970 and assigns it to a variable that 
+// hasn't been declared beforehand. Use any variable you like 
+// to represent the Date object.
+
+const dateNow = new Date();
+const ms = dateNow.getTime();
+const min = ms / 60000;
+output = `<p class="fs-4">Current Date: ${dateNow}</p>`;
+output += `<p class="fs-4">Elapsed Milliseconds since 1 January 1970: ${ms} ms</p>`;
+output += `<p class="fs-4">Elapsed Minutes since 1 January 1970: ${min}</p>`;
+document.getElementById("ch-31_question_6").innerHTML += output;
+*/
