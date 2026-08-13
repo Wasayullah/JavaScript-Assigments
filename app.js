@@ -1516,3 +1516,17 @@ if(name == "Sat" || name == "Sun"){
 }
 document.getElementById("ch-31_question_4").innerHTML += output;
 */
+
+// 5. Write a program that shows the message “First fifteen 
+// days of the month” if the date is less than 16th of the month 
+// else shows “Last days of the month”. 
+
+const d = new Date();
+let month = d.getMonth();
+
+if(month <=15){
+    output = `<p class="fs-4">First fifteen days of the month</p>`;
+}else{
+    output = `<p class="fs-4">Last days of the month</p>`;
+}
+document.getElementById("ch-31_question_5").innerHTML += output;
