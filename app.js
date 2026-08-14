@@ -1548,3 +1548,4 @@ document.getElementById("ch-31_question_6").innerHTML += output;
 
 const dateNow = new Date();
 const ms = dateNow.getTime();
+const hr = Math.abs(ms/1000/60/60)
