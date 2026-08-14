@@ -1561,3 +1561,4 @@ document.getElementById("ch-31_question_7").innerHTML += output;
 // laterDate.
 const dateNow = new Date();
 const hr = dateNow.getMonth(0-11);
+console.log(hr)
