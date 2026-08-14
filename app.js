@@ -1559,3 +1559,5 @@ document.getElementById("ch-31_question_7").innerHTML += output;
 // . Write a program that creates a Date object for the last day 
 // of the last month of 2020 and assigns it to variable named 
 // laterDate.
+const dateNow = new Date();
+const hr = dateNow.getMonth(0-11);
