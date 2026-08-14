@@ -1548,7 +1548,7 @@ document.getElementById("ch-31_question_6").innerHTML += output;
 
 const dateNow = new Date();
 const hr = dateNow.getHours();
- if(hr>12){
+ if(hr<12){
 output = `<p class="fs-4">It's AM</p>`;
  }else{
     output = `<p class="fs-4">It's AM</p>`;
