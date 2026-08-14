@@ -1560,9 +1560,8 @@ document.getElementById("ch-31_question_7").innerHTML += output;
 // of the last month of 2020 and assigns it to variable named 
 // laterDate.
 
-const dateNow = new Date("2020-12-31");
-const hr = dateNow.getMonth();
-output = `<p class="fs-4">Later Date: ${dateNow}</p>`;
-document.getElementById("ch-31_question_7").innerHTML += output;
-
 */
+const laterDate = new Date("2020-12-31");
+
+output = `<p class="fs-4">Later Date: ${laterDate}</p>`;
+document.getElementById("ch-31_question_8").innerHTML += output;
