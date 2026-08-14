@@ -1542,16 +1542,20 @@ output = `<p class="fs-4">Current Date: ${dateNow}</p>`;
 output += `<p class="fs-4">Elapsed Milliseconds since 1 January 1970: ${ms} ms</p>`;
 output += `<p class="fs-4">Elapsed Minutes since 1 January 1970: ${min}</p>`;
 document.getElementById("ch-31_question_6").innerHTML += output;
-*/
+
 // . Write a program that tests whether it's before noon and 
 // alert “Its AM” else “its PM”.
 
 const dateNow = new Date();
 const hr = dateNow.getHours();
- if(hr<12){
-output = `<p class="fs-4">It's AM</p>`;
- }else{
+if(hr<12){
     output = `<p class="fs-4">It's AM</p>`;
- }
+}else{
+    output = `<p class="fs-4">It's PM</p>`;
+}
 console.log(hr)
 document.getElementById("ch-31_question_7").innerHTML += output;
+*/
+// . Write a program that creates a Date object for the last day 
+// of the last month of 2020 and assigns it to variable named 
+// laterDat
