@@ -1553,5 +1553,5 @@ output = `<p class="fs-4">It's AM</p>`;
  }else{
     output = `<p class="fs-4">It's AM</p>`;
  }
-
+console.log(hr)
 document.getElementById("ch-31_question_7").innerHTML += output;
