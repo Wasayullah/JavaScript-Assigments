@@ -1543,3 +1543,8 @@ output += `<p class="fs-4">Elapsed Milliseconds since 1 January 1970: ${ms} ms</
 output += `<p class="fs-4">Elapsed Minutes since 1 January 1970: ${min}</p>`;
 document.getElementById("ch-31_question_6").innerHTML += output;
 */
+// . Write a program that tests whether it's before noon and 
+// alert “Its AM” else “its PM”.
+
+const dateNow = new Date();
+const ms = dateNow.getTime();
