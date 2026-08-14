@@ -1547,5 +1547,9 @@ document.getElementById("ch-31_question_6").innerHTML += output;
 // alert “Its AM” else “its PM”.
 
 const dateNow = new Date();
-const ms = dateNow.getTime();
-const hr = Math.abs(ms/1000/60/60)
+const hr = dateNow.getHours();
+ if(hr>12){
+output = `<p class="fs-4">It's AM</p>`;
+ }
+
+console.log(hr)
