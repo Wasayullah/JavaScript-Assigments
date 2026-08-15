@@ -1565,3 +1565,6 @@ const laterDate = new Date("2020-12-31");
 output = `<p class="fs-4">Later Date: ${laterDate}</p>`;
 document.getElementById("ch-31_question_8").innerHTML += output;
 */
+// 9. Create a date object of the starting date of this Ramadanand 
+// alert the number of days past since 1st Ramadan?
+// Note: 1st Ramadan was on June 18, 2015
