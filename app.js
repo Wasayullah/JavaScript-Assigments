@@ -1589,8 +1589,8 @@ const sec = date.getSeconds()
 
 const fifteenDate = new Date(2015 , 0 ,1)
 
-const fifteensec = ramadanDate.getSeconds()
+const fifteensec = fifteenDate.getSeconds()
 
-const secsPast = fifteensec-sec;
+const secsPast = fifteenDate-sec;
 output = `<p class="fs-4">On refrence date ${date} , ${secsPast} seconds have past since the beggining of 2015</p>`;
 document.getElementById("ch-31_question_10").innerHTML += output;
