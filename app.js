@@ -1580,3 +1580,7 @@ const daysPast = ramadanDate-day;
 output = `<p class="fs-4">${daysPast} days have past since 1st Ramadan,2015</p>`;
 document.getElementById("ch-31_question_9").innerHTML += output;
 */
+
+// 10. Write a program that displays in your browser the 
+// seconds that elapsed between the reference date and the 
+// beginning of 2015. 
