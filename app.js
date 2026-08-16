@@ -1584,3 +1584,10 @@ document.getElementById("ch-31_question_9").innerHTML += output;
 // 10. Write a program that displays in your browser the 
 // seconds that elapsed between the reference date and the 
 // beginning of 2015. 
+const date  = new Date();
+const day = date.getSeconds()
+
+const ramadanDate = new Date(2015 , 5 ,18)
+const ramadanday = ramadanDate.getSeconds()
+
+const daysPast = ramadanDate-day;
