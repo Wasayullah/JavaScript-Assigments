@@ -1587,7 +1587,8 @@ document.getElementById("ch-31_question_9").innerHTML += output;
 const date  = new Date();
 const sec = date.getSeconds()
 
-const fifteenDate = new Date(2015 , 5 ,18)
+const fifteenDate = new Date(2015 , 0 ,1)
+
 const fifteensec = ramadanDate.getSeconds()
 
 const secsPast = fifteensec-sec;
