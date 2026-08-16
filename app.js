@@ -1591,5 +1591,5 @@ const fifteenDate = new Date(2015 , 5 ,18)
 const fifteensec = ramadanDate.getSeconds()
 
 const secsPast = fifteensec-sec;
-output = `<p class="fs-4">${daysPast} days have past since 1st Ramadan,2015</p>`;
-document.getElementById("ch-31_question_9").innerHTML += output;
+output = `<p class="fs-4">${secsPast} days have past since 1st Ramadan,2015</p>`;
+document.getElementById("ch-31_question_10").innerHTML += output;
