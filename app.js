@@ -1585,9 +1585,11 @@ document.getElementById("ch-31_question_9").innerHTML += output;
 // seconds that elapsed between the reference date and the 
 // beginning of 2015. 
 const date  = new Date();
-const day = date.getSeconds()
+const sec = date.getSeconds()
 
-const ramadanDate = new Date(2015 , 5 ,18)
-const ramadanday = ramadanDate.getSeconds()
+const fifteenDate = new Date(2015 , 5 ,18)
+const fifteensec = ramadanDate.getSeconds()
 
-const daysPast = ramadanDate-day;
+const secsPast = fifteensec-sec;
+output = `<p class="fs-4">${daysPast} days have past since 1st Ramadan,2015</p>`;
+document.getElementById("ch-31_question_9").innerHTML += output;
