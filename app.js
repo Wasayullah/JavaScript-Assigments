@@ -1598,6 +1598,11 @@ document.getElementById("ch-31_question_10").innerHTML += output;
 // 11. Create a Date object for the current date and time. 
 // Extract the hours, reset the date object an hour ahead and 
 // finally display the date object in your browser
- const date = new Date()
- console.log(date)
- 
+
+const date = new Date();
+let output = `<p class="fs-4">Current Date: ${date}</p>`;
+const currentHours = date.getHours();
+date.setHours(currentHours + 1);
+output += `<p class="fs-4">Updated Date (1 hour ahead): ${date}</p>`;
+document.getElementById("ch-31_question_11").innerHTML = output;
+
