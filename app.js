@@ -1649,17 +1649,17 @@ const ChargesPerUnit = 16;
 const latePayment = 350;
 const netAmount = units*ChargesPerUnit;
  let output = `
-    <div class="card p-3 m-3 w-50 border-black rounded-3 d-flex flex-column flex-wra">
+    <div class="card p-3 m-3 w-50 border-black rounded-3 d-flex flex-column flex-wrap text-left">
      
      <h1 class="text-center">K-Electric Bill</h1>
      <br>
      <br>
-    <p class="fs-4">Customer Name: ${customerName};</p>
-    <p class="fs-4">Month: ${monthName};</p>
-    <p class="fs-4">Number of units: ${units};</p>
-    <p class="fs-4">Charges per unit: ${ChargesPerUnit};</p>
-    <p class="fs-4">Net Amount Payable (within Due Date): ${netAmount};</p>
-    <p class="fs-4">Late Payment Surcharge: ${latePayment};</p>
+    <p class="fs-4">Customer Name: ${customerName};</p><hr>
+    <p class="fs-4">Month: ${monthName};</p><hr>
+    <p class="fs-4">Number of units: ${units};</p><hr>
+    <p class="fs-4">Charges per unit: ${ChargesPerUnit};</p><hr>
+    <p class="fs-4">Net Amount Payable (within Due Date): ${netAmount};</p><hr>
+    <p class="fs-4">Late Payment Surcharge: ${latePayment};</p><hr>
     <p class="fs-4">Gross Amount Payable (after Due Date):  ${netAmount+latePayment};</p>
     </div>
     `;
