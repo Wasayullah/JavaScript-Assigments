@@ -1614,9 +1614,10 @@ date.setFullYear(currentYear-100);
 alert(`The Date is : ${date}`)
 output += `<p class="fs-4">The alert is displayed 👆</p>`;
 document.getElementById("ch-31_question_12").innerHTML = output;
-*/
+
 // 13. Write a program to ask the user about his age. Calculate 
 // and show his birth year in your browser. 
+
 const age = Number(prompt("Enter your age: "));
 const currentDate = new Date();
 const getYear = currentDate.getFullYear();
@@ -1624,5 +1625,20 @@ const birthYear= getYear-age;
 output = `<p class="fs-4">Your Birth Year is : ${birthYear}</p>`;
 document.getElementById("ch-31_question_13").innerHTML = output;
 
+*/
+// 14. Write a program to generate your K-Electric bill in your 
+// browser. All the amounts should be rounded off to 2 
+// decimal places. Display the following fields: 
+// a. Customer Name 
+// b. Current Month 
+// c. Number of units 
+d. Charges per unit 
+e. Net Amount Payable (within Due Date) 
+f. Late Payment Surcharge 
+g. Gross Amount Payable (after Due Date) 
+Where, 
+ 
+Net Amount Payable (within Due Date) = Number of units * Charges per unit 
+& Gross Amount Payable (after Due Date) = Net Amount + Late Payment Surcharge
 
 
