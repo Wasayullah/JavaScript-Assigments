@@ -1640,8 +1640,10 @@ document.getElementById("ch-31_question_13").innerHTML = output;
 // Net Amount Payable (within Due Date) = Number of units * Charges per unit 
 // & Gross Amount Payable (after Due Date) = Net Amount + Late Payment Surcharge
 
-const customerName = prompt(`Enter your name`)
-const month = (new Date()).getMonth()
+const customerName = prompt(`Enter your name`);
+const month = (new Date()).getMonth();
 const Months =  ["January","February","March","April","May","June","July","August","September","October","November","December"];
-const monthName = Months[month]
-const units = Math.abs(Math.floor(Math.random()*200))
+const monthName = Months[month];
+const units = Math.abs(Math.floor(Math.random()*200));
+const ChargesPerUnit = 16;
+const latePayment = 
