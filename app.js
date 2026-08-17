@@ -1646,4 +1646,5 @@ const Months =  ["January","February","March","April","May","June","July","Augus
 const monthName = Months[month];
 const units = Math.abs(Math.floor(Math.random()*200));
 const ChargesPerUnit = 16;
-const latePayment = 
+const latePayment = 350;
+
