@@ -1618,7 +1618,9 @@ document.getElementById("ch-31_question_12").innerHTML = output;
 // 13. Write a program to ask the user about his age. Calculate 
 // and show his birth year in your browser. 
 const age = Number(prompt("Enter your age: "));
-
+const currentDate = new Date()
+const getYea
+const birthDate = currentDate-age
 
 
 output += `<p class="fs-4">The alert is displayed 👆</p>`;
