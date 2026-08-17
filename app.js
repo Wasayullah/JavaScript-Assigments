@@ -1644,4 +1644,4 @@ const customerName = prompt(`Enter your name`)
 const month = (new Date()).getMonth()
 const Months =  ["January","February","March","April","May","June","July","August","September","October","November","December"];
 const monthName = Months[month]
-
+const units = Math(Math.floor(Math.random()))
