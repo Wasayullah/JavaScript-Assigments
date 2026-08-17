@@ -1647,6 +1647,7 @@ const monthName = Months[month];
 const units = Math.abs(Math.floor(Math.random()*200));
 const ChargesPerUnit = 16;
 const latePayment = 350;
+const netAmount = units*ChargesPerUnit;
  let output = `
     <div class="card p-2 m-3">
      
@@ -1657,8 +1658,9 @@ const latePayment = 350;
     <p class="fs-4">Month: ${monthName};</p>
     <p class="fs-4">Number of units: ${units};</p>
     <p class="fs-4">Charges per unit: ${ChargesPerUnit};</p>
-    <p class="fs-4">Net Amount Payable (within Due Date): ${units*ChargesPerUnit};</p>
+    <p class="fs-4">Net Amount Payable (within Due Date): ${netAmount};</p>
     <p class="fs-4">Late Payment Surcharge: ${latePayment};</p>
+    <p class="fs-4">Gross Amount Payable (after Due Date):  ${};</p>
 
     </div>
 `;
