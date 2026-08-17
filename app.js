@@ -1653,7 +1653,10 @@ const latePayment = 350;
      <h1 class="text-center">K-Electric BIll</h1>
      <br>
      <br>
-    <p class="fs-4">C</p>
+    <p class="fs-4">Customer Name: ${customerName}</p>
+    <p class="fs-4">Month: ${monthName}</p>
+    <p class="fs-4">Month: ${units}</p>
+
     
     </div>
 `;
