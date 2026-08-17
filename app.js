@@ -1612,11 +1612,17 @@ const date = new Date();
 const currentYear = date.getFullYear();
 date.setFullYear(currentYear-100);
 alert(`The Date is : ${date}`)
-
+output += `<p class="fs-4">The alert is displayed 👆</p>`;
+document.getElementById("ch-31_question_12").innerHTML = output;
 */
 // 13. Write a program to ask the user about his age. Calculate 
 // and show his birth year in your browser. 
+const age = Number(prompt("Enter your age: "));
 
+
+
+output += `<p class="fs-4">The alert is displayed 👆</p>`;
+document.getElementById("ch-31_question_12").innerHTML = output;
 
 
 
