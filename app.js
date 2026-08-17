@@ -1593,7 +1593,6 @@ const fifteensec = fifteenDate.getSeconds()
 const secsPast = fifteenDate-sec;
 output = `<p class="fs-4">On refrence date ${date} , ${secsPast} seconds have past since the beggining of 2015</p>`;
 document.getElementById("ch-31_question_10").innerHTML += output;
-*/
 
 // 11. Create a Date object for the current date and time. 
 // Extract the hours, reset the date object an hour ahead and 
@@ -1605,4 +1604,13 @@ const currentHours = date.getHours();
 date.setHours(currentHours + 1);
 output += `<p class="fs-4">Updated Date (1 hour ahead): ${date}</p>`;
 document.getElementById("ch-31_question_11").innerHTML = output;
+*/
+
+// 12. Write a program that creates a date object and show the 
+// date in an alert box that is reset to 100 years back?
+const date = new Date();
+const currentYear = date.getFullYear();
+date.setFullYear(currentYear-100);
+alert(`The Date is : ${date}`)
+
 
