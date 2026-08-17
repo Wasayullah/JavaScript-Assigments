@@ -1640,4 +1640,5 @@ document.getElementById("ch-31_question_13").innerHTML = output;
 // Net Amount Payable (within Due Date) = Number of units * Charges per unit 
 // & Gross Amount Payable (after Due Date) = Net Amount + Late Payment Surcharge
 
+const customerName = prompt()
 
