@@ -1657,7 +1657,9 @@ const latePayment = 350;
     <p class="fs-4">Month: ${monthName};</p>
     <p class="fs-4">Number of units: ${units};</p>
     <p class="fs-4">Charges per unit: ${ChargesPerUnit};</p>
-    <p class="fs-4">Net Amount: ${units*ChargesPerUnit};</p>
+    <p class="fs-4">Net Amount Payable (within Due Date): ${units*ChargesPerUnit};</p>
+    <p class="fs-4">Late Payment Surcharge: ${latePayment};</p>
+
     </div>
 `;
 
