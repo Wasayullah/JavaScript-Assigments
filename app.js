@@ -1648,12 +1648,12 @@ const units = Math.abs(Math.floor(Math.random()*200));
 const ChargesPerUnit = 16;
 const latePayment = 350;
  let output = `
-    <div class = "card p-2 m-3">
+    <div class="card p-2 m-3">
      
-     <h1>K-Electric BIll</h1>
+     <h1 class="text-center">K-Electric BIll</h1>
      <br>
      <br>
-     
+    <p class="fs-4">C</p>
     
     </div>
 `;
