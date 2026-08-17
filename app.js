@@ -1620,9 +1620,9 @@ document.getElementById("ch-31_question_12").innerHTML = output;
 const age = Number(prompt("Enter your age: "));
 const currentDate = new Date();
 const getYear = currentDate.getFullYear();
-const birthDate = getYear-age;
-output += `<p class="fs-4">The alert is displayed 👆</p>`;
-document.getElementById("ch-31_question_12").innerHTML = output;
+const birthYear= getYear-age;
+output = `<p class="fs-4">Your Birth Year is : ${birthYear}</p>`;
+document.getElementById("ch-31_question_13").innerHTML = output;
 
 
 
