@@ -1660,9 +1660,9 @@ const netAmount = units*ChargesPerUnit;
     <p class="fs-4">Charges per unit: ${ChargesPerUnit};</p>
     <p class="fs-4">Net Amount Payable (within Due Date): ${netAmount};</p>
     <p class="fs-4">Late Payment Surcharge: ${latePayment};</p>
-    <p class="fs-4">Gross Amount Payable (after Due Date):  ${};</p>
-
+    <p class="fs-4">Gross Amount Payable (after Due Date):  ${netAmount+latePayment};</p>
     </div>
-`;
+    `;
+    document.getElementById("ch-31_question_14").innerHTML = output;
 
 
