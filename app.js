@@ -1642,4 +1642,5 @@ document.getElementById("ch-31_question_13").innerHTML = output;
 
 const customerName = prompt(`Enter your name`)
 const month = (new Date()).getMonth
-const monthNames = 
+const Months =  ["January","February","March","April","May","June","July","August","September","October","November","December"];
+const monthName = Months[month]
