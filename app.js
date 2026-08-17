@@ -1604,13 +1604,19 @@ const currentHours = date.getHours();
 date.setHours(currentHours + 1);
 output += `<p class="fs-4">Updated Date (1 hour ahead): ${date}</p>`;
 document.getElementById("ch-31_question_11").innerHTML = output;
-*/
 
 // 12. Write a program that creates a date object and show the 
 // date in an alert box that is reset to 100 years back?
+
 const date = new Date();
 const currentYear = date.getFullYear();
 date.setFullYear(currentYear-100);
 alert(`The Date is : ${date}`)
+
+*/
+// 13. Write a program to ask the user about his age. Calculate 
+// and show his birth year in your browser. 
+
+
 
 
