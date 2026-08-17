@@ -1579,7 +1579,6 @@ const daysPast = ramadanDate-day;
 
 output = `<p class="fs-4">${daysPast} days have past since 1st Ramadan,2015</p>`;
 document.getElementById("ch-31_question_9").innerHTML += output;
-*/
 
 // 10. Write a program that displays in your browser the 
 // seconds that elapsed between the reference date and the 
@@ -1594,3 +1593,11 @@ const fifteensec = fifteenDate.getSeconds()
 const secsPast = fifteenDate-sec;
 output = `<p class="fs-4">On refrence date ${date} , ${secsPast} seconds have past since the beggining of 2015</p>`;
 document.getElementById("ch-31_question_10").innerHTML += output;
+*/
+
+// 11. Create a Date object for the current date and time. 
+// Extract the hours, reset the date object an hour ahead and 
+// finally display the date object in your browser
+ const date = new Date()
+ console.log(date)
+ 
