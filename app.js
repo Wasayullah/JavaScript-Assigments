@@ -1649,7 +1649,7 @@ const ChargesPerUnit = 16;
 const latePayment = 350;
 const netAmount = units*ChargesPerUnit;
  let output = `
-    <div class="card p-3 m-3 border-black rounded-3 ">
+    <div class="card p-3 m-3 w-50 border-black rounded-3 d-flex flex-column flex-wra">
      
      <h1 class="text-center">K-Electric Bill</h1>
      <br>
