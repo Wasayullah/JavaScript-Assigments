@@ -1640,7 +1640,7 @@ document.getElementById("ch-31_question_13").innerHTML = output;
 // Net Amount Payable (within Due Date) = Number of units * Charges per unit 
 // & Gross Amount Payable (after Due Date) = Net Amount + Late Payment Surcharge
 
-// const customerName = prompt(`Enter your name`);
+const customerName = prompt(`Enter your name`);
 const month = (new Date()).getMonth();
 const Months =  ["January","February","March","April","May","June","July","August","September","October","November","December"];
 const monthName = Months[month];
@@ -1649,12 +1649,12 @@ const ChargesPerUnit = 16;
 const latePayment = 350;
 const netAmount = units*ChargesPerUnit;
  let output = `
-    <div class="card p-2 m-3 border rounded-3 ">
+    <div class="card p-3 m-3 border-black rounded-3 ">
      
      <h1 class="text-center">K-Electric Bill</h1>
      <br>
      <br>
-    // <p class="fs-4">Customer Name: ${customerName};</p>
+    <p class="fs-4">Customer Name: ${customerName};</p>
     <p class="fs-4">Month: ${monthName};</p>
     <p class="fs-4">Number of units: ${units};</p>
     <p class="fs-4">Charges per unit: ${ChargesPerUnit};</p>
