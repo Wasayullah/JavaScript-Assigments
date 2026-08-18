@@ -1679,7 +1679,7 @@ browser.
 */
 const date = () =>{
     let date = new Date()
-    output = `<p class="fs-4">The date is : ${date}</p>`
+    output = `<p class="fs-4">The date is :><br> <u>${date}</u></p>`
     document.getElementById("ch-35_question_1").innerHTML = output;
 }
 date()
