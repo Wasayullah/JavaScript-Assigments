@@ -1667,6 +1667,10 @@ const netAmount = units*ChargesPerUnit;
  `;
  document.getElementById("ch-31_question_14").innerHTML = output;
  */
+
+/*
+
 //----------------------------------------------------------------------------------------------------------------
-// Chapters - 26 to 30 : MATH METHODS 
+
+ Chapters - 26 to 30 : MATH METHODS 
 
