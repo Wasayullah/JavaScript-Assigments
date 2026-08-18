@@ -1676,7 +1676,6 @@ const netAmount = units*ChargesPerUnit;
 
 // 1. Write a function that displays current date & time in your 
 browser.
-*/
 const date = () =>{
     let date = new Date()
     output = `<p class="fs-4">The date is :><br> <u>${date}</u></p>`
@@ -1684,3 +1683,9 @@ const date = () =>{
 }
 date()
 
+*/
+// 2. Write a function that takes first & last name and then it 
+// greets the user using his full name. 
+const name =()=>{
+    const firstName = 
+}
