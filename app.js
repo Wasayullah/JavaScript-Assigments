@@ -1672,5 +1672,5 @@ const netAmount = units*ChargesPerUnit;
 
 //----------------------------------------------------------------------------------------------------------------
 
- Chapters - 26 to 30 : MATH METHODS 
+ Chapters - 26 to 38 : Functions
 
