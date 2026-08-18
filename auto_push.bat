@@ -3,7 +3,7 @@ cd /d "C:\Users\DELL\Documents\GitHub\JavaScript-Assigments"
 
 :loop
 git add app.js index.html
-git commit -m "Auto update"
+git commit -m "Latest changes were commited"
 git push
 
 timeout /t 60
