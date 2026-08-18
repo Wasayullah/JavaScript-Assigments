@@ -1687,8 +1687,10 @@ date()
 // 2. Write a function that takes first & last name and then it 
 // greets the user using his full name. 
 const name =()=>{
-    const firstName = prompt("Enter your first name");
-    const lastName = prompt("Enter your last name: ");
-    const fullName = (firstName+lastName)
+    let firstName = prompt("Enter your first name");
+    let lastName = prompt("Enter your last name: ");
+    let fullName = (firstName+''+lastName);
+    output = `<p class="fs-4">Hello ${}</p>`
+    document.getElementById("ch-35_question_1").innerHTML = output;
 }
 
