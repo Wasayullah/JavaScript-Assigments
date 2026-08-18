@@ -1374,10 +1374,11 @@ while(i<Break.length){
 }
 var output = `<p class="fs-4">Text:The quick brown fox jumps over the lazy dog <br>There are ${j} occurrences of word the`
 document.getElementById("ch-21_question_18").innerHTML = output;
+/*
+
 
 //----------------------------------------------------------------------------------------------------------------
 
-/*
 Chapters - 26 to 30 : MATH METHODS 
 // 1.  Write a program that takes a positive integer from user & 
 display the following in your browser. 
@@ -1664,5 +1665,6 @@ const netAmount = units*ChargesPerUnit;
  `;
  document.getElementById("ch-31_question_14").innerHTML = output;
  */
-
+//----------------------------------------------------------------------------------------------------------------
+// Chapters - 26 to 30 : MATH METHODS 
 
