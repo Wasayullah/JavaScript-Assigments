@@ -1625,7 +1625,6 @@ const birthYear= getYear-age;
 output = `<p class="fs-4">Your Birth Year is : ${birthYear}</p>`;
 document.getElementById("ch-31_question_13").innerHTML = output;
 
-*/
 // 14. Write a program to generate your K-Electric bill in your 
 // browser. All the amounts should be rounded off to 2 
 // decimal places. Display the following fields: 
@@ -1649,20 +1648,21 @@ const ChargesPerUnit = 16;
 const latePayment = 350;
 const netAmount = units*ChargesPerUnit;
  let output = `
-    <div class="card p-3 m-3 w-50 border-black rounded-3 d-flex flex-column flex-wrap text-left">
-     
-     <h1 class="text-center">K-Electric Bill</h1>
-     <br>
-     <br>
-    <p class="fs-4">Customer Name: ${customerName};</p><hr>
-    <p class="fs-4">Month: ${monthName};</p><hr>
-    <p class="fs-4">Number of units: ${units};</p><hr>
-    <p class="fs-4">Charges per unit: ${ChargesPerUnit};</p><hr>
-    <p class="fs-4">Net Amount Payable (within Due Date): ${netAmount};</p><hr>
-    <p class="fs-4">Late Payment Surcharge: ${latePayment};</p><hr>
-    <p class="fs-4">Gross Amount Payable (after Due Date):  ${netAmount+latePayment};</p>
-    </div>
-    `;
-    document.getElementById("ch-31_question_14").innerHTML = output;
+ <div class="card p-3 m-3 w-50 border-black rounded-3 d-flex flex-column flex-wrap text-left">
+ 
+ <h1 class="text-center">K-Electric Bill</h1>
+ <br>
+ <br>
+ <p class="fs-4">Customer Name: ${customerName};</p><hr>
+ <p class="fs-4">Month: ${monthName};</p><hr>
+ <p class="fs-4">Number of units: ${units};</p><hr>
+ <p class="fs-4">Charges per unit: ${ChargesPerUnit};</p><hr>
+ <p class="fs-4">Net Amount Payable (within Due Date): ${netAmount};</p><hr>
+ <p class="fs-4">Late Payment Surcharge: ${latePayment};</p><hr>
+ <p class="fs-4">Gross Amount Payable (after Due Date):  ${netAmount+latePayment};</p>
+ </div>
+ `;
+ document.getElementById("ch-31_question_14").innerHTML = output;
+ */
 
 
