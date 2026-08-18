@@ -1672,5 +1672,12 @@ const netAmount = units*ChargesPerUnit;
 
 //----------------------------------------------------------------------------------------------------------------
 
- Chapters - 26 to 38 : Functions
+ Chapters - 35 to 38 : Function
+
+// 1. Write a function that displays current date & time in your 
+browser.
+*/
+const date = () =>{
+    
+}
 
