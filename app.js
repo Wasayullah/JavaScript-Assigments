@@ -1697,6 +1697,8 @@ greet()
 */
 // 3. Write a function that adds two numbers (input by user) 
 // and returns the sum of two numbers. 
- const sum =(a,b)=>
+ const sum =(a,b)=>a+b;
   let num_1 = Number(prompt("Enter a number"));
-    let num_2=  Number(prompt("Enter the second number"));
+  let num_2=  Number(prompt("Enter the second number"));
+  output = `<p class="fs-4">Sum of ${num_1} and ${num_2}</p>`
+    document.getElementById("ch-35_question_3").innerHTML = output;
