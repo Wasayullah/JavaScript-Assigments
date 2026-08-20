@@ -1698,6 +1698,7 @@ greet()
 // 3. Write a function that adds two numbers (input by user) 
 // and returns the sum of two numbers. 
  const sum =()=>{
-    let num_1 = +prompt("Enter a number");
+    let num_1 = Number(prompt("Enter a number"));
+    let num_2=  Number(prompt("Enter the second number"));
     
  }
