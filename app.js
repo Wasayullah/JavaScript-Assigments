@@ -1700,5 +1700,6 @@ greet()
  const sum =(a,b)=>a+b;
   let num_1 = Number(prompt("Enter a number"));
   let num_2=  Number(prompt("Enter the second number"));
-  output = `<p class="fs-4">Sum of ${num_1} and ${num_2}</p>`
+  let result = sum(num_1,num_2);
+  output = `<p class="fs-4">Sum of ${num_1} and ${num_2} is ${result}</p>`
     document.getElementById("ch-35_question_3").innerHTML = output;
