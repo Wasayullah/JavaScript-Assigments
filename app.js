@@ -1766,5 +1766,5 @@ let table = (a,b)=>{
 let num = Number(prompt("Enter a number to find Multiplication table"));
 let range = Number(prompt("Enter the range",10))
 let tab = table(num,range)
-
+console.log(num,range)
 document.getElementById("ch-35_question_7").innerHTML = output;
