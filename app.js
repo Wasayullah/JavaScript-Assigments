@@ -1744,4 +1744,5 @@ document.getElementById("ch-35_question_5").innerHTML = output;
         }
     }
  }
- let num = Number(prompt)
+ let num = Number(prompt("Enter a number to find its factorial"));
+ let fact = factorial(num)
