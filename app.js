@@ -1757,6 +1757,11 @@ document.getElementById("ch-35_question_6").innerHTML = output;
 let table = (a,b)=>{
     let result=1
     for(let i=1; i<=a ;i++){
-        result = i*b
+        result = i*b;
     }
-}
+    return result;
+};
+let num = Number(prompt("Enter a number to find its factorial"));
+let fact = factorial(num)
+output = `<h1>Factorial</h1><p class="fs-4">Multiplication table of ${}</p>`
+document.getElementById("ch-35_question_7").innerHTML = output;
