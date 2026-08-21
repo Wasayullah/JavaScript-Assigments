@@ -1757,6 +1757,7 @@ document.getElementById("ch-35_question_6").innerHTML = output;
 let output
 let table = (a,b)=>{
     let result
+    output = `<p class="fs-4">Multiplication table of ${num} is: </p>`
     for(let i=1; i<=a ;i++){
         result = i*b;
         output += `<p class="fs-4">${num} x ${i} = ${result}</p>`
@@ -1766,5 +1767,5 @@ let table = (a,b)=>{
 let num = Number(prompt("Enter a number to find Multiplication table"));
 let range = Number(prompt("Enter the range",10))
 let tab = table(num,range)
-output += `<p class="fs-4">Multiplication table of ${num}: is ${tab}<br></p>`
+
 document.getElementById("ch-35_question_7").innerHTML = output;
