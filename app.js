@@ -1724,4 +1724,5 @@ const calculator = async(a,op,b)=>{
     }
 }
 let num_1 = Number(prompt("Enter the first number"));
-let num_1 = Number(prompt("Enter the first number"));
+let operator = prompt("Enter any operator\n(+,-,*,/,%)")
+let num_2 = Number(prompt("Enter the second number"));
