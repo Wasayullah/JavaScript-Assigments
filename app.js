@@ -1736,3 +1736,7 @@ let sq = Square(num)
 output = `<h1>Calculator</h1><p class="fs-4">Square of ${num} is :${sq}</p>`
 document.getElementById("ch-35_question_5").innerHTML = output;
 */
+// 6. Write a function that computes factorial of a number. 
+ const factorial = (a)=>{
+    for(let i=1)
+ }
