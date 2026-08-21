@@ -1756,9 +1756,9 @@ document.getElementById("ch-35_question_6").innerHTML = output;
 // & display counting in your browser.
 let output
 let table = (a,b)=>{
-    let result=1
+    let result
     for(let i=1; i<=a ;i++){
-        result += i*b;
+        result = i*b;
         output += `<p class="fs-4">${num} x ${i} = ${result}</p>`
     }
     return output
