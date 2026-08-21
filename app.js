@@ -1716,10 +1716,12 @@ const calculator = async(a,op,b)=>{
     }else if(op==="-"){
         result = a-b;
     }else if(op=="X"||op==="*"){
-        result=a*b;
+        result = a*b;
     }else if(op==="/"){
         result = a/b;
     }else if(op==="%"){
-        result
+        result = a%b
     }
 }
+let num_1 = Number(prompt("Enter the first number"));
+let num_1 = Number(prompt("Enter the first number"));
