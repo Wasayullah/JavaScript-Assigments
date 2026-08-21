@@ -1763,5 +1763,6 @@ let table = (a,b)=>{
 };
 let num = Number(prompt("Enter a number to find Multiplication table"));
 let fact = table(num)
-output = `<h1></h1><p class="fs-4">Multiplication table of ${num}:<br></p>`
+let output
+output += `<h1></h1><p class="fs-4">Multiplication table of ${num}:<br></p>`
 document.getElementById("ch-35_question_7").innerHTML = output;
