@@ -1742,7 +1742,8 @@ document.getElementById("ch-35_question_5").innerHTML = output;
     for(let i=1 ; i<=a ;i++){
       result *=i
     }
- }
+    return result
+ };
  let num = Number(prompt("Enter a number to find its factorial"));
  let fact = factorial(num)
  output = `<h1>Factorial</h1><p class="fs-4">Factorial of  ${num} is :${fact}</p>`
