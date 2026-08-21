@@ -1732,4 +1732,7 @@ document.getElementById("ch-35_question_4").innerHTML = output;
 */
 // 5. Write a function that squares its argument.
 const Square = (a)=>a**2;
-let num = Number(prompt("Enter any number to getits sq"))
+let num = Number(prompt("Enter any number \nto get its square"))
+let sq = Square(num)
+output = `<h1>Calculator</h1><p class="fs-4">Square of ${num} ${operator} ${num_2}  : ${answer}</p>`
+document.getElementById("ch-35_question_5").innerHTML = output;
