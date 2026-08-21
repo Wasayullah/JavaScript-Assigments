@@ -1730,21 +1730,30 @@ output = `<h1>Calculator</h1><p class="fs-4">${num_1} ${operator} ${num_2}  : ${
 document.getElementById("ch-35_question_4").innerHTML = output;
 
 // 5. Write a function that squares its argument.
+
 const Square = (a)=>a**2;
 let num = Number(prompt("Enter any number \nto get its square"))
 let sq = Square(num)
 output = `<h1>Calculator</h1><p class="fs-4">Square of ${num} is :${sq}</p>`
 document.getElementById("ch-35_question_5").innerHTML = output;
-*/
+
 // 6. Write a function that computes factorial of a number. 
- const factorial = (a)=>{
+
+const factorial = (a)=>{
     let result=1
     for(let i=1 ; i<=a ;i++){
-      result *=i
+        result *=i
     }
     return result
- };
- let num = Number(prompt("Enter a number to find its factorial"));
- let fact = factorial(num)
- output = `<h1>Factorial</h1><p class="fs-4">Factorial of  ${num} is :${fact}</p>`
+};
+let num = Number(prompt("Enter a number to find its factorial"));
+let fact = factorial(num)
+output = `<h1>Factorial</h1><p class="fs-4">Factorial of  ${num} is :${fact}</p>`
 document.getElementById("ch-35_question_6").innerHTML = output;
+*/
+
+// 7. Write a function that take start and end number as inputs
+// & display counting in your browser.
+let table = (a,b)=>{
+
+}
