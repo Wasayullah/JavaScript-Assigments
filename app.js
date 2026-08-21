@@ -1762,7 +1762,6 @@ let table = (a,b)=>{
         result = i*b;
         output += `<p class="fs-4">${num} x ${i} = ${result}</p>`
     }
-    return output
 };
 let num = Number(prompt("Enter a number to find Multiplication table"));
 let range = Number(prompt("Enter the range",10))
