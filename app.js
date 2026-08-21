@@ -1708,21 +1708,22 @@ document.getElementById("ch-35_question_3").innerHTML = output;
 // Write a function that takes three arguments num1, num2 
 // & operator & compute the desired operation. Return and 
 // show the desired result in your browser. 
-let result
+
 const calculator = async(a,op,b)=>{
     
     if(op==="+"){
-         result = a+b;
+         return a+b;
     }else if(op==="-"){
-        result = a-b;
+        return a-b;
     }else if(op=="X"||op==="*"){
-        result = a*b;
+        return a*b;
     }else if(op==="/"){
-        result = a/b;
+        return a/b;
     }else if(op==="%"){
-        result = a%b
+        return a%b
     }
 }
 let num_1 = Number(prompt("Enter the first number"));
-let operator = prompt("Enter any operator\n(+,-,*,/,%)")
+let operator = prompt("Enter any operator\n(+,-,*,/,%)");
 let num_2 = Number(prompt("Enter the second number"));
+let answer = calculator()
