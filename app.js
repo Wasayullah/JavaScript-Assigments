@@ -1740,7 +1740,8 @@ document.getElementById("ch-35_question_5").innerHTML = output;
  const factorial = (a)=>{
     for(let i=1 ; i>=a ;i++){
         for(let j=1; j>=i ;j++){
-            
+            return i*j
         }
     }
  }
+ let num = Number(prompt)
