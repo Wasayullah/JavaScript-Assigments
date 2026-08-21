@@ -1758,12 +1758,13 @@ let table = (a,b)=>{
     let result=1
     for(let i=1; i<=a ;i++){
         result += i*b;
-        return result;
+        let output
+        output += `<p class="fs-4">${num} x ${i}<br></p>`
     }
+    
 };
 let num = Number(prompt("Enter a number to find Multiplication table"));
 let range = Number(prompt("Enter the range",10))
 let tab = table(num,range)
-let output
 output += `<p class="fs-4">Multiplication table of ${num}: is ${tab}<br></p>`
 document.getElementById("ch-35_question_7").innerHTML = output;
