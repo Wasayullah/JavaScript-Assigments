@@ -1731,4 +1731,5 @@ document.getElementById("ch-35_question_4").innerHTML = output;
 
 */
 // 5. Write a function that squares its argument.
-const Square = 
+const Square = (a)=>a**2;
+let num = Number(prompt("Enter any number to getits sq"))
