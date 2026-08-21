@@ -1727,7 +1727,8 @@ let num_1 = Number(prompt("Enter the first number"));
 let operator = prompt("Enter any operator\n(+,-,*,/,%)");
 let num_2 = Number(prompt("Enter the second number"));
 if(num_2==0){
-    
+    alert("Division by zero is not possible\nTry another number.")
+    num_2 = Number(prompt("Enter the second number"));
 }
 let answer = Calculate(num_1,operator,num_2);
 output = `<h1>Calculator</h1><p class="fs-4">${num_1} ${operator} ${num_2}  : ${answer}</p>`
