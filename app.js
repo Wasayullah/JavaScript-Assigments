@@ -1757,9 +1757,9 @@ document.getElementById("ch-35_question_6").innerHTML = output;
 let table = (a,b)=>{
     let result=1
     for(let i=1; i<=a ;i++){
-        result = i*b;
+        result += i*b;
+        return result;
     }
-    return result;
 };
 let num = Number(prompt("Enter a number to find Multiplication table"));
 let range = Number(prompt("Enter the range",10))
