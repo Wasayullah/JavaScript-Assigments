@@ -1708,8 +1708,12 @@ document.getElementById("ch-35_question_3").innerHTML = output;
 // Write a function that takes three arguments num1, num2 
 // & operator & compute the desired operation. Return and 
 // show the desired result in your browser. 
+let result
 const calculator = async(a,op,b)=>{
+    
     if(op==="+"){
-        let result = a+b;
+         result = a+b;
+    }else if(op==="-"){
+        result = a-bl
     }
 }
