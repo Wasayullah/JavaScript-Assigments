@@ -1758,8 +1758,8 @@ let output
 let table = (a,b)=>{
     let result
     output = `<p class="fs-4">Multiplication table of ${num} is: </p>`
-    for(let i=1; i<=a ;i++){
-        result = i*b;
+    for(let i=1; i<=b ;i++){
+        result = i*a;
         output += `<p class="fs-4">${num} x ${i} = ${result}</p>`
     }
 };
