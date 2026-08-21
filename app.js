@@ -1714,6 +1714,8 @@ const calculator = async(a,op,b)=>{
     if(op==="+"){
          result = a+b;
     }else if(op==="-"){
-        result = a-bl
-    }
+        result = a-b;
+    }else if(op=="X"||op==="*"){
+        result=a*b;
+    }else if()
 }
