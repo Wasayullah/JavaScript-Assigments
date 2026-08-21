@@ -1702,7 +1702,6 @@ let num_2=  Number(prompt("Enter the second number"));
 let result = sum(num_1,num_2);
 output = `<p class="fs-4">Sum of ${num_1} and ${num_2} is : ${result}</p>`
 document.getElementById("ch-35_question_3").innerHTML = output;
-*/
 
 // 4. Calculator:  
 // Write a function that takes three arguments num1, num2 
@@ -1712,7 +1711,7 @@ document.getElementById("ch-35_question_3").innerHTML = output;
 const Calculate = (a,op,b)=>{
     
     if(op==="+"){
-         return a+b;
+        return a+b;
     }else if(op==="-"){
         return a-b;
     }else if(op=="X"||op==="*"){
@@ -1729,3 +1728,7 @@ let num_2 = Number(prompt("Enter the second number"));
 let answer = Calculate(num_1,operator,num_2);
 output = `<h1>Calculator</h1><p class="fs-4">${num_1} ${operator} ${num_2}  : ${answer}</p>`
 document.getElementById("ch-35_question_4").innerHTML = output;
+
+*/
+// 5. Write a function that squares its argument.
+const Square = 
