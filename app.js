@@ -1708,6 +1708,6 @@ document.getElementById("ch-35_question_3").innerHTML = output;
 // Write a function that takes three arguments num1, num2 
 // & operator & compute the desired operation. Return and 
 // show the desired result in your browser. 
-const calculator = async()=>{
+const calculator = async(a,op,b)=>{
     
 }
