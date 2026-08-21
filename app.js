@@ -1709,7 +1709,7 @@ document.getElementById("ch-35_question_3").innerHTML = output;
 // & operator & compute the desired operation. Return and 
 // show the desired result in your browser. 
 
-const Calculate = async(a,op,b)=>{
+const Calculate = (a,op,b)=>{
     
     if(op==="+"){
          return a+b;
@@ -1727,5 +1727,5 @@ let num_1 = Number(prompt("Enter the first number"));
 let operator = prompt("Enter any operator\n(+,-,*,/,%)");
 let num_2 = Number(prompt("Enter the second number"));
 let answer = Calculate(num_1,operator,num_2);
-output = `<p class="fs-4">${num_1} ${operator} ${num_2}  : ${result}</p>`
-document.getElementById("ch-35_question_3").innerHTML = output;
+output = `<h1>Calculator</h1><p class="fs-4">${num_1} ${operator} ${num_2}  : ${answer}</p>`
+document.getElementById("ch-35_question_4").innerHTML = output;
