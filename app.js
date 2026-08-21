@@ -1739,8 +1739,8 @@ document.getElementById("ch-35_question_5").innerHTML = output;
 // 6. Write a function that computes factorial of a number. 
  const factorial = (a)=>{
     let result=1
-    for(let i=1 ; i>=a ;i++){
-       result *=i
+    for(let i=1 ; i<=a ;i++){
+      result *=i
     }
  }
  let num = Number(prompt("Enter a number to find its factorial"));
