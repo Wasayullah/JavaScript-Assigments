@@ -1755,7 +1755,8 @@ document.getElementById("ch-35_question_6").innerHTML = output;
 // 7. Write a function that take start and end number as inputs
 // & display counting in your browser.
 let table = (a,b)=>{
+    let result=1
     for(let i=1; i<=a ;i++){
-        
+        result = i*b
     }
 }
