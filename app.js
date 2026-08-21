@@ -1709,5 +1709,7 @@ document.getElementById("ch-35_question_3").innerHTML = output;
 // & operator & compute the desired operation. Return and 
 // show the desired result in your browser. 
 const calculator = async(a,op,b)=>{
-    
+    if(op==="+"){
+        let result = a+b;
+    }
 }
