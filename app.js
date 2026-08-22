@@ -1786,7 +1786,7 @@ const calculateHypotenuse = (a,b)=>{
                 };
          };
     const { a_sq, b_sq } = calculateSquare(a, b);
-    let c = Math.sqrt(P_sq + B_sq);
+    let c = Math.sqrt(a_sq + b_sq).toFixed(2);
     return c
 
 };
