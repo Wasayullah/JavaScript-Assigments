@@ -1804,8 +1804,8 @@ document.getElementById("ch-35_question_8").innerHTML = output;
 const rectangleArea = (width,height)=>{
     return width*height;
 }
-let width = Number(prompt("Length of prependicular"));
-let base = Number(prompt("Length of base"))
-let hyp = calculateHypotenuse(prep,base)
-let output = `<p class="fs-4">Hypotenuse: ${hyp}</p>`
+let width = Number(prompt("width of rectangle"));
+let height = Number(prompt("Height of rectangle"))
+let hyp = calculateHypotenuse(width,height)
+let output = `<p class="fs-4">Area of rectangle: ${hyp}</p>`
 document.getElementById("ch-35_question_8").innerHTML = output;
