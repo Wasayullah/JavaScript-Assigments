@@ -1781,6 +1781,8 @@ const calculateHypotenuse = (a,b)=>{
         c = a**2;
         d = b**2;
     }
+    let sq = calculateSquare(a,b)
+    console.log(sq)
     let c = Math.sqrt(a+b);
 };
 let prep = Number(prompt("Length of prependicular"));
