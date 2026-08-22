@@ -1808,9 +1808,8 @@ let height = Number(prompt("Height of rectangle"))
 let area = rectangleArea(width,height)
 let output = `<p class="fs-4">Area of rectangle: ${area} units<sup>2<sup></p>`
 document.getElementById("ch-35_question_9").innerHTML = output;
-*/
 
-// 0. Write a JavaScript function that checks whether a passed 
+// 10. Write a JavaScript function that checks whether a passed 
 // string is palindrome or not?   
 // A palindrome is word, phrase, or sequence that reads the same backward as 
 // forward, e.g., madam
@@ -1822,9 +1821,10 @@ const palindrome = (string) => {
         output = `<p class="fs-4">${string} is palindrome</p>`
     } else {
         output = `<p class="fs-4">${string} is not a palindrome</p>`
-    }
-    return output
+}
+return output
 }
 let string = prompt("Enter any word").toLowerCase();
 output = palindrome(string)
-document.getElementById("ch-35_question_9").innerHTML = output;
+document.getElementById("ch-35_question_10").innerHTML = output;
+*/
