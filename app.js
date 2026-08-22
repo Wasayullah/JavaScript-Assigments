@@ -1781,8 +1781,8 @@ document.getElementById("ch-35_question_7").innerHTML = output;
 //     let a_sq;
 //     let b_sq;
     const calculateSquare = (a,b)=>{
-        return a**2
-        return b**2
+        return (a**2,b**2)
+    
     }
     // let c = Math.sqrt(a_sq + b_sq);
     // return c
