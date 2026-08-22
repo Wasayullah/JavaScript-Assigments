@@ -1815,18 +1815,16 @@ document.getElementById("ch-35_question_9").innerHTML = output;
 // A palindrome is word, phrase, or sequence that reads the same backward as 
 // forward, e.g., madam
 
-const palindrome =(string) =>{
-    let reverseString =  string.split('').reverse().join('');
-     let output
+const palindrome = (string) => {
+    let reverseString = string.split('').reverse().join('');
+    let output
     if (string === reverseString) {
         output = `<p class="fs-4">${string} is palindrome</p>`
-    
-} else {
-    output = `<p class="fs-4">${string} is not a palindrome</p>`
+    } else {
+        output = `<p class="fs-4">${string} is not a palindrome</p>`
+    }
     return output
 }
-}
-let string= prompt("Enter any word").toLowerCase();
-let area = rectangleArea(width,height)
-let output = `<p class="fs-4">Area of rectangle: ${area} units<sup>2<sup></p>`
+let string = prompt("Enter any word").toLowerCase();
+let area = palindrome(width, height)
 document.getElementById("ch-35_question_9").innerHTML = output;
