@@ -1750,10 +1750,10 @@ let num = Number(prompt("Enter a number to find its factorial"));
 let fact = factorial(num)
 output = `<h1>Factorial</h1><p class="fs-4">Factorial of  ${num} is :${fact}</p>`
 document.getElementById("ch-35_question_6").innerHTML = output;
-*/
 
 // 7. Write a function that take start and end number as inputs
 // & display counting in your browser.
+
 let output
 let table = (a,b)=>{
     let result
@@ -1768,3 +1768,23 @@ let range = Number(prompt("Enter the range",10))
 let tab = table(num,range)
 console.log(num,range)
 document.getElementById("ch-35_question_7").innerHTML = output;
+
+*/
+// 8. Write a nested function that computes hypotenuse of a 
+// right angle triangle.  
+// Hypotenuse2 = Base2 + Perpendicular2
+// Take base and perpendicular as inputs. 
+// Outer function : calculateHypotenuse() 
+// Inner function: calculateSquare()
+const calculateHypotenuse = (a,b)=>{
+    const calculateSquare = ()=>{
+        a**=2;
+        b**=2;
+        return a,b;
+    }
+    let c = Math.sqrt(a+b);
+};
+let prep = Number(prompt("Length of prependicular"));
+let base = Number(prompt("Length of base"))
+let hyp = calculateHypotenuse(prep,base)
+document.getElementById("ch-35_question_8").innerHTML = output;
