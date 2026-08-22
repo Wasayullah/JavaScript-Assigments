@@ -1780,12 +1780,11 @@ const calculateHypotenuse = (a,b)=>{
     const calculateSquare = ()=>{
         a**=2;
         b**=2;
-        return a,b;
     }
     let c = Math.sqrt(a+b);
 };
 let prep = Number(prompt("Length of prependicular"));
 let base = Number(prompt("Length of base"))
 let hyp = calculateHypotenuse(prep,base)
-        output += `<p class="fs-4">Hypotenuse: ${hyp}</p>`
+let output = `<p class="fs-4">Hypotenuse: ${hyp}</p>`
 document.getElementById("ch-35_question_8").innerHTML = output;
