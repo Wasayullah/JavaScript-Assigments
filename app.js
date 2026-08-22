@@ -1777,9 +1777,9 @@ document.getElementById("ch-35_question_7").innerHTML = output;
 // Outer function : calculateHypotenuse() 
 // Inner function: calculateSquare()
 const calculateHypotenuse = (a,b)=>{
-    const calculateSquare = ()=>{
-        a**=2;
-        b**=2;
+    const calculateSquare = (c,d)=>{
+        c = a**2;
+        d = b**2;
     }
     let c = Math.sqrt(a+b);
 };
