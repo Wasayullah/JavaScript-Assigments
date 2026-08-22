@@ -1777,18 +1777,18 @@ document.getElementById("ch-35_question_7").innerHTML = output;
 // Outer function : calculateHypotenuse() 
 // Inner function: calculateSquare()
 
-const calculateHypotenuse = (a,b)=>{
-    const calculateSquare = (a, b) => 
-        { 
-            return {
-                 a_sq: a**2,
-                 b_sq: b**2 
-                };
-         };
-    const { a_sq, b_sq } = calculateSquare(a, b);
-    let c = Math.sqrt(a_sq + b_sq);
-    return c
-};
+function calculateHypotenuse(base, perpendicular) {
+
+    function calculateSquare(number) {
+        return number * number;
+    }
+
+    let baseSquare = calculateSquare(base);
+    let perpendicularSquare = calculateSquare(perpendicular);
+
+    return  (Math.sqrt(baseSquare + perpendicularSquare));
+}
+
 let prep = Number(prompt("Length of prependicular"));
 let base = Number(prompt("Length of base"))
 let hyp = calculateHypotenuse(prep,base)
