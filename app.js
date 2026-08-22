@@ -1778,17 +1778,15 @@ document.getElementById("ch-35_question_7").innerHTML = output;
 // Inner function: calculateSquare()
 
 const calculateHypotenuse = (a,b)=>{
-    let a_sq;
-    let b_sq;
     const calculateSquare = (a, b) => 
         { 
             return {
                  a_sq: a**2,
                  b_sq: b**2 
-                }
+                };
          };
-    const { P_sq, B_sq } = calculateSquare(a, b);
-    let c = Math.sqrt(P_sq + b_sq);
+    const { a_sq, b_sq } = calculateSquare(a, b);
+    let c = Math.sqrt(P_sq + B_sq);
     return c
 
 };
