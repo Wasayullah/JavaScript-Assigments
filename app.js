@@ -1786,9 +1786,8 @@ const calculateHypotenuse = (a,b)=>{
                 };
          };
     const { a_sq, b_sq } = calculateSquare(a, b);
-    let c = Math.sqrt(a_sq + b_sq).toFixed(2);
+    let c = Math.sqrt(a_sq + b_sq);
     return c
-
 };
 let prep = Number(prompt("Length of prependicular"));
 let base = Number(prompt("Length of base"))
