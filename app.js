@@ -1781,8 +1781,10 @@ const calculateHypotenuse = (a,b)=>{
     let a_sq;
     let b_sq;
     const calculateSquare = (a,b)=>{
-        return a_sq = a**2
-        return b_sq = b**2
+         a_sq = a**2
+        b_sq = b**2
+        return a_sq;
+        return
     }
     let c = Math.sqrt(a_sq + b_sq);
     return c
