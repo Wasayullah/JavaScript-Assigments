@@ -1817,11 +1817,13 @@ document.getElementById("ch-35_question_9").innerHTML = output;
 
 const palindrome =(string) =>{
     let reverseString =  string.split('').reverse().join('');
+     let output
     if (string === reverseString) {
-        let output = `<p class="fs-4">Area of rectangle: ${area} units<sup>2<sup></p>`
-    return true
+        output = `<p class="fs-4">${string} is palindrome</p>`
+    
 } else {
-    return false
+    output = `<p class="fs-4">${string} is not a palindrome</p>`
+    return output
 }
 }
 let string= prompt("Enter any word").toLowerCase();
