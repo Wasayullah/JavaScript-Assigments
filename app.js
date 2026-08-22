@@ -1811,10 +1811,10 @@ document.getElementById("ch-35_question_9").innerHTML = output;
 */
 
 // 0. Write a JavaScript function that checks whether a passed 
-// string is palindrome1 or not?   
+// string is palindrome or not?   
 // A palindrome is word, phrase, or sequence that reads the same backward as 
 // forward, e.g., madam
 
-// const palindrome =(string) =>{
-
-// }
+const palindrome =(string) =>{
+    
+}
