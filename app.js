@@ -1816,5 +1816,10 @@ document.getElementById("ch-35_question_9").innerHTML = output;
 // forward, e.g., madam
 
 const palindrome =(string) =>{
-    let reverse =  string.split('').reverse().join('');
+    let reverseString =  string.split('').reverse().join('');
+    if (str === reversedStr) {
+    return true
+} else {
+    return false
+}
 }
