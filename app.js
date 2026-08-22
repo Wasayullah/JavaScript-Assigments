@@ -1814,3 +1814,7 @@ document.getElementById("ch-35_question_9").innerHTML = output;
 // string is palindrome or not?   
 // A palindrome is word, phrase, or sequence that reads the same backward as 
 // forward, e.g., madam
+
+const palindrome =(string) =>{
+    
+}
