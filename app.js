@@ -1801,6 +1801,11 @@ document.getElementById("ch-35_question_8").innerHTML = output;
 // Pass width and height in following manner: 
 // i. Arguments as value 
 // ii. Arguments as variables 
-const rectangleArea = (length,)=>{
-
+const rectangleArea = (width,height)=>{
+    return width*height;
 }
+let width = Number(prompt("Length of prependicular"));
+let base = Number(prompt("Length of base"))
+let hyp = calculateHypotenuse(prep,base)
+let output = `<p class="fs-4">Hypotenuse: ${hyp}</p>`
+document.getElementById("ch-35_question_8").innerHTML = output;
