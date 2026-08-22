@@ -1790,6 +1790,7 @@ const calculateHypotenuse = (a,b)=>{
 
     let c = Math.sqrt(a_sq + b_sq);
     return c
+    console.log(c)
 };
 let prep = Number(prompt("Length of prependicular"));
 let base = Number(prompt("Length of base"))
