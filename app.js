@@ -1795,3 +1795,9 @@ let output = `<p class="fs-4">Hypotenuse: ${hyp}</p>`
 document.getElementById("ch-35_question_8").innerHTML = output;
 
 */
+
+// 9. Write a function that calculates the area of a rectangle. 
+// A = width * height 
+// Pass width and height in following manner: 
+// i. Arguments as value 
+// ii. Arguments as variables 
