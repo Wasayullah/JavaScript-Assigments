@@ -1786,9 +1786,9 @@ const calculateHypotenuse = (a,b)=>{
                  a_sq: a**2,
                  b_sq: b**2 
                 }
-         }
-
-    let c = Math.sqrt(a_sq + b_sq);
+         };
+    const { P_sq, B_sq } = calculateSquare(a, b);
+    let c = Math.sqrt(P_sq + b_sq);
     return c
 
 };
