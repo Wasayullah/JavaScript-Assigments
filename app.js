@@ -1788,7 +1788,7 @@ const calculateHypotenuse = (a,b)=>{
                 }
          }
 
-    let c = Math.sqrt(a_sq + b_sq);
+    let c = Math.sqrt(calculateHypotenuse.a_sq + b_sq);
     return c
     console.log(c)
 };
