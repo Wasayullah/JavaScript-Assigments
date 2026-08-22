@@ -1777,21 +1777,21 @@ document.getElementById("ch-35_question_7").innerHTML = output;
 // Outer function : calculateHypotenuse() 
 // Inner function: calculateSquare()
 
-const calculateHypotenuse = (a,b)=>{
-    let a_sq;
-    let b_sq;
+// const calculateHypotenuse = (a,b)=>{
+//     let a_sq;
+//     let b_sq;
     const calculateSquare = (a,b)=>{
          a_sq = a**2
         b_sq = b**2
         return a_sq;
-        return
+        return b_sq
     }
-    let c = Math.sqrt(a_sq + b_sq);
-    return c
-};
+    // let c = Math.sqrt(a_sq + b_sq);
+    // return c
+// };
 let prep = Number(prompt("Length of prependicular"));
 let base = Number(prompt("Length of base"))
-let hyp = calculateHypotenuse(prep,base)
+let hyp = calculateSquare(prep,base)
 let output = `<p class="fs-4">Hypotenuse: ${hyp}</p>`
 document.getElementById("ch-35_question_8").innerHTML = output;
 calculateHypotenuse()
