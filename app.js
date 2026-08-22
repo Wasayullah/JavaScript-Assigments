@@ -1801,3 +1801,6 @@ document.getElementById("ch-35_question_8").innerHTML = output;
 // Pass width and height in following manner: 
 // i. Arguments as value 
 // ii. Arguments as variables 
+const rectangleArea = ()=>{
+    
+}
