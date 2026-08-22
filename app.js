@@ -1826,5 +1826,5 @@ const palindrome = (string) => {
     return output
 }
 let string = prompt("Enter any word").toLowerCase();
-output=
+output = palindrome(string)
 document.getElementById("ch-35_question_9").innerHTML = output;
