@@ -1794,13 +1794,12 @@ let hyp = calculateHypotenuse(prep,base)
 let output = `<p class="fs-4">Hypotenuse: ${hyp}</p>`
 document.getElementById("ch-35_question_8").innerHTML = output;
 
-*/
-
 // 9. Write a function that calculates the area of a rectangle. 
 // A = width * height 
 // Pass width and height in following manner: 
 // i. Arguments as value 
 // ii. Arguments as variables 
+
 const rectangleArea = (width,height)=>{
     return width*height;
 }
@@ -1809,3 +1808,4 @@ let height = Number(prompt("Height of rectangle"))
 let area = rectangleArea(width,height)
 let output = `<p class="fs-4">Area of rectangle: ${area} units<sup>2<sup></p>`
 document.getElementById("ch-35_question_9").innerHTML = output;
+*/
