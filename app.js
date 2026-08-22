@@ -1784,7 +1784,7 @@ const calculateHypotenuse = (a,b)=>{
         return a_sq = a**2
         return b_sq = b**2
     }
-    let c = Math.sqrt(a_sq+b_sq);
+    let c = Math.sqrt(a_sq + b_sq);
     return c
 };
 let prep = Number(prompt("Length of prependicular"));
