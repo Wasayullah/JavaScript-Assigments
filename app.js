@@ -1818,12 +1818,13 @@ document.getElementById("ch-35_question_9").innerHTML = output;
 const palindrome =(string) =>{
     let reverseString =  string.split('').reverse().join('');
     if (string === reverseString) {
+        let output = `<p class="fs-4">Area of rectangle: ${area} units<sup>2<sup></p>`
     return true
 } else {
     return false
 }
 }
-let string= prompt("Enter a ");
+let string= prompt("Enter any word").toLowerCase();
 let area = rectangleArea(width,height)
 let output = `<p class="fs-4">Area of rectangle: ${area} units<sup>2<sup></p>`
 document.getElementById("ch-35_question_9").innerHTML = output;
