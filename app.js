@@ -1769,7 +1769,6 @@ let tab = table(num,range)
 console.log(num,range)
 document.getElementById("ch-35_question_7").innerHTML = output;
 
-*/
 // 8. Write a nested function that computes hypotenuse of a 
 // right angle triangle.  
 // Hypotenuse2 = Base2 + Perpendicular2
@@ -1782,11 +1781,11 @@ function calculateHypotenuse(base, perpendicular) {
     function calculateSquare(number) {
         return number * number;
     }
-
+    
     let baseSquare = calculateSquare(base);
     let perpendicularSquare = calculateSquare(perpendicular);
-
-    return  (Math.sqrt(baseSquare + perpendicularSquare));
+    
+    return  Math.sqrt(baseSquare + perpendicularSquare).toFixed(2);
 }
 
 let prep = Number(prompt("Length of prependicular"));
@@ -1794,3 +1793,5 @@ let base = Number(prompt("Length of base"))
 let hyp = calculateHypotenuse(prep,base)
 let output = `<p class="fs-4">Hypotenuse: ${hyp}</p>`
 document.getElementById("ch-35_question_8").innerHTML = output;
+
+*/
