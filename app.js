@@ -1806,6 +1806,6 @@ const rectangleArea = (width,height)=>{
 }
 let width = Number(prompt("width of rectangle"));
 let height = Number(prompt("Height of rectangle"))
-let hyp = calculateHypotenuse(width,height)
-let output = `<p class="fs-4">Area of rectangle: ${hyp}</p>`
-document.getElementById("ch-35_question_8").innerHTML = output;
+let area = calculateHypotenuse(width,height)
+let output = `<p class="fs-4">Area of rectangle: ${area}</p>`
+document.getElementById("ch-35_question_9").innerHTML = output;
