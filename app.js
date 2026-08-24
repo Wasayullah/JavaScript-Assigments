@@ -1834,11 +1834,11 @@ document.getElementById("ch-35_question_10").innerHTML = output;
 // string in upper case.  
 // EXAMPLE STRING : 'the quick brown fox'  
 // EXPECTED OUTPUT : 'The Quick Brown Fox'
-const sentenceCase = (str) =>{
-    const slice = str.split('').join('')   
-    
+function capitalizeWords(str) {
+    return str
+        .split(" ")
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(" ");
 }
-const str = "the quick brown fox"
-const slice = str.split('').join('')   
-slice[0].toUpperCase()
-console.log(slice)
+
+console.log(capitalizeWords("the quick brown fox"));
