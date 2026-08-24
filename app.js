@@ -1836,6 +1836,7 @@ document.getElementById("ch-35_question_10").innerHTML = output;
 // EXPECTED OUTPUT : 'The Quick Brown Fox'
 function capitalizeWords(str) {
     return str
+        .toLoweCase()
         .split(" ")
         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
         .join(" ");
