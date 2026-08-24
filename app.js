@@ -1840,5 +1840,8 @@ function capitalizeWords(str) {
         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
         .join(" ");
 }
+let string  = prompt("Enter any string");
+let SentenseCase=capitalizeWords(string);
+output = palindrome(string)
+document.getElementById("ch-35_question_10").innerHTML = output;
 
-let sentense_case=capitalizeWords(string)
