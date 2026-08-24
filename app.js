@@ -1841,7 +1841,6 @@ function capitalizeWords(str) {
         .join(" ");
 }
 let string  = prompt("Enter any string");
-let SentenseCase=capitalizeWords(string);
-output = palindrome(string)
-document.getElementById("ch-35_question_10").innerHTML = output;
+let output= `${capitalizeWords(string)}`};
+document.getElementById("ch-35_question_11").innerHTML = output;
 
