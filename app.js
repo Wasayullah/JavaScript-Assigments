@@ -1839,4 +1839,5 @@ const sentenceCase = (str) =>{
 }
 const str = "the quick brown fox"
 const slice = str.split('').join('')
+slice.toUpperCase()
 console.log(slice)
