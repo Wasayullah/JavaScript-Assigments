@@ -1841,4 +1841,4 @@ function capitalizeWords(str) {
         .join(" ");
 }
 
-console.log(capitalizeWords("the quick brown fox"));
+let sentense_case=capitalizeWords(string)
