@@ -1838,5 +1838,5 @@ const sentenceCase = (str) =>{
     
 }
 const str = "the quick brown fox"
-const slice = str.slice(-1)
+const slice = str.join('')
 console.log(slice)
