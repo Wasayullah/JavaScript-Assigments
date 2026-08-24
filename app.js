@@ -1841,6 +1841,7 @@ function capitalizeWords(str) {
         .join(" ");
 }
 let string  = prompt("Enter any string");
-let output= `${capitalizeWords(string)}`};
+let output= `<p class="fs-4">You entered ${string}<br>
+            Senten${capitalizeWords(string)}</p>`;
 document.getElementById("ch-35_question_11").innerHTML = output;
 
