@@ -1834,4 +1834,7 @@ document.getElementById("ch-35_question_10").innerHTML = output;
 // string in upper case.  
 // EXAMPLE STRING : 'the quick brown fox'  
 // EXPECTED OUTPUT : 'The Quick Brown Fox'
-const sentenceCase =()
+const sentenceCase = (str) =>{
+    
+}
+const str = "the quic"
