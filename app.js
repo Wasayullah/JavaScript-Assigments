@@ -1835,9 +1835,9 @@ document.getElementById("ch-35_question_10").innerHTML = output;
 // EXAMPLE STRING : 'the quick brown fox'  
 // EXPECTED OUTPUT : 'The Quick Brown Fox'
 const sentenceCase = (str) =>{
-
-    const slice = str.split('').join('')
+    const slice = str.split('').join('')   
     
 }
-
-
+const str = "the quick brown fox"
+const slice = str.split('').join('')   
+console.log(slice[0])
