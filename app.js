@@ -1837,4 +1837,6 @@ document.getElementById("ch-35_question_10").innerHTML = output;
 const sentenceCase = (str) =>{
     
 }
-const str = "the quic"
+const str = "the quick brown fox"
+const slice = str.slice(-1)
+console.log(slice)
