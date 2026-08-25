@@ -1865,7 +1865,7 @@ function findLongestWord(str) {
 
 const string = prompt("Enter a string");
 const output = `<p class="fs-4"> ${findLongestWord(string)}</p>`
-document.getElementById("ch-35_question_11").innerHTML = output;
+document.getElementById("ch-35_question_12").innerHTML = output;
 */
 
 // 13. Write a JavaScript function that accepts two arguments, a 
@@ -1886,5 +1886,5 @@ function countLetter(str, letter) {
 
 const input = prompt("Enter any string along with numbers")
 const output = `<p class="fs-4">The number of occurrences: ${countLetter(input)}</p>`
-document.getElementById("ch-35_question_11").innerHTML = output;
+document.getElementById("ch-35_question_13").innerHTML = output;
 
