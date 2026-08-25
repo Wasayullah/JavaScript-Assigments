@@ -1905,10 +1905,11 @@ document.getElementById("ch-35_question_13").innerHTML = output;
 // Area of circle       =     πr2
 */
 
+// Calculate Circumference 
 const  calcCircumference = (radius) =>{
     return 2*(Math.PI)*radius
 }
-
+// Calculate Area
 const calcArea = (radius) =>{
     return (Math.PI)*radius**2
 }
