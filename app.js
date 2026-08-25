@@ -1913,3 +1913,5 @@ const  calcCircumference = (radius) =>{
 const calcArea = (radius) =>{
     return (Math.PI)*radius**2
 }
+
+const radius = Number(prompt("Enter the radius of the circle"))
