@@ -1885,4 +1885,4 @@ function countLetter(str, letter) {
 }
 
 const input = prompt("Enter any string along with numbers")
-const output
+const output = `<p class="fs-4"></p>`
