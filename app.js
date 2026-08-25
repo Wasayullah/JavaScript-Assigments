@@ -1906,7 +1906,7 @@ document.getElementById("ch-35_question_13").innerHTML = output;
 */
 
 const  calcCircumference = (radius) =>{
-
+    return 2()
 }
 
 const calcArea = (radius) =>{
