@@ -1884,4 +1884,5 @@ function countLetter(str, letter) {
     return count;
 }
 
-console.log(countLetter("JSResourceS.com", "o"));
+const input = prompt("Enter any string along with numbers")
+const output
