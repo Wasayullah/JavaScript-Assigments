@@ -1903,7 +1903,6 @@ document.getElementById("ch-35_question_13").innerHTML = output;
 //  
 // Circumference of circle    =     2πr 
 // Area of circle       =     πr2
-*/
 
 // Calculate Circumference 
 const calcCircumference = (radius) => {
@@ -1918,9 +1917,10 @@ const radius = Number(prompt("Enter the radius of the circle"));
 const circumference = calcCircumference(radius).toFixed(2);
 const Area = calcArea(radius).toFixed(2);
 let output = `
-                <p class="fs-4">The circumference of this circle is: ${circumference} units</p>
-                <br>
-                <p class="fs-4">The area of this circle is: ${Area} units<sup>2<sup></p>
-                <small>Radius was :- ${radius}</small>
-                `
+<p class="fs-4">The circumference of this circle is: ${circumference} units</p>
+<br>
+<p class="fs-4">The area of this circle is: ${Area} units<sup>2<sup></p>
+<small>Radius was :- ${radius}</small>
+`
 document.getElementById("ch-35_question_14").innerHTML = output
+*/
