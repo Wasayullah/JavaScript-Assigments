@@ -1865,6 +1865,4 @@ function findLongestWord(str) {
 
 const string = prompt("Enter a string");
 const output = `<p class="fs-4"> ${findLongestWord(string)}</p>`
-let output= You entered:  ${string}<br>
-Sentence case: ${capitalizeWords(string)};
 document.getElementById("ch-35_question_11").innerHTML = output;
