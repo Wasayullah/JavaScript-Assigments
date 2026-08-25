@@ -1923,4 +1923,4 @@ let output = `
                 <p class="fs-4">The area of this circle is: ${Area} units<sup>2<sup></p>
                 <small>Radius was :- ${radius}</small>
                 `
-document.getElementById("ch-35_question_14").innerHTML = output;
+document.getElementById("ch-35_question_14").innerHTML = output
