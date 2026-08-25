@@ -1905,6 +1905,6 @@ document.getElementById("ch-35_question_13").innerHTML = output;
 // Area of circle       =     πr2
 */
 
-const  calcCircumference = (radius,) =>{
+const  calcCircumference = (radius) =>{
 
 }
