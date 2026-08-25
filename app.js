@@ -1879,4 +1879,6 @@ function countLetter(str, letter) {
         if (char === letter) {
             count++;
         }
+ }
 
+    return count;
