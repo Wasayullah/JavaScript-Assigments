@@ -1906,15 +1906,18 @@ document.getElementById("ch-35_question_13").innerHTML = output;
 */
 
 // Calculate Circumference 
-const  calcCircumference = (radius) =>{
-    return 2*(Math.PI)*radius
+const calcCircumference = (radius) => {
+    return 2 * (Math.PI) * radius
 }
 // Calculate Area
-const calcArea = (radius) =>{
-    return (Math.PI)*radius**2
+const calcArea = (radius) => {
+    return (Math.PI) * radius ** 2
 }
 
 const radius = Number(prompt("Enter the radius of the circle"));
 const circumference = calcCircumference(radius);
-const Area =calcArea(radius);
-let output = `<p class="fs-4">The circumference of this circle is </p>`
+const Area = calcArea(radius);
+let output = `
+                <p class="fs-4">The circumference of this circle is ${circumference}</p>
+                <br>
+                <p class="fs-4">The circumference of this circle is ${circumference}</p>`
