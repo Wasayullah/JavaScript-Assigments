@@ -1887,6 +1887,6 @@ function countLetter(str, letter) {
 const string = prompt("Enter any string")
 const letter = prompt("Enter a letter")
 
-const output = `<p class="fs-4">The number of occurrences of ${letter} in ${string} is : ${countLetter(input)}</p>`
+const output = `<p class="fs-4">The number of occurrences of ${letter} in ${string} is : ${countLetter(string,letter)}</p>`
 document.getElementById("ch-35_question_13").innerHTML = output;
 
