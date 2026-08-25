@@ -1827,7 +1827,6 @@ return output
 let string = prompt("Enter any word").toLowerCase();
 output = palindrome(string)
 document.getElementById("ch-35_question_10").innerHTML = output;
-*/
 
 // 11. Write a JavaScript function that accepts a string as a 
 // parameter and converts the first letter of each word of the 
@@ -1836,13 +1835,14 @@ document.getElementById("ch-35_question_10").innerHTML = output;
 // EXPECTED OUTPUT : 'The Quick Brown Fox'
 function capitalizeWords(str) {
     return str
-        .toLowerCase()
-        .split(" ")
-        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-        .join(" ");
+    .toLowerCase()
+    .split(" ")
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
 }
 let string  = prompt("Enter any string");
-let output= `<p class="fs-4">You entered ${string}<br>
-            Sentence case: ${capitalizeWords(string)}</p>`;
+let output= `<p class="fs-4">You entered:  ${string}<br>
+Sentence case: ${capitalizeWords(string)}</p>`;
 document.getElementById("ch-35_question_11").innerHTML = output;
 
+*/
