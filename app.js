@@ -1915,3 +1915,5 @@ const calcArea = (radius) =>{
 }
 
 const radius = Number(prompt("Enter the radius of the circle"))
+const circumference = calcCircumference(radius);
+const Area =calcArea(radius);
