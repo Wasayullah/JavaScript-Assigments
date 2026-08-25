@@ -1845,24 +1845,28 @@ let output= `<p class="fs-4">You entered:  ${string}<br>
 Sentence case: ${capitalizeWords(string)}</p>`;
 document.getElementById("ch-35_question_11").innerHTML = output;
 
-*/
 // 12. Write a JavaScript function that accepts a string as a  
 // parameter and find the longest word within the string.   
 // EXAMPLE STRING : 'Web Development Tutorial'   
-// EXPECTED OUTPUT : 'Development' 
+// EXPECTED OUTPUT : 'Development'
+
 function findLongestWord(str) {
     let words = str.split(" ");
     let longest = "";
-
+    
     for (let word of words) {
         if (word.length > longest.length) {
             longest = word;
         }
     }
-
+    
     return longest;
 }
 
 const string = prompt("Enter a string");
 const output = `<p class="fs-4"> ${findLongestWord(string)}</p>`
 document.getElementById("ch-35_question_11").innerHTML = output;
+*/
+
+// 13. Write a JavaScript function that accepts two arguments, a 
+// string and a letter and the function will count the number of occurrences of the specified letter within the string.  Sample arguments : 'JSResourceS.com', 'o' 
