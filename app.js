@@ -1846,3 +1846,8 @@ Sentence case: ${capitalizeWords(string)}</p>`;
 document.getElementById("ch-35_question_11").innerHTML = output;
 
 */
+// 12. Write a JavaScript function that accepts a string as a  
+// parameter and find the longest word within the string.   
+// EXAMPLE STRING : 'Web Development Tutorial'   
+// EXPECTED OUTPUT : 'Development' 
+const string = 
