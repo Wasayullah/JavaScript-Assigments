@@ -1914,6 +1914,7 @@ const calcArea = (radius) =>{
     return (Math.PI)*radius**2
 }
 
-const radius = Number(prompt("Enter the radius of the circle"))
+const radius = Number(prompt("Enter the radius of the circle"));
 const circumference = calcCircumference(radius);
 const Area =calcArea(radius);
+let output = `<p class="fs-4"></p>`
