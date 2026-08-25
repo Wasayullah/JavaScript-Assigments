@@ -1869,4 +1869,8 @@ document.getElementById("ch-35_question_11").innerHTML = output;
 */
 
 // 13. Write a JavaScript function that accepts two arguments, a 
-// string and a letter and the function will count the number of occurrences of the specified letter within the string.  Sample arguments : 'JSResourceS.com', 'o' 
+// string and a letter and the function will count the number of 
+// occurrences of the specified letter within the string.  
+// Sample arguments : 'JSResourceS.com', 'o' 
+
+function countLetter(str, letter) 
