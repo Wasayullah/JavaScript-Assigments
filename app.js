@@ -1921,5 +1921,5 @@ let output = `
                 <p class="fs-4">The circumference of this circle is ${circumference}</p>
                 <br>
                 <p class="fs-4">The area of this circle is ${Area}</p>
-                <small>..</small>
+                <small>radius was :- ${radius}</small>
                 `
