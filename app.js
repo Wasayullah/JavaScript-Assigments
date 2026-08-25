@@ -1850,7 +1850,7 @@ document.getElementById("ch-35_question_11").innerHTML = output;
 // EXAMPLE STRING : 'Web Development Tutorial'   
 // EXPECTED OUTPUT : 'Development'
 
-function findLongestWord(str) {
+const findLongestWord = (str) =>{
     let words = str.split(" ");
     let longest = "";
     
@@ -1873,7 +1873,7 @@ document.getElementById("ch-35_question_12").innerHTML = output;
 // occurrences of the specified letter within the string.  
 // Sample arguments : 'JSResourceS.com', 'o' 
 
-function countLetter(str, letter) {
+const countLetter = (str, letter)=> {
     let count = 0;
     for (let char of str) {
         if (char === letter) {
