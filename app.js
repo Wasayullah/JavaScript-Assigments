@@ -1850,8 +1850,20 @@ document.getElementById("ch-35_question_11").innerHTML = output;
 // parameter and find the longest word within the string.   
 // EXAMPLE STRING : 'Web Development Tutorial'   
 // EXPECTED OUTPUT : 'Development' 
-const string = (str) =>{
- return str
- .split('')
- .map(word => word.charAt(0))
+function findLongestWord(str) {
+    let words = str.split(" ");
+    let longest = "";
+
+    for (let word of words) {
+        if (word.length > longest.length) {
+            longest = word;
+        }
+    }
+
+    return longest;
 }
+
+const string = prompt("Enter a string");
+const longestWord = findLongestWord(string)
+Sentence case: ${capitalizeWords(string)}</p>`;
+document.getElementById("ch-35_question_11").innerHTML = output;
