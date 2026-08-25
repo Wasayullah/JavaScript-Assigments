@@ -1915,11 +1915,12 @@ const calcArea = (radius) => {
 }
 
 const radius = Number(prompt("Enter the radius of the circle"));
-const circumference = calcCircumference(radius);
-const Area = calcArea(radius);
+const circumference = calcCircumference(radius).toFixed(2);
+const Area = calcArea(radius).to;
 let output = `
                 <p class="fs-4">The circumference of this circle is ${circumference}</p>
                 <br>
                 <p class="fs-4">The area of this circle is ${Area}</p>
                 <small>radius was :- ${radius}</small>
                 `
+document.getElementById("ch-35_question_14").innerHTML = output;
