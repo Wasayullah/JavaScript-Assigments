@@ -1853,5 +1853,5 @@ document.getElementById("ch-35_question_11").innerHTML = output;
 const string = (str) =>{
  return str
  .split('')
- .map()
+ .map(word => word.charAt(0))
 }
