@@ -1885,4 +1885,4 @@ function countLetter(str, letter) {
 }
 
 const input = prompt("Enter any string along with numbers")
-const output = `<p class="fs-4">The number of occurrences</p>`
+const output = `<p class="fs-4">The number of occurrences: ${countLetter}</p>`
