@@ -1917,4 +1917,4 @@ const calcArea = (radius) =>{
 const radius = Number(prompt("Enter the radius of the circle"));
 const circumference = calcCircumference(radius);
 const Area =calcArea(radius);
-let output = `<p class="fs-4"></p>`
+let output = `<p class="fs-4">The circumference of this circle is </p>`
