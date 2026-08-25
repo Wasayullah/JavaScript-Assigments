@@ -1873,4 +1873,5 @@ document.getElementById("ch-35_question_11").innerHTML = output;
 // occurrences of the specified letter within the string.  
 // Sample arguments : 'JSResourceS.com', 'o' 
 
-function countLetter(str, letter) 
+function countLetter(str, letter) {
+    let count = 0;
