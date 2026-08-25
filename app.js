@@ -1910,5 +1910,5 @@ const  calcCircumference = (radius) =>{
 }
 
 const calcArea = (radius) =>{
-
+    return (Math.PI)*radius**2
 }
