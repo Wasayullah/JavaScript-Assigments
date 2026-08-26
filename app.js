@@ -1970,6 +1970,8 @@ const areaOftriangle = (a,b,c) =>{
     area = S(S - a)(S - b)(S - c)
     return area
 }
-const sides = Number(prompt("Enter the length of three sides of the triangle\nSeperate by commas i.e, (1,2,3)"));
- const are
+const sides = Number(prompt("Enter the length of "));
+const sides = Number(prompt("Enter the length of "));
+const sides = Number(prompt("Enter the length of "));
+ const area = areaOftriangle(sides)
 
