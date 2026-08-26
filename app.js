@@ -1970,8 +1970,10 @@ const areaOftriangle = (a,b,c) =>{
     area = S(S - a)(S - b)(S - c)
     return area
 }
-const sides = Number(prompt("Enter the length of "));
-const sides = Number(prompt("Enter the length of "));
-const sides = Number(prompt("Enter the length of "));
- const area = areaOftriangle(sides)
+const side_1 = Number(prompt("Enter the length of side of one triangle"));
+const side_2 = Number(prompt("Enter the length of side of  second triangle"));
+const side_3 = Number(prompt("Enter the length of side of third triangle"));
+ const area = areaOftriangle(side_1,side_2,side_3);
+ const output = `<p class="fs-4">The are</p>`;
+document.getElementById("ch-38_question_2").innerHTML = output;
 
