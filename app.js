@@ -1967,6 +1967,7 @@ const areaOftriangle = (a,b,c) =>{
         S = ( a + b + c ) / 2
         return S
     }
+    sumOfSides(a, b, c);
     let s1 = S-a;
     let s2 = S-b;
     let s3 = S-c
