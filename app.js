@@ -1939,19 +1939,20 @@ document.getElementById("ch-35_question_14").innerHTML = output
  
  const output = `<p class="fs-4">${num}<sup>${exp}</sup> = ${power(num,exp)}</p>`;
  document.getElementById("ch-38_question_1").innerHTML = output;
- */
-
+ 
  // 2. Any year is entered through the keyboard. Write a function to 
  // determine whether the year is a leap year or not. 
  // Leap years ..., 2012, 2016, 2020, ... 
+ 
  const leapYear = (year)=>{
     if(year%4==0){
-  return `leap`
+        return `leap`
     }
     else{
         return `not a leap`
-    }
- }
- const year = prompt("Enter any year",2020)
-  const output = `<p class="fs-4">The year ${year} is a </p>`;
- document.getElementById("ch-35_question_14").innerHTML = output;
+}
+}
+const year = prompt("Enter any year",2020)
+const output = `<p class="fs-4">The year ${year} is a ${leapYear(year)} Year</p>`;
+document.getElementById("ch-38_question_2").innerHTML = output;
+*/
