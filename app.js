@@ -1932,4 +1932,8 @@ document.getElementById("ch-35_question_14").innerHTML = output
  Chapters - 38 to 42 : FUNCTIONS, SWITCH STATEMENTS, WHILE... DO-WHILE LOOPS
  
 */
-
+// 1.  Write a custom function power ( a, b ), to calculate the value of 
+// a raised to b.
+const power = (a,b) =>{
+    return a**b
+}
