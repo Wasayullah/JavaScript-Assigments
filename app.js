@@ -1961,9 +1961,11 @@ document.getElementById("ch-38_question_2").innerHTML = output;
 // area = S(S − a)(S − b)(S − c) where, S = ( a + b + c ) / 2 Calculate area of triangle using 2 functions
 
 const areaOftriangle = (a,b,c) =>{
-
-    const Sum = (a,b,c)=> {
-        return a+b+c
+    let S=0
+    let area = 0
+    const SumofSides = (a,b,c)=> {
+        S= a+b+c
+        return S
     }
-    return 
+    
 }
