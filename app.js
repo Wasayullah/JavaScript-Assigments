@@ -1944,4 +1944,7 @@ document.getElementById("ch-35_question_14").innerHTML = output
  // 2. Any year is entered through the keyboard. Write a function to 
  // determine whether the year is a leap year or not. 
  // Leap years ..., 2012, 2016, 2020, ... 
- const leapYear = ()
+ const leapYear = (year)=>{
+    if(year%4==0){}
+    }
+ }
