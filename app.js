@@ -1964,8 +1964,10 @@ const areaOftriangle = (a,b,c) =>{
     let S=0
     let area = 0
     const SumofSides = (a,b,c)=> {
-        S= a+b+c
+        S = ( a + b + c ) / 2
         return S
     }
-    
+    area = S(S - a)(S - b)(S - c)
+    return area
 }
+
