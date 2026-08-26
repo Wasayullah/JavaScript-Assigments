@@ -1935,6 +1935,6 @@ document.getElementById("ch-35_question_14").innerHTML = output
 // 1.  Write a custom function power ( a, b ), to calculate the value of 
 // a raised to b.
 const power = (a,b) =>a**b
-const number = Number(prompt("Enter the number"))
-const 
-
+const num= Number(prompt("Enter the number"));
+const exp = Number(prompt("Enter the power"));
+ 
