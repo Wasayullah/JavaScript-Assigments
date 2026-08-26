@@ -1970,4 +1970,4 @@ const areaOftriangle = (a,b,c) =>{
     area = S(S - a)(S - b)(S - c)
     return area
 }
-
+const sides = Number(prompt("Enter the length of three sides of the triangle",1,2,3))
