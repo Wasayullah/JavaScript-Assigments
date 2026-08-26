@@ -1938,7 +1938,7 @@ document.getElementById("ch-35_question_14").innerHTML = output
  const exp = Number(prompt("Enter the power"));
  
  const output = `<p class="fs-4">${num}<sup>${exp}</sup> = ${power(num,exp)}</p>`;
- document.getElementById("ch-35_question_14").innerHTML = output;
+ document.getElementById("ch-38_question_1").innerHTML = output;
  */
 
  // 2. Any year is entered through the keyboard. Write a function to 
@@ -1952,4 +1952,6 @@ document.getElementById("ch-35_question_14").innerHTML = output
         return `not a leap`
     }
  }
- const year = prompt("Enter")
+ const year = prompt("Enter any year",2020)
+  const output = `<p class="fs-4">The year ${year} is a </p>`;
+ document.getElementById("ch-35_question_14").innerHTML = output;
