@@ -1967,8 +1967,10 @@ const areaOftriangle = (a,b,c) =>{
         S = ( a + b + c ) / 2
         return S
     }
-    side
-    area = (S*(S-a)*(S-b)*(S - c))
+    let s1 = S-a;
+    let s2 = S-b;
+    let s3 = S-c
+    area = s1*s2*s3
     return area
 }
 const side_1 = Number(prompt("Enter the length of side of one triangle"));
