@@ -1929,6 +1929,7 @@ document.getElementById("ch-35_question_14").innerHTML = output
 
 //----------------------------------------------------------------------------------------------------------------
 
- Chapters - 38 to 42 : 
+ Chapters - 38 to 42 : FUNCTIONS, SWITCH STATEMENTS, WHILE... DO-WHILE LOOPS
  
 */
+
