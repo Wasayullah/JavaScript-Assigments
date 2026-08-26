@@ -1931,12 +1931,12 @@ document.getElementById("ch-35_question_14").innerHTML = output
 
  Chapters - 38 to 42 : FUNCTIONS, SWITCH STATEMENTS, WHILE... DO-WHILE LOOPS
  
-*/
-// 1.  Write a custom function power ( a, b ), to calculate the value of 
-// a raised to b.
-const power = (a,b) =>a**b
-const num= Number(prompt("Enter the number"));
-const exp = Number(prompt("Enter the power"));
+ // 1.  Write a custom function power ( a, b ), to calculate the value of 
+ // a raised to b.
+ const power = (a,b) =>a**b
+ const num= Number(prompt("Enter the number"));
+ const exp = Number(prompt("Enter the power"));
  
-const output = `<p class="fs-4">${num}<sup>${exp}</sup> = ${power(num,exp)}</p>`;
-document.getElementById("ch-35_question_14").innerHTML = output;
+ const output = `<p class="fs-4">${num}<sup>${exp}</sup> = ${power(num,exp)}</p>`;
+ document.getElementById("ch-35_question_14").innerHTML = output;
+ */
