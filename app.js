@@ -1938,3 +1938,6 @@ const power = (a,b) =>a**b
 const num= Number(prompt("Enter the number"));
 const exp = Number(prompt("Enter the power"));
  
+const output = `<p class="fs-4">${Area} units<sup>2<sup></p>
+<small>Radius was :- ${radius}</small>`;
+document.getElementById("ch-35_question_14").innerHTML = output;
