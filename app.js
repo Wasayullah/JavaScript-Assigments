@@ -1919,7 +1919,7 @@ const Area = calcArea(radius).toFixed(2);
 let output = `
 <p class="fs-4">The circumference of this circle is: ${circumference} units</p>
 <br>
-<p class="fs-4">The area of this circle is: ${Area} units<sup>2<sup></p>
+<p class="fs-4">The area of this circle is: ${Area} units<sup>2</sup></p>
 <small>Radius was :- ${radius}</small>
 `
 document.getElementById("ch-35_question_14").innerHTML = output
@@ -1938,5 +1938,5 @@ const power = (a,b) =>a**b
 const num= Number(prompt("Enter the number"));
 const exp = Number(prompt("Enter the power"));
  
-const output = `<p class="fs-4">${num}<sup>${exp}<sup> = ${power(num,exp)}</p> = `;
+const output = `<p class="fs-4">${num}<sup>${exp}</sup> = ${power(num,exp)}</p>`;
 document.getElementById("ch-35_question_14").innerHTML = output;
