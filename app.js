@@ -1960,24 +1960,23 @@ document.getElementById("ch-38_question_2").innerHTML = output;
 // 3. If the lengths of the sides of a triangle are denoted by a, b, and c, then area of triangle is given by 
 // area = S(S − a)(S − b)(S − c) where, S = ( a + b + c ) / 2 Calculate area of triangle using 2 functions
 
-const areaOftriangle = (a,b,c) =>{
-    let S=0
-    let area = 0
-    const SumofSides = (a,b,c)=> {
-        S = ( a + b + c ) / 2
-        return S
-    }
-    SumofSides(a, b, c);
-    let s1 = S-a;
-    let s2 = S-b;
-    let s3 = S-c
-    area = Math.abs(S * s1*s2*s3)
-    return area
-}
+const calculateS = (a, b, c) => {
+    return (a + b + c) / 2;
+};
+
+
+const calculateArea = (a, b, c) => {
+    const S = calculateS(a, b, c);
+
+    return Math.sqrt(
+        S * (S - a) * (S - b) * (S - c)
+    );
+};
+
 const side_1 = Number(prompt("Enter the length of side of one triangle"));
 const side_2 = Number(prompt("Enter the length of side of  second triangle"));
 const side_3 = Number(prompt("Enter the length of side of third triangle"));
- const area = areaOftriangle(side_1,side_2,side_3);
+ const area = calculateArea(side_1,side_2,side_3);
  const output = `<p class="fs-4">The area of triangle is: ${area}</p>`;
 document.getElementById("ch-38_question_2").innerHTML = output;
 
