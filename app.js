@@ -1986,8 +1986,13 @@ document.getElementById("ch-38_question_2").innerHTML = output;
 // from mainFunction and display result in mainFunction.
 
 const mainFunction = (subject_1,subject_2,subject_3) => {
-    const average = (subject_1,subject_2,subject_3)=> ((subject_1+subject_2+subject_3)/3).toFixed(2);
+    const average = (subject_1,subject_2,subject_3)=> {
+         const average = ((subject_1+subject_2+subject_3)/3).toFixed(2);
+         return average
+        }
+
     const percentage =(subject_1,subject_2,subject_3) = (((subject_1+subject_2,subject_3)/150)*100).toFixed(2)
+    return average;
     
 }
 let sub_1 = Number(prompt("Enter marks of subject-1"));
