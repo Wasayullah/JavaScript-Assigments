@@ -1990,4 +1990,7 @@ const mainFunction = (subject_1,subject_2,subject_3) => {
     const percentage =(subject_1,subject_2,subject_3) = (((subject_1+subject_2,subject_3)/150)*100).toFixed(2)
     
 }
-const
+let sub_1 = Number(prompt("Enter marks of subject-1"));
+let sub_2 = Number(prompt("Enter marks of subject-2"));
+let sub_3 = Number(prompt("Enter marks of subject-3"));
+
