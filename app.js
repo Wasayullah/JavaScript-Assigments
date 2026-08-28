@@ -2011,9 +2011,11 @@ const string = prompt("Enter any string").trim().toLowerCase()
 const ch = prompt("Enter any character to fin its index-no.")
 const arr = string.split('')
 const index = string.indexOf(ch)
-const output 
+const output =``
 if(index){
-
- output = `<p class = "fs-4">Index of </p>`
+ output = `<p class = "fs-4">Index of "${ch}" in "${string}" is : ${index} </p>`
+}else{
+    
 }
+output = `<p class = "fs-4">Index of "${ch}" in "${string}" is : ${index} </p>`
 document.getElementById("ch-38_question_4").innerHTML = output;
