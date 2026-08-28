@@ -1979,7 +1979,6 @@ const area = calculateArea(side_1,side_2,side_3);
 const output = `<p class="fs-4">The area of triangle is: ${area}</p>`;
 document.getElementById("ch-38_question_3").innerHTML = output;
 
-*/
 // 4. Write a function that receives marks received by a student in 3 
 // subjects and returns the average and percentage of these marks. there should be 3 functions one is the mainFunction 
 // and other are for average and percentage. Call those functions 
@@ -2002,3 +2001,8 @@ let sub_2 = Number(prompt("Enter marks of subject-2"));
 let sub_3 = Number(prompt("Enter marks of subject-3"));
 const output = `<p class = "fs-4">${mainFunction(sub_1,sub_2,sub_3)}</p>`
 document.getElementById("ch-38_question_4").innerHTML = output;
+
+*/
+// 5. You have learned the function indexOf. Code your own custom 
+// function that will perform the same functionality. You can code 
+// for single character as of now. 
