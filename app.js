@@ -2008,5 +2008,5 @@ document.getElementById("ch-38_question_4").innerHTML = output;
 // for single character as of now. 
 
 const myFunction = (string,ch) =>{
-    const index = string
+    
 }
