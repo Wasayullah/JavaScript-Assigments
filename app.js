@@ -1986,5 +1986,6 @@ document.getElementById("ch-38_question_2").innerHTML = output;
 // from mainFunction and display result in mainFunction.
 
 const mainFunction = (subject_1,subject_2,subject_3) => {
-    const average = (subject_1,subject_2,subje)
+    const average = (subject_1,subject_2,subject_3)=> (subject_1+subject_2+subject_3)/3;
+    const percentage = () = 
 }
