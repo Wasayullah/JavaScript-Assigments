@@ -1988,8 +1988,10 @@ document.getElementById("ch-38_question_2").innerHTML = output;
 const mainFunction = (subject_1,subject_2,subject_3) => {
     const average = (a,b,c)=> ((a+b+c)/3).toFixed(2);
     const percentage =(a,b,c) => (((a+b+c)/150)*100).toFixed(2)
-    const avg =average(subject_1,subject_2,subject_3)
-    const per = percentage(subject_1,subje)
+    const avg = average(subject_1,subject_2,subject_3)
+    const per = percentage(subject_1,subject_2,subject_3)
+
+    return `average: ${average}<br> percentage: ${percentage}`
 }
 let sub_1 = Number(prompt("Enter marks of subject-1"));
 let sub_2 = Number(prompt("Enter marks of subject-2"));
