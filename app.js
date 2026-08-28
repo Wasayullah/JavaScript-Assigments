@@ -2011,9 +2011,8 @@ const string = prompt("Enter any string").trim().toLowerCase()
 const ch = prompt("Enter any character to fin its index-no.")
 const arr = string.split('')
 const index = string.indexOf(ch)
-const output =``
+output = `<p class = "fs-4">Index of "${ch}" in "${string}" is : ${index} </p>`
 if(index){
- output = `<p class = "fs-4">Index of "${ch}" in "${string}" is : ${index} </p>`
 }else{
 
     output = `<p class = "fs-4">${ch} not found in the string: ${string} </p>`
