@@ -2007,6 +2007,6 @@ document.getElementById("ch-38_question_4").innerHTML = output;
 // function that will perform the same functionality. You can code 
 // for single character as of now. 
 
-const myFunction = (ch) =>{
-    
+const myFunction = (string,ch) =>{
+    const index = string
 }
