@@ -1986,9 +1986,8 @@ document.getElementById("ch-38_question_2").innerHTML = output;
 // from mainFunction and display result in mainFunction.
 
 const mainFunction = (subject_1,subject_2,subject_3) => {
-    const total = 150;
-    const obtained = subject_1+subject_2+subject_3
-    const average = (subject_1,subject_2,subject_3)=> ((obtained)/3).toFixed(2);
-    const percentage =(subject_1,subject_2,subject_3) = (((obtained)/total)*100).toFixed(2);
+    const average = (subject_1,subject_2,subject_3)=> ((subject_1+subject_2+subject_3)/3).toFixed(2);
+    const percentage =(subject_1,subject_2,subject_3) = (((subject_1+subject_2,subject_3)/150)*100).toFixed(2)
     
 }
+const
