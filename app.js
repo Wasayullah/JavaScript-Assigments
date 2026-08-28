@@ -2012,9 +2012,9 @@ const ch = prompt("Enter any character to fin its index-no.")
 const arr = string.split('')
 const index = string.indexOf(ch)
 output = `<p class = "fs-4">Index of "${ch}" in "${string}" is : ${index} </p>`
-// if(index){
-// }else{
-// 
-//     output = `<p class = "fs-4">${ch} not found in the string: ${string} </p>`
-// }
+if(index==-1){
+}else{
+
+    output = `<p class = "fs-4">${ch} not found in the string: ${string} </p>`
+}
 document.getElementById("ch-38_question_5").innerHTML = output;
