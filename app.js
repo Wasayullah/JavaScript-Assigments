@@ -2013,12 +2013,12 @@ const index = string.indexOf(ch)
 if(index==-1){
     output = `<p class = "fs-4">${ch} not found in the string: ${string.toLowerCase()
     .split(" ")
-    .map(word => word.charAt(0).toUpperCase())
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ")} </p>`
 }else{
     output = `<p class = "fs-4">Index of "${ch}" in "${string.toLowerCase()
     .split(" ")
-    .map(word => word.charAt(0).toUpperCase())
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ")}" is : ${index} </p>`
 }
 document.getElementById("ch-38_question_5").innerHTML = output;
