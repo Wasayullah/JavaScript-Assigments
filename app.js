@@ -1995,7 +1995,7 @@ const mainFunction = (subject_1,subject_2,subject_3) => {
     const avg = average(subject_1,subject_2,subject_3)
     const per = percentage(subject_1,subject_2,subject_3)
 
-    return `average: ${average}<br> percentage: ${percentage}`
+    return `Average: ${avg}<br> Percentage: ${per}%`
 }
 let sub_1 = Number(prompt("Enter marks of subject-1"));
 let sub_2 = Number(prompt("Enter marks of subject-2"));
