@@ -1985,4 +1985,6 @@ document.getElementById("ch-38_question_2").innerHTML = output;
 // and other are for average and percentage. Call those functions 
 // from mainFunction and display result in mainFunction.
 
-const mainFunction()
+const mainFunction = (subject_1,subject_2,subject_3) => {
+    const average = (subject_1,subject_2,subje)
+}
