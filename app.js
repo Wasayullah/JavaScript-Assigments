@@ -2009,10 +2009,12 @@ document.getElementById("ch-38_question_4").innerHTML = output;
 
 const string = prompt("Enter any string").trim().toLowerCase()
 const ch = prompt("Enter any character to fin its index-no.")
-const arr = string.split('')
 const index = string.indexOf(ch)
 if(index==-1){
-    output = `<p class = "fs-4">${ch} not found in the string: ${arr.join('')} </p>`
+    output = `<p class = "fs-4">${ch} not found in the string: ${str.toLowerCase()
+    .split(" ")
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ")} </p>`
 }else{
     output = `<p class = "fs-4">Index of "${ch}" in "${arr.toLowerCase()
     .split(" ")
