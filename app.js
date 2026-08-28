@@ -1977,7 +1977,7 @@ const side_2 = Number(prompt("Enter the length of side of  second triangle"));
 const side_3 = Number(prompt("Enter the length of side of third triangle"));
 const area = calculateArea(side_1,side_2,side_3);
 const output = `<p class="fs-4">The area of triangle is: ${area}</p>`;
-document.getElementById("ch-38_question_2").innerHTML = output;
+document.getElementById("ch-38_question_3").innerHTML = output;
 
 */
 // 4. Write a function that receives marks received by a student in 3 
@@ -1997,4 +1997,4 @@ let sub_1 = Number(prompt("Enter marks of subject-1"));
 let sub_2 = Number(prompt("Enter marks of subject-2"));
 let sub_3 = Number(prompt("Enter marks of subject-3"));
 const output = `<p class = "fs-4">${mainFunction(sub_1,sub_2,sub_3)}</p>`
-
+document.getElementById("ch-38_question_4").innerHTML = output;
