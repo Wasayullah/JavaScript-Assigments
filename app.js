@@ -1955,7 +1955,6 @@ document.getElementById("ch-35_question_14").innerHTML = output
 const year = prompt("Enter any year",2020)
 const output = `<p class="fs-4">The year ${year} is a ${leapYear(year)} Year</p>`;
 document.getElementById("ch-38_question_2").innerHTML = output;
-*/
 
 // 3. If the lengths of the sides of a triangle are denoted by a, b, and c, then area of triangle is given by 
 // area = S(S − a)(S − b)(S − c) where, S = ( a + b + c ) / 2 Calculate area of triangle using 2 functions
@@ -1967,7 +1966,7 @@ const calculateS = (a, b, c) => {
 
 const calculateArea = (a, b, c) => {
     const S = calculateS(a, b, c);
-
+    
     return Math.sqrt(
         S * (S - a) * (S - b) * (S - c)
     );
@@ -1976,7 +1975,12 @@ const calculateArea = (a, b, c) => {
 const side_1 = Number(prompt("Enter the length of side of one triangle"));
 const side_2 = Number(prompt("Enter the length of side of  second triangle"));
 const side_3 = Number(prompt("Enter the length of side of third triangle"));
- const area = calculateArea(side_1,side_2,side_3);
- const output = `<p class="fs-4">The area of triangle is: ${area}</p>`;
+const area = calculateArea(side_1,side_2,side_3);
+const output = `<p class="fs-4">The area of triangle is: ${area}</p>`;
 document.getElementById("ch-38_question_2").innerHTML = output;
 
+*/
+// 4. Write a function that receives marks received by a student in 3 
+// subjects and returns the average and percentage of these marks. there should be 3 functions one is the mainFunction 
+// and other are for average and percentage. Call those functions 
+// from mainFunction and display result in mainFunction.
