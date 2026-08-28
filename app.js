@@ -2016,7 +2016,7 @@ if(index==-1){
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ")} </p>`
 }else{
-    output = `<p class = "fs-4">Index of "${ch}" in "${string.toLowerCase()
+    output = `<p class = "fs-4">Index of first "${ch}" in "${string.toLowerCase()
     .split(" ")
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ")}" is : ${index} </p>`
