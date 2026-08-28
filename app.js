@@ -2006,3 +2006,7 @@ document.getElementById("ch-38_question_4").innerHTML = output;
 // 5. You have learned the function indexOf. Code your own custom 
 // function that will perform the same functionality. You can code 
 // for single character as of now. 
+
+const myFunction = (ch) =>{
+    
+}
