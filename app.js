@@ -2015,7 +2015,7 @@ const output =``
 if(index){
  output = `<p class = "fs-4">Index of "${ch}" in "${string}" is : ${index} </p>`
 }else{
-    
+
+    output = `<p class = "fs-4">${ch} not found in the string: ${string} </p>`
 }
-output = `<p class = "fs-4">Index of "${ch}" in "${string}" is : ${index} </p>`
-document.getElementById("ch-38_question_4").innerHTML = output;
+document.getElementById("ch-38_question_5").innerHTML = output;
