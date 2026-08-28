@@ -2007,5 +2007,7 @@ document.getElementById("ch-38_question_4").innerHTML = output;
 // function that will perform the same functionality. You can code 
 // for single character as of now. 
 
-const string = prompt("Enter any prompt").trim().toLowerCase()
+const string = prompt("Enter any string").trim().toLowerCase()
+const ch = prompt("Enter any character to fin its index-no.")
 const arr = string.split('')
+const index = 
