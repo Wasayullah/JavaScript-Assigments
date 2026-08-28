@@ -1987,11 +1987,13 @@ document.getElementById("ch-38_question_3").innerHTML = output;
 
 const mainFunction = (subject_1,subject_2,subject_3) => {
     const average = (a,b,c)=> {
-        ((a+b+c)/3).toFixed(2)
+
+        return ((a+b+c)/3).toFixed(2)
 
     };
     const percentage =(a,b,c) => {
-        (((a+b+c)/150)*100).toFixed(2)
+
+       return  (((a+b+c)/150)*100).toFixed(2)
 
     }
     const avg = average(subject_1,subject_2,subject_3)
