@@ -2048,12 +2048,12 @@ function removeVowels(sentence) {
 console.log(removeVowels("JavaScript is easy"));
 
 
-*/
 // 7. Write a function with switch statement to count the number of 
 // occurrences of any two vowels in succession in a line of text. 
 // For example, in the sentence.
 
 function countVowelPairs(text) {
+    */
     let count = 0;
 
     for (let i = 0; i < text.length - 1; i++) {
