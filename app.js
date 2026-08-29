@@ -2093,7 +2093,6 @@ function countVowelPairs(text) {
 }
 
 console.log(countVowelPairs("Pleases read this application and give me gratuity"))
-*/
 
 // 8. The distance between two cities (in km.) is input through the 
 // keyboard. Write four functions to convert and print this 
@@ -2140,3 +2139,4 @@ function calculateOvertime(hours) {
 }
 
 console.log("Overtime Pay: Rs.", calculateOvertime(hours));
+        */
