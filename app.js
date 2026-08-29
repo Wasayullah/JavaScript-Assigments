@@ -2021,17 +2021,16 @@ if(index==-1){
 .join(" ")}" is : ${index} </p>`
 }
 document.getElementById("ch-38_question_5").innerHTML = output;
-*/
 
 // 6. Write a function to delete all vowels from a sentence. Assume 
 // that the sentence is not more than 25 characters long. 
 
 function removeVowels(sentence) {
     let result = "";
-
+    
     for (let i = 0; i < sentence.length; i++) {
         let char = sentence[i].toLowerCase();
-
+        
         if (
             char !== "a" &&
             char !== "e" &&
@@ -2042,9 +2041,14 @@ function removeVowels(sentence) {
             result += sentence[i];
         }
     }
-
+    
     return result;
 }
 
 console.log(removeVowels("JavaScript is easy"));
 
+*/
+
+// 7. Write a function with switch statement to count the number of 
+occurrences of any two vowels in succession in a line of text. 
+For example, in the sentence.
