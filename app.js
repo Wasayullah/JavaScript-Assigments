@@ -2053,16 +2053,16 @@ console.log(removeVowels("JavaScript is easy"));
 // For example, in the sentence.
 
 function countVowelPairs(text) {
-    */
     let count = 0;
-
+    
     for (let i = 0; i < text.length - 1; i++) {
         let pair = text[i].toLowerCase() + text[i + 1].toLowerCase();
-
+        
         switch (pair) {
             case "aa":
-            case "ae":
-            case "ai":
+                case "ae":
+                    case "ai":
+                */
             case "ao":
             case "au":
             case "ea":
