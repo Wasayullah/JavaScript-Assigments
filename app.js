@@ -2002,7 +2002,6 @@ let sub_3 = Number(prompt("Enter marks of subject-3"));
 const output = `<p class = "fs-4">${mainFunction(sub_1,sub_2,sub_3)}</p>`
 document.getElementById("ch-38_question_4").innerHTML = output;
 
-*/
 // 5. You have learned the function indexOf. Code your own custom 
 // function that will perform the same functionality. You can code 
 // for single character as of now. 
@@ -2017,8 +2016,12 @@ if(index==-1){
     .join(" ")} </p>`
 }else{
     output = `<p class = "fs-4">Index of first "${ch}" in "${string.toLowerCase()
-    .split(" ")
-    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(" ")}" is : ${index} </p>`
+.split(" ")
+.map(word => word.charAt(0).toUpperCase() + word.slice(1))
+.join(" ")}" is : ${index} </p>`
 }
 document.getElementById("ch-38_question_5").innerHTML = output;
+*/
+
+// 6. Write a function to delete all vowels from a sentence. Assume 
+// that the sentence is not more than 25 characters long. 
