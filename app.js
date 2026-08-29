@@ -2050,5 +2050,5 @@ console.log(removeVowels("JavaScript is easy"));
 */
 
 // 7. Write a function with switch statement to count the number of 
-occurrences of any two vowels in succession in a line of text. 
-For example, in the sentence.
+// occurrences of any two vowels in succession in a line of text. 
+// For example, in the sentence.
