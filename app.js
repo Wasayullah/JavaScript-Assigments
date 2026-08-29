@@ -2062,9 +2062,8 @@ function countVowelPairs(text) {
             case "aa":
                 case "ae":
                     case "ai":
-                */
-            case "ao":
-            case "au":
+                        case "ao":
+                            case "au":
             case "ea":
             case "ee":
             case "ei":
@@ -2093,4 +2092,5 @@ function countVowelPairs(text) {
     return count;
 }
 
-console.log(countVowelPairs("Beautiful queue"));
+console.log(countVowelPairs("Pleases read this application and give me gratuity"))
+*/
