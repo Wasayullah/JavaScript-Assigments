@@ -2127,3 +2127,16 @@ console.log("Distance in centimeters:", toCentimeters(distance));
 // Overtime is paid at the rate of Rs. 12.00 per hour for every hour 
 // worked above 40 hours. Assume that employees do not work 
 // for fractional part of an hour.
+
+let hours = Number(prompt("Enter total hours worked:"));
+
+function calculateOvertime(hours) {
+    if (hours > 40) {
+        let overtimeHours = hours - 40;
+        return overtimeHours * 12;
+    } else {
+        return 0;
+    }
+}
+
+console.log("Overtime Pay: Rs.", calculateOvertime(hours));
