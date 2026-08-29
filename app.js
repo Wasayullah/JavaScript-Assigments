@@ -2094,3 +2094,31 @@ function countVowelPairs(text) {
 
 console.log(countVowelPairs("Pleases read this application and give me gratuity"))
 */
+
+// 8. The distance between two cities (in km.) is input through the 
+// keyboard. Write four functions to convert and print this 
+// distance in meters, feet, inches and centimeters. 
+
+
+let distance = Number(prompt("Enter distance between two cities in kilometers:"));
+
+function toMeters(km) {
+    return km * 1000;
+}
+
+function toFeet(km) {
+    return km * 3280.84;
+}
+
+function toInches(km) {
+    return km * 39370.08;
+}
+
+function toCentimeters(km) {
+    return km * 100000;
+}
+
+console.log("Distance in meters:", toMeters(distance));
+console.log("Distance in feet:", toFeet(distance));
+console.log("Distance in inches:", toInches(distance));
+console.log("Distance in centimeters:", toCentimeters(distance));
