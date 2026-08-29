@@ -2047,3 +2047,4 @@ function removeVowels(sentence) {
 }
 
 console.log(removeVowels("JavaScript is easy"));
+
