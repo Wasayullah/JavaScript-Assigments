@@ -2123,7 +2123,7 @@ console.log("Distance in feet:", toFeet(distance));
 console.log("Distance in inches:", toInches(distance));
 console.log("Distance in centimeters:", toCentimeters(distance));
 
-/// 9. Write a program to calculate overtime pay of employees. 
+// 9. Write a program to calculate overtime pay of employees. 
 // Overtime is paid at the rate of Rs. 12.00 per hour for every hour 
 // worked above 40 hours. Assume that employees do not work 
 // for fractional part of an hour.
