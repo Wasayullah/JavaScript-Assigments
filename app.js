@@ -1925,9 +1925,9 @@ let output = `
 document.getElementById("ch-35_question_14").innerHTML = output
 */
 
-/*
-
 //----------------------------------------------------------------------------------------------------------------
+
+/*
 
  Chapters - 38 to 42 : FUNCTIONS, SWITCH STATEMENTS, WHILE... DO-WHILE LOOPS
  
@@ -2166,6 +2166,7 @@ document.getElementById("ch-38_question_10").innerHTML = currencyNotes(amount);
 */
 
 /*
+
 //----------------------------------------------------------------------------------------------------------------
 
  Chapters - 42 to 48 : EVENTS
