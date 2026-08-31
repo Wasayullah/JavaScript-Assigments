@@ -2146,24 +2146,26 @@ console.log("Overtime Pay: Rs.", calculateOvertime(hours));
 // find the total number of currency notes of each denomination the cashier
 //  will have to give to the withdrawer.
 
-function calculateNotes(amount) {
+function calculateNotes() {
+    let amount = Number(prompt("Enter amount in hundreds:"));
+
     amount = amount * 100;
 
-    const notes100 = Math.floor(amount / 100);
+    let notes100 = Math.floor(amount / 100);
     amount %= 100;
 
-    const notes50 = Math.floor(amount / 50);
+    let notes50 = Math.floor(amount / 50);
     amount %= 50;
 
-    const notes10 = Math.floor(amount / 10);
+    let notes10 = Math.floor(amount / 10);
 
-    return `
+    const output = `
         <p class="fs-4">Rs. 100 notes: ${notes100}</p>
         <p class="fs-4">Rs. 50 notes: ${notes50}</p>
         <p class="fs-4">Rs. 10 notes: ${notes10}</p>
     `;
+
+    document.getElementById("ch-38_question_10").innerHTML = output;
 }
 
-const output = calculateNotes(5);
-
-document.getElementById("ch-38_question_10").innerHTML = output;
+calculateNotes();
