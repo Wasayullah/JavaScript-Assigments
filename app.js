@@ -2182,12 +2182,12 @@ const sam = document.querySelector(".sam").addEventListener('click',()=>{
     alert("Thanx for buying Samsung ")
 });
 const inf = document.querySelector(".inf").addEventListener('click',()=>{
-    alert("Thanx for buying Samsung ")
+    alert("Thanx for buying INFINIX ")
 });
 const ip = document.querySelector(".ip").addEventListener('click',()=>{
-    alert("Thanx for buying Samsung ")
+    alert("Thanx for buying IPHONE ")
 });
 const op = document.querySelector(".op").addEventListener('click',()=>{
-    alert("Thanx for buying Samsung ")
+    alert("Thanx for buying OPPO ")
 });
 
