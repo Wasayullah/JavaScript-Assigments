@@ -2181,13 +2181,13 @@ document.getElementById("ch-38_question_10").innerHTML = currencyNotes(amount);
 const sam = document.querySelector(".sam").addEventListener('click',()=>{
     alert("Thanx for buying Samsung ")
 });
-const sam = document.querySelector(".sam").addEventListener('click',()=>{
+const inf = document.querySelector(".inf").addEventListener('click',()=>{
     alert("Thanx for buying Samsung ")
 });
-const sam = document.querySelector(".sam").addEventListener('click',()=>{
+const ip = document.querySelector(".ip").addEventListener('click',()=>{
     alert("Thanx for buying Samsung ")
 });
-const sam = document.querySelector(".sam").addEventListener('click',()=>{
+const op = document.querySelector(".op").addEventListener('click',()=>{
     alert("Thanx for buying Samsung ")
 });
 
