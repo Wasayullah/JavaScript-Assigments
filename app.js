@@ -2171,7 +2171,7 @@ document.getElementById("ch-38_question_10").innerHTML = currencyNotes(amount);
  Chapters - 42 to 48 : EVENTS
 
  // 1.  Show an alert box on click on a link.
- 
+  
 
  */
 
