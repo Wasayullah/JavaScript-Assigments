@@ -2172,7 +2172,7 @@ document.getElementById("ch-38_question_10").innerHTML = currencyNotes(amount);
 
  */
  // 1.  Show an alert box on click on a link.
-const btn = document
+const btn = document.querySelector(".btn").addEventListener('click',)
   
 
 
