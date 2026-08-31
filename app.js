@@ -2164,4 +2164,9 @@ function currencyNotes(amount) {
 const amount = Number(prompt("Enter amount to withdraw:"));
 document.getElementById("ch-38_question_10").innerHTML = currencyNotes(amount);
 */
+
 /*
+//----------------------------------------------------------------------------------------------------------------
+
+ Chapters - 42 to 48 : EVENTS
+ 
