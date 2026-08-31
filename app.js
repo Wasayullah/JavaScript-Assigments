@@ -2178,7 +2178,16 @@ document.getElementById("ch-38_question_10").innerHTML = currencyNotes(amount);
 // 2. Display some Mobile images in browser. On click on an 
 // image Show the message in alert to user. 
   
-const img = document.querySelector(".img").addEventListener('click',()=>{
-    alert("Thanx for buying ")
+const sam = document.querySelector(".sam").addEventListener('click',()=>{
+    alert("Thanx for buying Samsung ")
+});
+const sam = document.querySelector(".sam").addEventListener('click',()=>{
+    alert("Thanx for buying Samsung ")
+});
+const sam = document.querySelector(".sam").addEventListener('click',()=>{
+    alert("Thanx for buying Samsung ")
+});
+const sam = document.querySelector(".sam").addEventListener('click',()=>{
+    alert("Thanx for buying Samsung ")
 });
 
