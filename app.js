@@ -2197,8 +2197,8 @@ const op = document.querySelector(".op").addEventListener('click',()=>{
 
 const getDeletebutton = document.querySelector('.delete').addEventListener("click",()=>{
 
-const getRow = document.getElementById('delete')
-const deleter = getRow.re
+const row = button.closest('tr');
+row.remove();
 
 
 
