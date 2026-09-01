@@ -2174,7 +2174,6 @@ document.getElementById("ch-38_question_10").innerHTML = currencyNotes(amount);
  const btn = document.querySelector(".btn").addEventListener('click',()=>{
     alert("You clicked the button")
 })
-*/
 // 2. Display some Mobile images in browser. On click on an 
 // image Show the message in alert to user. 
   
@@ -2191,3 +2190,5 @@ const op = document.querySelector(".op").addEventListener('click',()=>{
     alert("Thanx for buying OPPO ")
 });
 
+*/
+//
