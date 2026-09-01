@@ -2197,7 +2197,7 @@ const op = document.querySelector(".op").addEventListener('click',()=>{
 
 const getDeletebutton = document.querySelector('.delete').addEventListener("click",()=>{
 
+const 
 
 
-    
 });
