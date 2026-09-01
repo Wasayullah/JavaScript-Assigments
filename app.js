@@ -2195,4 +2195,9 @@ const op = document.querySelector(".op").addEventListener('click',()=>{
 // button. If you click on a button to delete a record, entire row should be 
 // deleted. 
 
-const getDeletebutton = document.querySelector('.delete').
+const getDeletebutton = document.querySelector('.delete').addEventListener("click",()=>{
+
+
+
+    
+});
