@@ -2190,7 +2190,6 @@ const op = document.querySelector(".op").addEventListener('click',()=>{
     alert("Thanx for buying OPPO ")
 });
 
-*/
 // 3. Display 10 student records in table and each row should contain a delete 
 // button. If you click on a button to delete a record, entire row should be 
 // deleted. 
@@ -2203,3 +2202,7 @@ deleteButtons.forEach((button) => {
         row.remove();
     });
 });
+*/
+
+// 4. Display an image in browser. Change the picture on mouseover and set the 
+// first picture on mouseout. 
