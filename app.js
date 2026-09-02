@@ -2228,3 +2228,6 @@ flipImage();
 // button and decrease on click on decrease button. And show updated counter 
 // value in browser
 
+const counter = ()=>{
+    
+}
