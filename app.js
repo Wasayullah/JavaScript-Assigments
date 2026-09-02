@@ -2236,5 +2236,5 @@ const counter = ()=>{
         count ++
     });
 
-    const
+    const displayCount = document.querySelector()
 }
