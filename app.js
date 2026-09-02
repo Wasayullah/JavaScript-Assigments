@@ -2211,3 +2211,4 @@ const getImage = document.getElementById("pic").innerHTML=`
 <img src='./images/infinix.jpg' alt="img'  width='auto'; height='500px'>
 `
 }
+flipImage()
