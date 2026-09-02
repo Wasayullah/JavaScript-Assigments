@@ -2207,7 +2207,7 @@ deleteButtons.forEach((button) => {
 // 4. Display an image in browser. Change the picture on mouseover and set the 
 // first picture on mouseout. 
 const flipImage = () => {
-    const image = document.getElementById("pic");
+    const image = document.querySelector(".pic");
 
     image.innerHTML = `
         <img 
@@ -2222,7 +2222,7 @@ const flipImage = () => {
     const phoneImage = document.getElementById("phoneImage");
 
     phoneImage.addEventListener("mouseover", () => {
-        phoneImage.src = "./images/samsung.jpg";
+        phoneImage.src = "./images/samsung.avif";
     });
 
     phoneImage.addEventListener("mouseout", () => {
