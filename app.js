@@ -2228,16 +2228,23 @@ flipImage();
 // button and decrease on click on decrease button. And show updated counter 
 // value in browser
 
-const counter = ()=>{
+const counter = () => {
 
-    const count = 0 ;
+    let count = 0;
+
     const getCount = document.querySelector(".count");
-    getCount.forEach((element) => {
-        
-        element.addEventListener("click",()=>{
-            count +=count;
-            getCount.innerHTML=`${count}`;
-        });
+    const increaseBtn = document.querySelector(".increase");
+    const decreaseBtn = document.querySelector(".decrease");
+
+    increaseBtn.addEventListener("click", () => {
+        count++;
+        getCount.innerHTML = count;
     });
 
-}
+    decreaseBtn.addEventListener("click", () => {
+        count--;
+        getCount.innerHTML = count;
+    });
+};
+
+counter();
