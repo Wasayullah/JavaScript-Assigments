@@ -2209,9 +2209,6 @@ deleteButtons.forEach((button) => {
 const flipImage = () => {
     const image = document.querySelector(".pic");
 
-    image.innerHTML = `
-        
-    `;
 
     const phoneImage = document.getElementById("phoneImage");
 
