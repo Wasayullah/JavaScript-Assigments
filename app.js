@@ -2210,13 +2210,7 @@ const flipImage = () => {
     const image = document.querySelector(".pic");
 
     image.innerHTML = `
-        <img 
-            src="./images/infinix.jpg" 
-            alt="Infinix Phone"
-            width="auto"
-            height="500px"
-            id="phoneImage"
-        >
+        
     `;
 
     const phoneImage = document.getElementById("phoneImage");
