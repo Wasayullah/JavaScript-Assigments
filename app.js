@@ -2231,8 +2231,9 @@ flipImage();
 const counter = ()=>{
 
     const count = 0 ;
-    const getCount = document.querySelector(".count").addEventListener("click",()=>{
-        
+    const getCount = document.querySelector(".count")
+    .addEventListener("click",()=>{
+        count ++
     });
 
 }
