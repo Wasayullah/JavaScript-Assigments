@@ -2229,5 +2229,7 @@ flipImage();
 // value in browser
 
 const counter = ()=>{
-    
+
+    const count = 0 ;
+    const getCount = document.querySelector(".co")
 }
