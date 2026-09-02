@@ -2208,5 +2208,6 @@ deleteButtons.forEach((button) => {
 // first picture on mouseout. 
 
 const getImage = document.getElementById("pic").innerHTML='
-<img src="./images/infinix.jpg" alt="img"  width="auto"; height="500px">
+<img src='./images/infinix.jp'" alt="img'  width='auto'; height='500px'>
+    
 '
