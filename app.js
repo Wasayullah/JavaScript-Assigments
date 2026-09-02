@@ -2236,7 +2236,7 @@ const counter = ()=>{
         
         element.addEventListener("click",()=>{
             count +=count;
-            const getCount.innerHTML=`${count}`;
+            getCount.innerHTML=`${count}`;
         });
     });
 
