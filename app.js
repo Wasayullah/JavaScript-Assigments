@@ -2234,7 +2234,7 @@ const counter = ()=>{
     const getCount = document.querySelector(".count");
     getCount.forEach((element) => {
         
-        .addEventListener("click",()=>{
+        element.addEventListener("click",()=>{
             count ++
     });
     });
