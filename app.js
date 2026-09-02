@@ -2232,11 +2232,11 @@ const counter = ()=>{
 
     const count = 0 ;
     const getCount = document.querySelector(".count");
-    getCount.array.forEach(element => {
+    getCount.forEach((element) => {
         
+        .addEventListener("click",()=>{
+            count ++
     });
-    .addEventListener("click",()=>{
-        count ++
     });
 
     const displayCount = document.querySelector(".count").innerHTML=count;
