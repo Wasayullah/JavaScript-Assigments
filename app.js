@@ -2235,7 +2235,7 @@ const counter = ()=>{
     getCount.forEach((element) => {
         
         element.addEventListener("click",()=>{
-            count +=count
+            count +=count;
             const displayCount = document.querySelector(".count").innerHTML=`${count}`;
     });
     });
