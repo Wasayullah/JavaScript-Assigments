@@ -2236,8 +2236,8 @@ const counter = ()=>{
         
         element.addEventListener("click",()=>{
             count +=count
+            const displayCount = document.querySelector(".count").innerHTML=`${count}`;
     });
     });
 
-    const displayCount = document.querySelector(".count").innerHTML=`${count}`;
 }
