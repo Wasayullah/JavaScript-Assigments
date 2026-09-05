@@ -2254,15 +2254,14 @@ counter();
 /*
  Chapters - 42 to 48 : EVENTS
 
- */
-
-// 1. Create a signup form and display form data in your web 
-// page on submission. 
-
-const form = document.getElementById("signupForm");
-
-
-form.addEventListener("submit", function (event) {
+ 
+ // 1. Create a signup form and display form data in your web 
+ // page on submission. 
+ 
+ const form = document.getElementById("signupForm");
+ 
+ 
+ form.addEventListener("submit", function (event) {
     event.preventDefault(); // stop page reload
     const name = document.getElementById("name").value;
     const email = document.getElementById("email").value;
@@ -2275,3 +2274,10 @@ form.addEventListener("submit", function (event) {
                      `;
     form.reset(); // clear the form
 });
+
+*/
+// 2. Suppose in your webpage there is content area in which 
+you have entered your item details, but user can only see 
+some details on first look. When user clicks on “Read 
+more” button, full detail of that particular item will be 
+displayed. 
