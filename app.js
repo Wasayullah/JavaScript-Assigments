@@ -2268,3 +2268,4 @@ counter();
              const email = document.getElementById("email").value;
              const password = document.getElementById("password").value;
                 document.getElementById("output").innerHTML = `
+                 <h3>Submitted Details:</h3>
