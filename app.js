@@ -2290,3 +2290,4 @@ buttons.forEach(function (button) {
             fullDetail.style.display = "none";
             button.textContent = "Read more";
              } else {
+                fullDetail.style.display = "block";
