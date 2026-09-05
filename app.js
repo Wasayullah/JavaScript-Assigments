@@ -2258,3 +2258,8 @@ counter();
 
 // 1. Create a signup form and display form data in your web 
 // page on submission. 
+
+  const form = document.getElementById("signupForm");
+
+
+        form.addEventListener("submit", function (event) {
