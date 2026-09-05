@@ -2283,3 +2283,4 @@ counter();
 const buttons = document.querySelectorAll(".readMoreBtn");
 buttons.forEach(function (button) {
     button.addEventListener("click", function () {
+        // find the full-detail paragraph inside the same item
