@@ -2222,25 +2222,24 @@ const flipImage = () => {
 };
 
 flipImage();
-*/
 
 // 5. Show a counter in browser. Counter should increase on click on increase 
 // button and decrease on click on decrease button. And show updated counter 
 // value in browser
 
 const counter = () => {
-
+    
     let count = 0;
-
+    
     const getCount = document.querySelector(".count");
     const increaseBtn = document.querySelector(".increase");
     const decreaseBtn = document.querySelector(".decrease");
-
+    
     increaseBtn.addEventListener("click", () => {
         count++;
         getCount.innerHTML = count;
     });
-
+    
     decreaseBtn.addEventListener("click", () => {
         count--;
         getCount.innerHTML = count;
@@ -2248,3 +2247,9 @@ const counter = () => {
 };
 
 counter();
+*/
+
+//----------------------------------------------------------------------------------------------------------------
+
+/*
+ Chapters - 42 to 48 : EVENTS
