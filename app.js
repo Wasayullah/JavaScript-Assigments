@@ -2294,3 +2294,4 @@ buttons.forEach(function (button) {
                 button.textContent = "Read less";
 
                  }
+                 });
