@@ -2292,3 +2292,5 @@ buttons.forEach(function (button) {
              } else {
                 fullDetail.style.display = "block";
                 button.textContent = "Read less";
+
+                 }
