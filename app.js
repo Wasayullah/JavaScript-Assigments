@@ -2259,18 +2259,19 @@ counter();
 // 1. Create a signup form and display form data in your web 
 // page on submission. 
 
-  const form = document.getElementById("signupForm");
+const form = document.getElementById("signupForm");
 
 
-        form.addEventListener("submit", function (event) {
-             event.preventDefault(); // stop page reload
-             const name = document.getElementById("name").value;
-             const email = document.getElementById("email").value;
-             const password = document.getElementById("password").value;
-                document.getElementById("output").innerHTML = `
+form.addEventListener("submit", function (event) {
+    event.preventDefault(); // stop page reload
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("password").value;
+    document.getElementById("output").innerHTML = `
                  <h3>Submitted Details:</h3>
                   <p><strong>Name:</strong> ${name}</p>
                   <p><strong>Email:</strong> ${email}</p>
                     <p><strong>Password:</strong> ${password}</p>
                      `;
-                      form.reset(); // clear the form
+    form.reset(); // clear the form
+});
