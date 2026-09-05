@@ -2281,5 +2281,5 @@ counter();
 //  full detail of that particular item will be displayed. 
 
 const buttons = document.querySelectorAll(".readMoreBtn");
-    buttons.forEach(function (button) {
-         button.addEventListener("click", function () {
+buttons.forEach(function (button) {
+    button.addEventListener("click", function () {
