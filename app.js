@@ -2270,3 +2270,4 @@ counter();
                 document.getElementById("output").innerHTML = `
                  <h3>Submitted Details:</h3>
                   <p><strong>Name:</strong> ${name}</p>
+                  <p><strong>Email:</strong> ${email}</p>
