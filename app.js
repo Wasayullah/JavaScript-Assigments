@@ -2264,3 +2264,4 @@ counter();
 
         form.addEventListener("submit", function (event) {
              event.preventDefault(); // stop page reload
+             const name = document.getElementById("name").value;
