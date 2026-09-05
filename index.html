@@ -8,7 +8,17 @@
   <link rel="shortcut icon" href="js.png" type="image/x-icon" />
   <title>Assignment-1</title>
 </head>
-
+    <style>
+        .item {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 15px;
+            width: 400px;
+        }
+        .full-detail {
+            display: none;
+        }
+    </style>
 <body>
   <div id="chapter_6-9" class="container">
     <div class="container-fluid mx-5 my-5" id="ch-6_question_1"></div>
@@ -267,7 +277,31 @@
     </form>
     <div id="output"></div>
     </div>
-    <div class="container-fluid mx-5 my-5" id="ch-49_question_2"></div>
+    <div class="container-fluid mx-5 my-5" id="ch-49_question_2">
+      <div class="item">
+        <h3>Item 1: Wireless Headphones</h3>
+        <p class="short-detail">High quality wireless headphones with noise cancellation...</p>
+        <p class="full-detail">
+            These wireless headphones feature active noise cancellation, 
+            30-hour battery life, Bluetooth 5.2 connectivity, and a 
+            comfortable over-ear design. Comes with a carrying case and 
+            a 1-year warranty.
+        </p>
+        <button class="readMoreBtn">Read more</button>
+    </div>
+
+    <div class="item">
+        <h3>Item 2: Smart Watch</h3>
+        <p class="short-detail">A smart watch with fitness tracking features...</p>
+        <p class="full-detail">
+            This smart watch tracks heart rate, steps, sleep, and blood 
+            oxygen levels. It has a 1.4-inch AMOLED display, is water 
+            resistant up to 50 meters, and supports notifications from 
+            your phone.
+        </p>
+        <button class="readMoreBtn">Read more</button>
+    </div>
+    </div>
     <div class="container-fluid mx-5 my-5" id="ch-49_question_3"></div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
