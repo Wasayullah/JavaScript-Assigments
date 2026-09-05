@@ -2288,3 +2288,5 @@ buttons.forEach(function (button) {
         const fullDetail = item.querySelector(".full-detail");
         if (fullDetail.style.display === "block") {
             fullDetail.style.display = "none";
+            button.textContent = "Read more";
+             } else {
