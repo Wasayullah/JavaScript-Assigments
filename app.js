@@ -2263,3 +2263,4 @@ counter();
 
 
         form.addEventListener("submit", function (event) {
+             event.preventDefault(); // stop page reload
