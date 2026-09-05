@@ -2287,3 +2287,4 @@ buttons.forEach(function (button) {
         const item = button.parentElement;
         const fullDetail = item.querySelector(".full-detail");
         if (fullDetail.style.display === "block") {
+            fullDetail.style.display = "none";
