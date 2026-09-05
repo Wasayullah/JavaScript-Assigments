@@ -2257,4 +2257,4 @@ counter();
  */
 
 // 1. Create a signup form and display form data in your web 
-page on submission. 
+// page on submission. 
