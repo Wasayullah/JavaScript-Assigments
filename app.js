@@ -2282,3 +2282,4 @@ counter();
 
 const buttons = document.querySelectorAll(".readMoreBtn");
     buttons.forEach(function (button) {
+         button.addEventListener("click", function () {
