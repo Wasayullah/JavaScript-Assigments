@@ -2280,3 +2280,4 @@ counter();
 //  but user can only see some details on first look. When user clicks on “Read more” button,
 //  full detail of that particular item will be displayed. 
 
+const buttons = document.querySelectorAll(".readMoreBtn");
