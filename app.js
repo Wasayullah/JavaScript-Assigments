@@ -2289,9 +2289,10 @@ buttons.forEach(function (button) {
         if (fullDetail.style.display === "block") {
             fullDetail.style.display = "none";
             button.textContent = "Read more";
-             } else {
-                fullDetail.style.display = "block";
-                button.textContent = "Read less";
+        } else {
+            fullDetail.style.display = "block";
+            button.textContent = "Read less";
 
-                 }
-                 });
+        }
+    });
+});
