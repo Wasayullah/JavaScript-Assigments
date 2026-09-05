@@ -2284,5 +2284,6 @@ const buttons = document.querySelectorAll(".readMoreBtn");
 buttons.forEach(function (button) {
     button.addEventListener("click", function () {
         // find the full-detail paragraph inside the same item
-                        const item = button.parentElement;
-                        const fullDetail = item.querySelector(".full-detail");
+        const item = button.parentElement;
+        const fullDetail = item.querySelector(".full-detail");
+        if (fullDetail.style.display === "block") {
