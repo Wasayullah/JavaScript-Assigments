@@ -2306,3 +2306,4 @@ buttons.forEach(function (button) {
 let rowBeingEdited = null; 
  studentForm.addEventListener("submit", function (event) {
             event.preventDefault();
+ const name = document.getElementById("name").value;
