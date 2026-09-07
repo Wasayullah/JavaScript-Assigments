@@ -2331,13 +2331,13 @@ tableBody.addEventListener("click", function (event) {
     if (!row) return;
     if (event.target.classList.contains("deleteBtn")) {
         row.remove();
-        */
     }
     if (event.target.classList.contains("editBtn")) {
         openEditForm(row);
     }
 });
 
+*/
 function openEditForm(row) {
     rowBeingEdited = row;
 
