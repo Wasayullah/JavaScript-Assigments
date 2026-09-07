@@ -2317,10 +2317,10 @@ function addRow(name, age, course) {
     <td class="cName">${name}</td>
     <td class="cAge">${age}</td>
     <td class="cCourse">${course}</td>
+    <td>
+    <button class="editBtn">Edit</button>
+    <button class="deleteBtn">Delete</button>
     */
-                <td>
-                 <button class="editBtn">Edit</button>
-                    <button class="deleteBtn">Delete</button>
                 </td>
                 `;
     tableBody.appendChild(row);
