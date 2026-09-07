@@ -2326,10 +2326,10 @@ function addRow(name, age, course) {
 }
 
 // Event delegation for Edit/Delete buttons
-*/
 tableBody.addEventListener("click", function (event) {
     const row = event.target.closest("tr");
     if (!row) return;
+    */
     if (event.target.classList.contains("deleteBtn")) {
         row.remove();
     }
