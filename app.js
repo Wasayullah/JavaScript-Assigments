@@ -2314,3 +2314,5 @@ let rowBeingEdited = null;
       });
       function addRow(name, age, course) {
         const row = document.createElement("tr");
+        row.innerHTML = `
+                <td class="cName">${name}</td>
