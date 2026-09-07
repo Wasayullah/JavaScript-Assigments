@@ -2305,11 +2305,11 @@ const editForm = document.getElementById("editForm");
 let rowBeingEdited = null;
 studentForm.addEventListener("submit", function (event) {
     event.preventDefault();
-    */
     const name = document.getElementById("name").value;
     const age = document.getElementById("age").value;
     const course = document.getElementById("course").value;
     addRow(name, age, course);
+    */
     studentForm.reset();
 });
 function addRow(name, age, course) {
