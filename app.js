@@ -2311,10 +2311,10 @@ studentForm.addEventListener("submit", function (event) {
     addRow(name, age, course);
     studentForm.reset();
 });
-*/
 function addRow(name, age, course) {
     const row = document.createElement("tr");
     row.innerHTML = `
+    */
                 <td class="cName">${name}</td>
                  <td class="cAge">${age}</td>
                 <td class="cCourse">${course}</td>
