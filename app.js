@@ -2312,3 +2312,4 @@ let rowBeingEdited = null;
   addRow(name, age, course);
   studentForm.reset();
       });
+      function addRow(name, age, course) {
