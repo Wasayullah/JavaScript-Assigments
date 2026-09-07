@@ -2311,3 +2311,4 @@ let rowBeingEdited = null;
   const course = document.getElementById("course").value;
   addRow(name, age, course);
   studentForm.reset();
+      });
