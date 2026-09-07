@@ -2337,23 +2337,22 @@ tableBody.addEventListener("click", function (event) {
     }
 });
 
-*/
 function openEditForm(row) {
     rowBeingEdited = row;
-
+    
     document.getElementById("editName").value = row.querySelector(".cName").textContent;
     document.getElementById("editAge").value = row.querySelector(".cAge").textContent;
     document.getElementById("editCourse").value = row.querySelector(".cCourse").textContent;
-
+    
     editForm.style.display = "block";
 }
 document.getElementById("saveEditBtn").addEventListener("click", function () {
     if (!rowBeingEdited) return;
-
+    
     rowBeingEdited.querySelector(".cName").textContent = document.getElementById("editName").value;
     rowBeingEdited.querySelector(".cAge").textContent = document.getElementById("editAge").value;
     rowBeingEdited.querySelector(".cCourse").textContent = document.getElementById("editCourse").value;
-
+    
     editForm.style.display = "none";
     rowBeingEdited = null;
 });
@@ -2361,3 +2360,4 @@ document.getElementById("cancelEditBtn").addEventListener("click", function () {
     editForm.style.display = "none";
     rowBeingEdited = null;
 });
+*/
