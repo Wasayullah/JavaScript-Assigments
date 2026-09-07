@@ -6,5 +6,5 @@ git add app.js index.html
 git commit -m "completed latest assignments"
 git push
 
-timeout /t 30
+timeout /t 1
 goto loop
