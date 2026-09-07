@@ -2304,3 +2304,5 @@ buttons.forEach(function (button) {
         const tableBody = document.getElementById("tableBody");
         const editForm = document.getElementById("editForm");
 let rowBeingEdited = null; 
+ studentForm.addEventListener("submit", function (event) {
+            event.preventDefault();
