@@ -2347,4 +2347,9 @@ let rowBeingEdited = null;
 
                 editForm.style.display = "block";
         }
-        
+          document.getElementById("saveEditBtn").addEventListener("click", function () {
+            if (!rowBeingEdited) return;
+
+            rowBeingEdited.querySelector(".cName").textContent = document.getElementById("editName").value;
+            rowBeingEdited.querySelector(".cAge").textContent = document.getElementById("editAge").value;
+            rowBeingEdited.querySelector(".cCourse").textContent = document.getElementById("editCourse").value;
