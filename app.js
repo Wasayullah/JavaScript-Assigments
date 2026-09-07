@@ -2345,5 +2345,5 @@ let rowBeingEdited = null;
             document.getElementById("editAge").value = row.querySelector(".cAge").textContent;
             document.getElementById("editCourse").value = row.querySelector(".cCourse").textContent;
 
-            editForm.style.display = "block";
+    editForm.style.display = "block";
         }
