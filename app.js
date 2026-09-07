@@ -2357,3 +2357,7 @@ let rowBeingEdited = null;
              editForm.style.display = "none";
             rowBeingEdited = null;
         });
+         document.getElementById("cancelEditBtn").addEventListener("click", function () {
+            editForm.style.display = "none";
+            rowBeingEdited = null;
+        });
