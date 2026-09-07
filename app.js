@@ -2309,3 +2309,4 @@ let rowBeingEdited = null;
  const name = document.getElementById("name").value;
  const age = document.getElementById("age").value;
   const course = document.getElementById("course").value;
+  addRow(name, age, course);
