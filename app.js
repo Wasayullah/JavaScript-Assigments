@@ -2319,3 +2319,6 @@ let rowBeingEdited = null;
                  <td class="cAge">${age}</td>
                 <td class="cCourse">${course}</td>
                 <td>
+                 <button class="editBtn">Edit</button>
+                    <button class="deleteBtn">Delete</button>
+                </td>
