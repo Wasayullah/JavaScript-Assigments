@@ -2329,9 +2329,9 @@ function addRow(name, age, course) {
 tableBody.addEventListener("click", function (event) {
     const row = event.target.closest("tr");
     if (!row) return;
-    */
     if (event.target.classList.contains("deleteBtn")) {
         row.remove();
+        */
     }
     if (event.target.classList.contains("editBtn")) {
         openEditForm(row);
