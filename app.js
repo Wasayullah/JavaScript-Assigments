@@ -2299,10 +2299,10 @@ buttons.forEach(function (button) {
 // takes student’s details and show each student detail in  table. Each row of table must contain a delete button and 
 // an edit button. On click on delete button entire row should be deleted. On click on edit button, a hidden form will 
 // appear with the values of that row. 
-*/
 const studentForm = document.getElementById("studentForm");
 const tableBody = document.getElementById("tableBody");
 const editForm = document.getElementById("editForm");
+*/
 let rowBeingEdited = null;
 studentForm.addEventListener("submit", function (event) {
     event.preventDefault();
