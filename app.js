@@ -2333,3 +2333,6 @@ let rowBeingEdited = null;
              if (event.target.classList.contains("deleteBtn")) {
                 row.remove();
             }
+             if (event.target.classList.contains("editBtn")) {
+                openEditForm(row);
+            }
