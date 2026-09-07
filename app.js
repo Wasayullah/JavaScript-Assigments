@@ -2322,3 +2322,4 @@ let rowBeingEdited = null;
                  <button class="editBtn">Edit</button>
                     <button class="deleteBtn">Delete</button>
                 </td>
+                `;
