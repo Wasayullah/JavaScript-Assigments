@@ -2353,3 +2353,7 @@ let rowBeingEdited = null;
             rowBeingEdited.querySelector(".cName").textContent = document.getElementById("editName").value;
             rowBeingEdited.querySelector(".cAge").textContent = document.getElementById("editAge").value;
             rowBeingEdited.querySelector(".cCourse").textContent = document.getElementById("editCourse").value;
+
+             editForm.style.display = "none";
+            rowBeingEdited = null;
+        });
