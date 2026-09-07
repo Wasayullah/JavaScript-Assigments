@@ -2300,21 +2300,21 @@ buttons.forEach(function (button) {
 // takes student’s details and show each student detail in  table. Each row of table must contain a delete button and 
 // an edit button. On click on delete button entire row should be deleted. On click on edit button, a hidden form will 
 // appear with the values of that row. 
- const studentForm = document.getElementById("studentForm");
-        const tableBody = document.getElementById("tableBody");
-        const editForm = document.getElementById("editForm");
-let rowBeingEdited = null; 
- studentForm.addEventListener("submit", function (event) {
-            event.preventDefault();
- const name = document.getElementById("name").value;
- const age = document.getElementById("age").value;
-  const course = document.getElementById("course").value;
-  addRow(name, age, course);
-  studentForm.reset();
-      });
-      function addRow(name, age, course) {
-        const row = document.createElement("tr");
-        row.innerHTML = `
+const studentForm = document.getElementById("studentForm");
+const tableBody = document.getElementById("tableBody");
+const editForm = document.getElementById("editForm");
+let rowBeingEdited = null;
+studentForm.addEventListener("submit", function (event) {
+    event.preventDefault();
+    const name = document.getElementById("name").value;
+    const age = document.getElementById("age").value;
+    const course = document.getElementById("course").value;
+    addRow(name, age, course);
+    studentForm.reset();
+});
+function addRow(name, age, course) {
+    const row = document.createElement("tr");
+    row.innerHTML = `
                 <td class="cName">${name}</td>
                  <td class="cAge">${age}</td>
                 <td class="cCourse">${course}</td>
@@ -2323,41 +2323,41 @@ let rowBeingEdited = null;
                     <button class="deleteBtn">Delete</button>
                 </td>
                 `;
-                   tableBody.appendChild(row);
-        }
+    tableBody.appendChild(row);
+}
 
-        // Event delegation for Edit/Delete buttons
-        tableBody.addEventListener("click", function (event) {
-            const row = event.target.closest("tr");
-            if (!row) return;
-             if (event.target.classList.contains("deleteBtn")) {
-                row.remove();
-            }
-             if (event.target.classList.contains("editBtn")) {
-                openEditForm(row);
-            }
-             });
+// Event delegation for Edit/Delete buttons
+tableBody.addEventListener("click", function (event) {
+    const row = event.target.closest("tr");
+    if (!row) return;
+    if (event.target.classList.contains("deleteBtn")) {
+        row.remove();
+    }
+    if (event.target.classList.contains("editBtn")) {
+        openEditForm(row);
+    }
+});
 
-        function openEditForm(row) {
-            rowBeingEdited = row;
+function openEditForm(row) {
+    rowBeingEdited = row;
 
-            document.getElementById("editName").value = row.querySelector(".cName").textContent;
-            document.getElementById("editAge").value = row.querySelector(".cAge").textContent;
-            document.getElementById("editCourse").value = row.querySelector(".cCourse").textContent;
+    document.getElementById("editName").value = row.querySelector(".cName").textContent;
+    document.getElementById("editAge").value = row.querySelector(".cAge").textContent;
+    document.getElementById("editCourse").value = row.querySelector(".cCourse").textContent;
 
-                editForm.style.display = "block";
-        }
-          document.getElementById("saveEditBtn").addEventListener("click", function () {
-            if (!rowBeingEdited) return;
+    editForm.style.display = "block";
+}
+document.getElementById("saveEditBtn").addEventListener("click", function () {
+    if (!rowBeingEdited) return;
 
-            rowBeingEdited.querySelector(".cName").textContent = document.getElementById("editName").value;
-            rowBeingEdited.querySelector(".cAge").textContent = document.getElementById("editAge").value;
-            rowBeingEdited.querySelector(".cCourse").textContent = document.getElementById("editCourse").value;
+    rowBeingEdited.querySelector(".cName").textContent = document.getElementById("editName").value;
+    rowBeingEdited.querySelector(".cAge").textContent = document.getElementById("editAge").value;
+    rowBeingEdited.querySelector(".cCourse").textContent = document.getElementById("editCourse").value;
 
-             editForm.style.display = "none";
-            rowBeingEdited = null;
-        });
-         document.getElementById("cancelEditBtn").addEventListener("click", function () {
-            editForm.style.display = "none";
-            rowBeingEdited = null;
-        });
+    editForm.style.display = "none";
+    rowBeingEdited = null;
+});
+document.getElementById("cancelEditBtn").addEventListener("click", function () {
+    editForm.style.display = "none";
+    rowBeingEdited = null;
+});
