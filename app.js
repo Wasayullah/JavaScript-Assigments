@@ -2336,3 +2336,11 @@ let rowBeingEdited = null;
              if (event.target.classList.contains("editBtn")) {
                 openEditForm(row);
             }
+             });
+
+        function openEditForm(row) {
+            rowBeingEdited = row;
+
+            document.getElementById("editName").value = row.querySelector(".cName").textContent;
+            document.getElementById("editAge").value = row.querySelector(".cAge").textContent;
+            document.get
