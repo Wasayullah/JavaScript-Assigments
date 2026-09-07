@@ -2320,10 +2320,10 @@ function addRow(name, age, course) {
     <td>
     <button class="editBtn">Edit</button>
     <button class="deleteBtn">Delete</button>
-    */
-                </td>
-                `;
+    </td>
+    `;
     tableBody.appendChild(row);
+    */
 }
 
 // Event delegation for Edit/Delete buttons
