@@ -2302,10 +2302,10 @@ buttons.forEach(function (button) {
 const studentForm = document.getElementById("studentForm");
 const tableBody = document.getElementById("tableBody");
 const editForm = document.getElementById("editForm");
-*/
 let rowBeingEdited = null;
 studentForm.addEventListener("submit", function (event) {
     event.preventDefault();
+    */
     const name = document.getElementById("name").value;
     const age = document.getElementById("age").value;
     const course = document.getElementById("course").value;
