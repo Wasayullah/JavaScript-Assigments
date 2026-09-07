@@ -2316,3 +2316,6 @@ let rowBeingEdited = null;
         const row = document.createElement("tr");
         row.innerHTML = `
                 <td class="cName">${name}</td>
+                 <td class="cAge">${age}</td>
+                <td class="cCourse">${course}</td>
+                <td>
