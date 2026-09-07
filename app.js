@@ -2323,3 +2323,10 @@ let rowBeingEdited = null;
                     <button class="deleteBtn">Delete</button>
                 </td>
                 `;
+                   tableBody.appendChild(row);
+        }
+
+        // Event delegation for Edit/Delete buttons
+        tableBody.addEventListener("click", function (event) {
+            const row = event.target.closest("tr");
+            if (!row) return;
