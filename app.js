@@ -2309,9 +2309,9 @@ studentForm.addEventListener("submit", function (event) {
     const age = document.getElementById("age").value;
     const course = document.getElementById("course").value;
     addRow(name, age, course);
-    */
     studentForm.reset();
 });
+*/
 function addRow(name, age, course) {
     const row = document.createElement("tr");
     row.innerHTML = `
