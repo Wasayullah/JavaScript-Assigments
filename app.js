@@ -2387,5 +2387,11 @@ document.getElementById("cancelEditBtn").addEventListener("click", function () {
         console.log(children[i]);
     }
 
-    
+     // iii. Get all elements of class "render" and show their innerHTML
+    const renderElements = document.getElementsByClassName("render");
+    // or: const renderElements = document.querySelectorAll(".render");
+
+    for (let i = 0; i < renderElements.length; i++) {
+        console.log(renderElements[i].innerHTML);
+    }
 
