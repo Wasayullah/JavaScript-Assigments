@@ -2375,8 +2375,8 @@ document.getElementById("cancelEditBtn").addEventListener("click", function () {
 // 1. Consider you have following code snippet:
 // (view html file)
 
-
     // i. Get element of id "main-content" and assign it to a variable
     const mainContent = document.getElementById("main-content");
     console.log(mainContent);
+    
 
