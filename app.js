@@ -2381,7 +2381,7 @@ document.getElementById("cancelEditBtn").addEventListener("click", function () {
 // iv.  Fill input value whose element id first-name using javascript.
 // v. Repeat part iv for id ”last-name” and “email”.
 
-const main = document.getElementById("main-content").
+const main = document.getElementById("main-content").json()
   const   output=
     `<p class = "fs-4"> ${main}</p>`
     document.getElementById("ch-58_question_1").innerHTML = output;
