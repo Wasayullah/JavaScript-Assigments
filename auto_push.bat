@@ -2,7 +2,7 @@
 cd /d "C:\Users\DELL\Documents\GitHub\JavaScript-Assigments"
 
 :loop
-git add app.js index.html
+git add .
 git commit -m "completed latest assignments"
 git push
 
