@@ -2252,7 +2252,7 @@ counter();
 //----------------------------------------------------------------------------------------------------------------
 
 /*
- Chapters - 49 to 48 : EVENTS
+ Chapters - 49 to 52 : EVENTS
 
  
  // 1. Create a signup form and display form data in your web 
