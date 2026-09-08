@@ -2382,5 +2382,5 @@ document.getElementById("cancelEditBtn").addEventListener("click", function () {
 // v. Repeat part iv for id ”last-name” and “email”.
 
 const main = document.getElementById("main-content")
-    output=
+  const   output=
     `<p class = "fs-4"> ${main}</p>`
