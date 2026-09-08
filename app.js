@@ -2384,4 +2384,5 @@ document.getElementById("cancelEditBtn").addEventListener("click", function () {
 const main = document.getElementById("main-content")
   const   output=
     `<p class = "fs-4"> ${main}</p>`
-    
+    document.getElementById("ch-9_question_4").innerHTML = output;
+
