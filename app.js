@@ -2368,4 +2368,4 @@ document.getElementById("cancelEditBtn").addEventListener("click", function () {
 //----------------------------------------------------------------------------------------------------------------
 
 /*
- Chapters - 49 to 52 : EVENTS
+ Chapters - 49 to 52 : DOM
