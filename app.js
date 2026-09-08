@@ -2382,3 +2382,5 @@ document.getElementById("cancelEditBtn").addEventListener("click", function () {
 // v. Repeat part iv for id ”last-name” and “email”.
 
 const main = document.getElementById("main-content")
+    output=
+    `<p class = "fs-4 bg-dark text-success" style = "width:50%;">Ok have a good-ride </p>`
