@@ -2370,11 +2370,10 @@ document.getElementById("cancelEditBtn").addEventListener("click", function () {
 /*
  Chapters - 58 to 67 : DOM
  
-*/
-
-// 1. Consider you have following code snippet:
-// (view html file)
-
+ 
+ // 1. Consider you have following code snippet:
+ // (view html file)
+ 
 // i. Get element of id "main-content" and assign it to a variable
 const mainContent = document.getElementById("main-content");
 console.log(mainContent);
@@ -2401,4 +2400,5 @@ document.getElementById("first-name").value = "Alex";
 document.getElementById("last-name").value = "Bank";
 document.getElementById("email").value = "alexbank@example.com";
 
+*/
 
