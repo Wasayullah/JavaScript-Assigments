@@ -2378,5 +2378,11 @@ document.getElementById("cancelEditBtn").addEventListener("click", function () {
     // i. Get element of id "main-content" and assign it to a variable
     const mainContent = document.getElementById("main-content");
     console.log(mainContent);
-    
+       // ii. Display all child elements of "main-content"
+    const children = mainContent.children; // HTMLCollection of element children
+    console.log(children);
+
+    for (let i = 0; i < children.length; i++) {
+        console.log(children[i]);
+    }
 
