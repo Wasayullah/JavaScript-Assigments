@@ -2380,3 +2380,4 @@ document.getElementById("cancelEditBtn").addEventListener("click", function () {
 // in browser.
 // iv.  Fill input value whose element id first-name using javascript.
 // v. Repeat part iv for id ”last-name” and “email”.
+
