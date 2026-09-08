@@ -2398,5 +2398,6 @@ document.getElementById("cancelEditBtn").addEventListener("click", function () {
       // iv. Fill input value whose element id is "first-name"
     document.getElementById("first-name").value = "Alex";
 
-    
+     document.getElementById("last-name").value = "Bank";
+    document.getElementById("email").value = "alexbank@example.com";
 
