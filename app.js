@@ -2375,30 +2375,30 @@ document.getElementById("cancelEditBtn").addEventListener("click", function () {
 // 1. Consider you have following code snippet:
 // (view html file)
 
-    // i. Get element of id "main-content" and assign it to a variable
-    const mainContent = document.getElementById("main-content");
-    console.log(mainContent);
+// i. Get element of id "main-content" and assign it to a variable
+const mainContent = document.getElementById("main-content");
+console.log(mainContent);
 
-       // ii. Display all child elements of "main-content"
-    const children = mainContent.children; // HTMLCollection of element children
-    console.log(children);
+// ii. Display all child elements of "main-content"
+const children = mainContent.children; // HTMLCollection of element children
+console.log(children);
 
-    for (let i = 0; i < children.length; i++) {
-        console.log(children[i]);
-    }
+for (let i = 0; i < children.length; i++) {
+    console.log(children[i]);
+}
 
-     // iii. Get all elements of class "render" and show their innerHTML
-    const renderElements = document.getElementsByClassName("render");
-    // or: const renderElements = document.querySelectorAll(".render");
+// iii. Get all elements of class "render" and show their innerHTML
+const renderElements = document.getElementsByClassName("render");
+// or: const renderElements = document.querySelectorAll(".render");
 
-    for (let i = 0; i < renderElements.length; i++) {
-        console.log(renderElements[i].innerHTML);
-    }
+for (let i = 0; i < renderElements.length; i++) {
+    console.log(renderElements[i].innerHTML);
+}
 
-      // iv. Fill input value whose element id is "first-name"
-    document.getElementById("first-name").value = "Alex";
+// iv. Fill input value whose element id is "first-name"
+document.getElementById("first-name").value = "Alex";
 
-     document.getElementById("last-name").value = "Bank";
-    document.getElementById("email").value = "alexbank@example.com";
-    
+document.getElementById("last-name").value = "Bank";
+document.getElementById("email").value = "alexbank@example.com";
+
 
