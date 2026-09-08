@@ -2415,4 +2415,7 @@ document.getElementById("email").value = "alexbank@example.com";
     function show(label, value) {
         result.innerHTML += `<p><strong>${label}:</strong> ${value}</p>`;
     }
+      // i. Node type of element having id "form-content"
+    const formContent = document.getElementById("form-content");
+    show("i. form-content nodeType", formContent.nodeType); // 1 = ELEMENT_NODE
 
