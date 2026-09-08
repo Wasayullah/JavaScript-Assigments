@@ -2383,4 +2383,4 @@ document.getElementById("cancelEditBtn").addEventListener("click", function () {
 
 const main = document.getElementById("main-content")
     output=
-    `<p class = "fs-4"> </p>`
+    `<p class = "fs-4"> ${msin}</p>`
