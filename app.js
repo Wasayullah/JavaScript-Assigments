@@ -2410,4 +2410,9 @@ document.getElementById("email").value = "alexbank@example.com";
 // vi. Get parent node and node type of element having id “email”
 // NOTE: You can remove JUNKS from this site
 
+ const result = document.getElementById("result");
+
+    function show(label, value) {
+        result.innerHTML += `<p><strong>${label}:</strong> ${value}</p>`;
+    }
 
