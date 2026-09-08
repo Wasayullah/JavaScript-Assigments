@@ -2418,4 +2418,27 @@ document.getElementById("email").value = "alexbank@example.com";
       // i. Node type of element having id "form-content"
     const formContent = document.getElementById("form-content");
     show("i. form-content nodeType", formContent.nodeType); // 1 = ELEMENT_NODE
+    // ii. Node type of element having id "lastName" and its child node
+    const lastName = document.getElementById("lastName");
+    show("ii. lastName nodeType", lastName.nodeType); // 1 = ELEMENT_NODE
+    show("ii. lastName's child node", lastName.childNodes[0].nodeValue);
+    show("ii. lastName's child nodeType", lastName.childNodes[0].nodeType); // 3 = TEXT_NODE
+
+    // iii. Update child node of element having id "lastName"
+    lastName.childNodes[0].nodeValue = "Last Name: Khan";
+    show("iii. lastName after update", lastName.innerHTML);
+
+    // iv. First and last child of id "main-content"
+    const mainContent = document.getElementById("main-content");
+    show("iv. main-content firstElementChild", mainContent.firstElementChild.outerHTML);
+    show("iv. main-content lastElementChild", mainContent.lastElementChild.outerHTML);
+
+    // v. Next and previous siblings of id "lastName"
+    show("v. lastName nextElementSibling", lastName.nextElementSibling.outerHTML);
+    show("v. lastName previousElementSibling", lastName.previousElementSibling.outerHTML);
+
+    // vi. Parent node and node type of element having id "email"
+    const email = document.getElementById("email");
+    show("vi. email parentNode id", email.parentNode.id);
+    show("vi. email parentNode nodeType", email.parentNode.nodeType); // 1 = ELEMENT_NODE
 
