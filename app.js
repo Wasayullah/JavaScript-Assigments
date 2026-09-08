@@ -2383,4 +2383,4 @@ document.getElementById("cancelEditBtn").addEventListener("click", function () {
 
 const main = document.getElementById("main-content")
     output=
-    `<p class = "fs-4 bg-dark text-success" ></p>`
+    `<p class = "fs-4 bg-darks"></p>`
