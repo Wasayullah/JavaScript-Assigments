@@ -2402,12 +2402,12 @@ document.getElementById("email").value = "alexbank@example.com";
 
 */
 // 2.  use HTML code of question 1 and  show the result on browser.
-i. What is node type of  element having id “form-content”.
-ii. Show node type of element having id “lastName” and its child node.
-iii. Update child node of element having id “lastName”.
-iv. Get First and last child of id “main-content”.
-v. Get next and previous siblings of id “lastName”.
-vi. Get parent node and node type of element having id “email”
-NOTE: You can remove JUNKS from this site
+// i. What is node type of  element having id “form-content”.
+// ii. Show node type of element having id “lastName” and its child node.
+// iii. Update child node of element having id “lastName”.
+// iv. Get First and last child of id “main-content”.
+// v. Get next and previous siblings of id “lastName”.
+// vi. Get parent node and node type of element having id “email”
+// NOTE: You can remove JUNKS from this site
 
 
