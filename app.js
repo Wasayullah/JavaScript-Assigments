@@ -2400,7 +2400,6 @@ document.getElementById("first-name").value = "Alex";
 document.getElementById("last-name").value = "Bank";
 document.getElementById("email").value = "alexbank@example.com";
 
-*/
 // 2.  use HTML code of question 1 and  show the result on browser.
 // i. What is node type of  element having id “form-content”.
 // ii. Show node type of element having id “lastName” and its child node.
@@ -2441,4 +2440,5 @@ document.getElementById("email").value = "alexbank@example.com";
     const email = document.getElementById("email");
     show("vi. email parentNode id", email.parentNode.id);
     show("vi. email parentNode nodeType", email.parentNode.nodeType); // 1 = ELEMENT_NODE
-
+    
+    */
